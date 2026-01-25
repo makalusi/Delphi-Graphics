@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delphi Graphics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-50">
+
+
+
+    <!-- Left Sidebar -->
+    <div id="left-sidebar"
+        class="fixed left-0 top-0 h-full z-[100] flex flex-col items-center py-6 w-20 bg-transparent transition-all duration-300 hover:w-80 group/sidebar">
+        <!-- Sidebar Background (White panel that expands) -->
+        <div
+            class="absolute inset-0 bg-white shadow-2xl transform -translate-x-full transition-transform duration-300 group-hover/sidebar:translate-x-0 -z-10">
+        </div>
+
+        <!-- Menu Toggle (Always visible) -->
+        <div class="flex items-center gap-4 w-full px-4 mb-8 cursor-pointer group/toggle">
+            <div
+                class="w-12 h-12 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-lg z-20">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+            <!-- Content shown on hover/expand -->
+            <div
+                class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-bold text-lg">
+                What we offer
+            </div>
+        </div>
+
+        <!-- Menu Items (Icons visible, Text hidden initially) -->
+        <div class="flex flex-col gap-4 w-full px-4 overflow-y-auto scrollbar-hide flex-grow pb-8">
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Business
+                    Cards</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">ID
+                    Cards</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Letterheads</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Branded
+                    Envelopes</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Flyers</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Brochures</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Restaurant
+                    Menu</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Calendars</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Notebooks</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Wedding
+                    Cards</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Label
+                    Stickers</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Mug
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Mouse
+                    Pad Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Flag
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Balloon
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Industrial
+                    Safety Stickers</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">T-Shirt
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Packaging
+                    Boxes</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Gift
+                    Boxes</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Name
+                    Badges</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Button
+                    Badges</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Pen
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">USB
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Bag
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Wrist
+                    Bands</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Lanyard
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Promotional
+                    Gift Sets</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Shopping
+                    Bags</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Customised
+                    Key Chains</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Rollup
+                    Banners</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Banners</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Flex
+                    Signs</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Acrylic
+                    Signs</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Name
+                    Boards</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Umbrellas</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Embroidery</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Customised
+                    Uniforms</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Screen
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Laser
+                    Engraving</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Laser
+                    Cutting & Stands</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Sticker
+                    Printing</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Vehicle
+                    Branding</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Display
+                    Stands</span>
+            </div>
+            <div class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div><span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Acrylic
+                    Safety Signs</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Focus Overlay (Placed after sidebar for CSS sibling selector to work) -->
+    <div id="sidebar-overlay"
+        class="fixed inset-0 bg-black/50 z-[90] opacity-0 pointer-events-none transition-opacity duration-300"></div>
+
+    <!-- Header -->
+    <header class="bg-white py-4 shadow-sm relative z-50 mb-8 sticky top-0">
+        <div class="main-container px-4 flex items-center justify-between gap-4">
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-toggle" class="md:hidden text-gray-700 hover:text-delphi-blue p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <img src="./assets/delphi logo.jpg" alt="Delphi Graphics" class="h-10 md:h-12">
+            </div>
+
+            <!-- Search Bar - Responsive -->
+            <div class="hidden sm:flex flex-grow max-w-xl lg:max-w-3xl mx-4">
+                <div class="relative w-full">
+                    <input type="text"
+                        class="w-full border border-delphi-cyan rounded-full py-2 px-4 focus:outline-none focus:ring-2 focus:ring-delphi-cyan"
+                        placeholder="Search for products...">
+                    <button
+                        class="absolute right-1 top-1 bg-delphi-pink text-white rounded-full p-1.5 w-8 h-8 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex items-center gap-3 md:gap-6 text-gray-700">
+                <!-- Mobile Search Icon -->
+                <button class="sm:hidden p-2 text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </button>
+                <a href="#" class="hover:text-delphi-blue relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                </a>
+                <a href="#" class="flex items-center gap-2 hover:text-delphi-blue">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <div class="text-sm leading-tight hidden lg:block">
+                        <span class="block text-xs text-gray-500">Hi! Log in</span>
+                        <span class="font-medium">your Account</span>
+                    </div>
+                </a>
+                <a href="#"
+                    class="bg-delphi-cyan text-white px-3 md:px-4 py-2 rounded-full flex items-center gap-2 text-sm font-medium hover:bg-cyan-600 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                    <div class="text-left hidden md:block">
+                        <div class="text-[10px] uppercase">Contact Us</div>
+                        <div class="text-xs">+254 20069883</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="main-container px-4 mt-3 border-t border-gray-100 pt-3 hidden md:block">
+            <nav
+                class="flex items-center justify-between text-[10px] lg:text-sm font-semibold text-gray-700 tracking-wide uppercase overflow-x-auto gap-4 scrollbar-hide">
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Business cards</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Post & print
+                    Advertising</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Sign, Banners &
+                    Posters</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Stickers & Labels</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Clothing & Bags</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Promotional Products</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Packaging</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Calendars & Gifts</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap">Invitations & Wedding</a>
+                <a href="#" class="hover:text-delphi-pink transition-colors whitespace-nowrap text-right">Design
+                    Services</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="main-container px-4">
+        <div
+            class="bg-gradient-to-r from-delphi-cyan via-[#5b6ef6] to-delphi-pink rounded-3xl p-12 relative overflow-hidden h-[400px] flex items-center transition-all duration-700">
+            <!-- Text Container -->
+            <div class="relative z-10 w-1/2 text-white transition-all duration-700 ease-out transform"
+                id="hero-text-container">
+                <h1 class="text-5xl font-light italic mb-2" id="hero-title">Turn Prospects into Partners</h1>
+                <h2 class="text-5xl font-bold italic mb-8" id="hero-subtitle">with Premium Brochures.</h2>
+                <a href="#"
+                    class="inline-block border-2 border-white text-white px-8 py-3 rounded-full text-lg hover:bg-white hover:text-delphi-blue transition font-medium italic transform hover:scale-105 active:scale-95 duration-300">Get
+                    a Custom Quote today.</a>
+            </div>
+            <!-- Image Container -->
+            <div class="absolute right-0 top-0 h-full w-1/2 flex items-center justify-center pointer-events-none">
+                <img src="./assets/banner images-01.png" alt="Hero Banner" id="hero-image"
+                    class="max-w-[120%] h-full object-contain transition-all duration-700 ease-out transform translate-x-10">
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Banners -->
+    <div class="main-container px-4 mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-delphi-pink rounded-xl p-4 text-white text-center shadow-sm">
+            <div class="text-xl font-bold">Custom printed products</div>
+            <div class="text-xs opacity-90">Print great products, at great prices, fast</div>
+        </div>
+        <div class="bg-delphi-yellow rounded-xl p-4 text-white text-center shadow-sm">
+            <div class="text-xl font-bold">Custom printed products</div>
+            <div class="text-xs opacity-90">Print great products, at great prices, fast</div>
+        </div>
+        <div class="bg-delphi-cyan rounded-xl p-4 text-white text-center shadow-sm">
+            <div class="text-xl font-bold">Custom printed products</div>
+            <div class="text-xs opacity-90">Print great products, at great prices, fast</div>
+        </div>
+    </div>
+
+    <!-- Explore all categories -->
+    <div class="main-container px-4 mt-12 relative group/section">
+        <h3 class="text-xl font-bold mb-6">Explore all categories</h3>
+
+        <!-- Navigation Buttons -->
+        <button class="nav-button prev hidden md:flex" data-target="categories-carousel" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="nav-button next hidden md:flex" data-target="categories-carousel" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div id="categories-carousel" class="flex gap-8 overflow-x-auto scrollbar-hide scroll-smooth py-4">
+            <!-- Item 1 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/business card.jpg" alt="Business Cards"
+                        class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Business cards</span>
+            </a>
+            <!-- Item 2 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/sticker.jpg" alt="Stickers & Labels" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center max-w-[140px]">Stickers & Labels</span>
+            </a>
+            <!-- Item 3 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/bags.jpg" alt="Clothing & Bags" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Clothing & Bags</span>
+            </a>
+            <!-- Item 4 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/promotion items.jpg" alt="Promotional Products"
+                        class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Promotional Products</span>
+            </a>
+            <!-- Item 5-->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/wedding cards.jpg" alt="Invitation & Weddings"
+                        class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Invitation & Weddings</span>
+            </a>
+            <!-- Item 6 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/branding.jpg" alt="Branding" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Branding</span>
+            </a>
+            <!-- Item 7 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/bronchures.jpg" alt="Bronchures" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Bronchures</span>
+            </a>
+            <!-- Item 8 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/packaging.jpg" alt="Packaging" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Packaging</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Shop by collection -->
+    <div class="main-container px-4 mt-12 relative group/section">
+        <h3 class="text-xl font-bold mb-6">Shop by collection</h3>
+
+        <!-- Navigation Buttons -->
+        <button class="nav-button prev hidden md:flex" data-target="collection-carousel" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="nav-button next hidden md:flex" data-target="collection-carousel" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div id="collection-carousel" class="flex gap-6 overflow-x-auto scrollbar-hide py-4 no-snap">
+            <!-- Card 1 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/3d signs.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">3D Signs</h4>
+            </a>
+            <!-- Card 2 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/Acyrilic signs.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Acrylic Signs</h4>
+            </a>
+            <!-- Card 3 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/Graphic design.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Graphic Design</h4>
+            </a>
+            <!-- Card 4 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/bags & Packaging.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Bags & Packaging</h4>
+            </a>
+            <!-- Card 5 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/banners.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Banners</h4>
+            </a>
+            <!-- Card 6 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/customised gifts.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Customised Gifts</h4>
+            </a>
+            <!-- Card 7 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/digital printing.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Digital Printing</h4>
+            </a>
+            <!-- Card 8 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/offset printing.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Offset Printing</h4>
+            </a>
+            <!-- Card 9 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/promotion gifts.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Promotion Gifts</h4>
+            </a>
+            <!-- Card 10 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/wedding cards.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Wedding Cards</h4>
+            </a>
+        </div>
+    </div>
+
+    <!-- Explore our seasonal favorites -->
+    <div class="main-container px-4 mt-12 mb-20 relative group/section">
+        <h3 class="text-xl font-bold mb-6">Explore our seasonal favorites</h3>
+
+        <!-- Navigation Buttons -->
+        <button class="nav-button prev hidden md:flex" data-target="seasonal-carousel" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="nav-button next hidden md:flex" data-target="seasonal-carousel" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div id="seasonal-carousel" class="flex gap-6 overflow-x-auto scrollbar-hide scroll-smooth py-4">
+            <!-- Item 1: Wall Calendar -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6 shadow-md">
+                    <img src="./explore imgs/Wall calendar.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Wall Calendar</h4>
+            </a>
+            <!-- Item 2: Desk Calendar -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Desk Calendar.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Desk Calendar</h4>
+            </a>
+            <!-- Item 3: Booklets -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Booklets.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Booklets</h4>
+            </a>
+            <!-- Item 4: Flyers -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Flyers.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Flyers</h4>
+            </a>
+            <!-- Item 5: Brand Identity -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Brand Identity.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Brand Identity</h4>
+            </a>
+            <!-- Item 6: Promotion Items -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Promotion Items.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Promotion Items</h4>
+            </a>
+            <!-- Item 7: Car Branding -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Car Branding.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Car Branding</h4>
+            </a>
+            <!-- Item 8: Umbrellas -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Umbrellas.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Umbrellas</h4>
+            </a>
+            <!-- Item 9: Trophies -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Trophies.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Trophies</h4>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
