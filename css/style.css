@@ -270,3 +270,32 @@ body {
 .no-snap {
     scroll-snap-type: none !important;
 }
+
+/* Navigation Link Underline Effect */
+.nav-link-underline {
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.nav-link-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00aeef;
+    /* Match project delphi-blue */
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.nav-link-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav-link-underline:hover {
+    color: #ec008c !important;
+}
