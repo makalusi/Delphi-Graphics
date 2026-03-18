@@ -1,0 +1,92 @@
+{
+  "logo-designs": {
+    "title": "Logo Designs",
+    "tagline": "Elevate Your Brand Identity",
+    "category": "Design & Branding",
+    "description": "Professional, custom logo designs tailored to your brand identity. We create unique visual marks that leave a lasting impression on your customers.",
+    "features": [
+      "Initial concepts within 48 hours",
+      "Unlimited revisions until satisfaction",
+      "High-resolution vector files (AI, EPS, PDF)",
+      "Social media ready formats"
+    ],
+    "image": "./assets/service-logo.jpg",
+    "similar": [
+      "corporate-identity",
+      "label-design",
+      "business-cards"
+    ]
+  },
+  "corporate-identity": {
+    "title": "Corporate Identity",
+    "tagline": "A Consistent Visual Voice",
+    "category": "Design & Branding",
+    "description": "A complete visual system for your brand, including letterheads, business cards, and brand guidelines to ensure consistency across all platforms.",
+    "features": [
+      "Brand color palette and typography",
+      "Full stationery design package",
+      "Comprehensive Brand Style Guide",
+      "Digital and print ready assets"
+    ],
+    "image": "./assets/service-identity.jpg",
+    "similar": [
+      "logo-designs",
+      "letterheads",
+      "envelopes"
+    ]
+  },
+  "label-design": {
+    "title": "Label Design",
+    "tagline": "Labels That Pop Off The Shelf",
+    "category": "Design & Branding",
+    "description": "Custom labels that make your products pop off the shelf. We design labels for packaging, bottles, boxes, and more.",
+    "features": [
+      "Compliance with industry standards",
+      "Unique typography and layout",
+      "Print-ready technical specifications",
+      "Mockups for visualization"
+    ],
+    "image": "./assets/service-label.jpg",
+    "similar": [
+      "logo-designs",
+      "packaging-boxes",
+      "product-labels"
+    ]
+  },
+  "business-cards": {
+    "title": "Business Cards",
+    "category": "Printing Services",
+    "tagline": "Make A Lasting First Impression",
+    "description": "Premium business cards that make an impact. Choose from a variety of finishes, paper weights, and custom shapes to stand out in every meeting.",
+    "features": [
+      "Standard and premium paper stocks",
+      "Matte, Gloss, or Velvet lamination",
+      "Spot UV and Gold Foil options",
+      "Double-sided high-quality printing"
+    ],
+    "image": "./assets/service-cards.jpg",
+    "similar": [
+      "letterheads",
+      "envelopes",
+      "logo-designs"
+    ]
+  },
+  "t-shirts": {
+    "title": "T-Shirts",
+    "category": "Apparel Branding",
+    "tagline": "Wear Your Brand With Pride",
+    "description": "High-quality custom T-shirt printing and embroidery. Perfect for staff uniforms, promotional events, or retail brands.",
+    "features": [
+      "Screen printing and Heat Transfer",
+      "Premium 100% Cotton fabrics",
+      "Various colors and sizes available",
+      "Durable print that doesn't fade"
+    ],
+    "image": "./assets/service-tshirt.jpg",
+    "similar": [
+      "printed-caps",
+      "polo-shirts",
+      "staff-uniforms"
+    ]
+  }
+}

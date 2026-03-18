@@ -233,5 +233,21 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // Toggle fly-out on mobile click
+    const categoryFolders = document.querySelectorAll('.group\\/cat');
+    categoryFolders.forEach(folder => {
+        folder.addEventListener('click', (e) => {
+            if (window.innerWidth < 768) {
+                // Prevent closing the whole sidebar if it's a mobile click
+                e.stopPropagation();
+                // Toggle this one, close others
+                categoryFolders.forEach(other => {
+                    if (other !== folder) other.classList.remove('active-panel');
+                });
+                folder.classList.toggle('active-panel');
+            }
+        });
+    });
 });
 

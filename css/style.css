@@ -299,3 +299,115 @@ body {
 .nav-link-underline:hover {
     color: #ec008c !important;
 }
+
+/* Fly-out Panel Styles */
+.flyout-panel {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 1rem;
+    width: 320px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(20px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 200;
+}
+
+/* Show on hover of parent "group/cat" */
+.group\/cat:hover .flyout-panel {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* Organization for sub-groups in fly-out */
+.fly-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #00aeef;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f3f4f6;
+    padding-bottom: 0.5rem;
+}
+
+.fly-link {
+    font-size: 0.875rem;
+    color: #374151;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+    font-style: italic;
+    display: block;
+}
+
+.fly-link:hover {
+    background-color: #f9fafb;
+    color: #ec008c;
+    transform: translateX(4px);
+}
+
+/* Mobile Adjustments for Fly-outs */
+@media (max-width: 768px) {
+    .flyout-panel {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-left: 0;
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0 0 0 1rem;
+        display: none;
+        transform: none;
+        transition: none;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .group\/cat.active-panel .flyout-panel {
+        display: block;
+    }
+}
+
+/* Premium Redesign Gradients */
+.bg-delphi-gradient {
+    background: linear-gradient(135deg, #00aeef, #27aae1) !important;
+}
+
+.bg-delphi-accent-gradient {
+    background: linear-gradient(135deg, #ec008c, #fdb913) !important;
+}
+
+.text-delphi-gradient {
+    background: linear-gradient(135deg, #00aeef, #ec008c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Premium Card & Layout Components */
+.premium-card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.premium-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.hero-glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+}
