@@ -1,92 +1,1442 @@
-{
-  "logo-designs": {
-    "title": "Logo Designs",
-    "tagline": "Elevate Your Brand Identity",
-    "category": "Design & Branding",
-    "description": "Professional, custom logo designs tailored to your brand identity. We create unique visual marks that leave a lasting impression on your customers.",
-    "features": [
-      "Initial concepts within 48 hours",
-      "Unlimited revisions until satisfaction",
-      "High-resolution vector files (AI, EPS, PDF)",
-      "Social media ready formats"
-    ],
-    "image": "./assets/service-logo.jpg",
-    "similar": [
-      "corporate-identity",
-      "label-design",
-      "business-cards"
-    ]
-  },
-  "corporate-identity": {
-    "title": "Corporate Identity",
-    "tagline": "A Consistent Visual Voice",
-    "category": "Design & Branding",
-    "description": "A complete visual system for your brand, including letterheads, business cards, and brand guidelines to ensure consistency across all platforms.",
-    "features": [
-      "Brand color palette and typography",
-      "Full stationery design package",
-      "Comprehensive Brand Style Guide",
-      "Digital and print ready assets"
-    ],
-    "image": "./assets/service-identity.jpg",
-    "similar": [
-      "logo-designs",
-      "letterheads",
-      "envelopes"
-    ]
-  },
-  "label-design": {
-    "title": "Label Design",
-    "tagline": "Labels That Pop Off The Shelf",
-    "category": "Design & Branding",
-    "description": "Custom labels that make your products pop off the shelf. We design labels for packaging, bottles, boxes, and more.",
-    "features": [
-      "Compliance with industry standards",
-      "Unique typography and layout",
-      "Print-ready technical specifications",
-      "Mockups for visualization"
-    ],
-    "image": "./assets/service-label.jpg",
-    "similar": [
-      "logo-designs",
-      "packaging-boxes",
-      "product-labels"
-    ]
-  },
-  "business-cards": {
-    "title": "Business Cards",
-    "category": "Printing Services",
-    "tagline": "Make A Lasting First Impression",
-    "description": "Premium business cards that make an impact. Choose from a variety of finishes, paper weights, and custom shapes to stand out in every meeting.",
-    "features": [
-      "Standard and premium paper stocks",
-      "Matte, Gloss, or Velvet lamination",
-      "Spot UV and Gold Foil options",
-      "Double-sided high-quality printing"
-    ],
-    "image": "./assets/service-cards.jpg",
-    "similar": [
-      "letterheads",
-      "envelopes",
-      "logo-designs"
-    ]
-  },
-  "t-shirts": {
-    "title": "T-Shirts",
-    "category": "Apparel Branding",
-    "tagline": "Wear Your Brand With Pride",
-    "description": "High-quality custom T-shirt printing and embroidery. Perfect for staff uniforms, promotional events, or retail brands.",
-    "features": [
-      "Screen printing and Heat Transfer",
-      "Premium 100% Cotton fabrics",
-      "Various colors and sizes available",
-      "Durable print that doesn't fade"
-    ],
-    "image": "./assets/service-tshirt.jpg",
-    "similar": [
-      "printed-caps",
-      "polo-shirts",
-      "staff-uniforms"
-    ]
-  }
+﻿{
+    "laser-cutting":  {
+                          "similar":  [
+                                          "laser-engraving",
+                                          "large-format-printing",
+                                          "acrylic-fabrication",
+                                          "asset-tagging"
+                                      ],
+                          "features":  [
+                                           "Multiple materials",
+                                           "Intricate designs",
+                                           "Clean edges",
+                                           "Fast turnaround"
+                                       ],
+                          "title":  "Laser Cutting",
+                          "category":  "Specialized Services",
+                          "tagline":  "Precision Perfected",
+                          "description":  "Precision laser cutting services for acrylic, wood, metal, and fabric. Intricate designs and clean edges for signage, decorations, and industrial applications.",
+                          "image":  "./assets/service-placeholder.jpg"
+                      },
+    "tabletop-flags":  {
+                           "similar":  [
+                                           "promotional-tents",
+                                           "street-pole-flags",
+                                           "bunting---string-flags",
+                                           "gazebos"
+                                       ],
+                           "features":  [
+                                            "Satin \u0026 polyester",
+                                            "Chrome \u0026 wooden bases",
+                                            "Full color printing",
+                                            "Custom sizes"
+                                        ],
+                           "title":  "Tabletop Flags",
+                           "category":  "Event Branding",
+                           "tagline":  "Small Flag, Big Brand",
+                           "description":  "Miniature branded flags for desks, conference tables, and reception areas. A subtle yet effective way to reinforce your brand in corporate environments.",
+                           "image":  "./assets/service-placeholder.jpg"
+                       },
+    "coveralls":  {
+                      "similar":  [
+                                      "safety-vests",
+                                      "printed-caps",
+                                      "staff-uniforms",
+                                      "medical-uniforms"
+                                  ],
+                      "features":  [
+                                       "Heavy-duty fabric",
+                                       "Flame retardant options",
+                                       "Custom branding",
+                                       "All sizes available"
+                                   ],
+                      "title":  "Coveralls",
+                      "category":  "Apparel Branding",
+                      "tagline":  "Built for the Job",
+                      "description":  "Heavy-duty branded coveralls for industrial and workshop environments. Customized with your logo through embroidery or heat transfer printing.",
+                      "image":  "./assets/service-placeholder.jpg"
+                  },
+    "balloon-printing":  {
+                             "similar":  [
+                                             "mouse-pads",
+                                             "lanyards",
+                                             "diaries",
+                                             "stress-balls"
+                                         ],
+                             "features":  [
+                                              "Latex \u0026 foil options",
+                                              "Multi-color printing",
+                                              "Custom sizes",
+                                              "Helium-ready"
+                                          ],
+                             "title":  "Balloon Printing",
+                             "category":  "Promotional Merchandise",
+                             "tagline":  "Lift Your Brand Higher",
+                             "description":  "Custom printed balloons for events, store openings, and celebrations. Available in latex and foil with multi-color logo printing.",
+                             "image":  "./assets/service-placeholder.jpg"
+                         },
+    "product-labels":  {
+                           "similar":  [
+                                           "custom-packaging-boxes",
+                                           "gift-boxes",
+                                           "corrugated-boxes",
+                                           "wrapping-paper"
+                                       ],
+                           "features":  [
+                                            "Self-adhesive",
+                                            "Multiple materials",
+                                            "Custom die-cut",
+                                            "Waterproof options"
+                                        ],
+                           "title":  "Product Labels",
+                           "category":  "Packaging Solutions",
+                           "tagline":  "Label Your Success",
+                           "description":  "Custom printed product labels on paper, vinyl, and specialty materials. Self-adhesive labels with premium finishes for retail shelving and product branding.",
+                           "image":  "./assets/service-placeholder.jpg"
+                       },
+    "mouse-pads":  {
+                       "similar":  [
+                                       "balloon-printing",
+                                       "lanyards",
+                                       "diaries",
+                                       "stress-balls"
+                                   ],
+                       "features":  [
+                                        "Full color printing",
+                                        "Anti-slip rubber base",
+                                        "Various sizes",
+                                        "Ergonomic options"
+                                    ],
+                       "title":  "Mouse Pads",
+                       "category":  "Promotional Merchandise",
+                       "tagline":  "Desk-Level Branding",
+                       "description":  "Custom printed mouse pads that keep your brand on every desk. Full-color printing with anti-slip rubber base for daily use.",
+                       "image":  "./assets/service-placeholder.jpg"
+                   },
+    "lanyards":  {
+                     "similar":  [
+                                     "balloon-printing",
+                                     "mouse-pads",
+                                     "diaries",
+                                     "stress-balls"
+                                 ],
+                     "features":  [
+                                      "Full color printing",
+                                      "Safety breakaway clips",
+                                      "Multiple materials",
+                                      "Custom attachments"
+                                  ],
+                     "title":  "Lanyards",
+                     "category":  "Promotional Merchandise",
+                     "tagline":  "Hang with Your Brand",
+                     "description":  "Custom printed lanyards for ID cards, events, and corporate use. Available in polyester, nylon, and eco-friendly materials with safety breakaway clips.",
+                     "image":  "./assets/service-placeholder.jpg"
+                 },
+    "letterheads":  {
+                        "similar":  [
+                                        "sticker-cutting",
+                                        "flyers",
+                                        "envelopes",
+                                        "restaurant-menus"
+                                    ],
+                        "features":  [
+                                         "Premium paper stock",
+                                         "Full color printing",
+                                         "Consistent brand identity",
+                                         "Bulk order discounts"
+                                     ],
+                        "title":  "Letterheads",
+                        "category":  "Printing Services",
+                        "tagline":  "Professional Correspondence",
+                        "description":  "Professional letterheads that reinforce your corporate identity on every piece of correspondence. Printed on premium paper with your logo and branding elements.",
+                        "image":  "./assets/service-placeholder.jpg"
+                    },
+    "custom-packaging-boxes":  {
+                                   "similar":  [
+                                                   "product-labels",
+                                                   "gift-boxes",
+                                                   "corrugated-boxes",
+                                                   "wrapping-paper"
+                                               ],
+                                   "features":  [
+                                                    "Custom dimensions",
+                                                    "Full color printing",
+                                                    "Eco-friendly options",
+                                                    "Structural design"
+                                                ],
+                                   "title":  "Custom Packaging Boxes",
+                                   "category":  "Packaging Solutions",
+                                   "tagline":  "Unbox the Experience",
+                                   "description":  "Bespoke packaging boxes tailored to your product dimensions and branding. From mailer boxes to display packaging, we deliver solutions that protect and promote.",
+                                   "image":  "./assets/service-placeholder.jpg"
+                               },
+    "acrylic-safety-signs":  {
+                                 "similar":  [
+                                                 "acrylic-name-boards",
+                                                 "flex-signs",
+                                                 "menu-holders",
+                                                 "roll-up-stands"
+                                             ],
+                                 "features":  [
+                                                  "Regulatory compliant",
+                                                  "Weather-resistant",
+                                                  "Durable acrylic",
+                                                  "Custom warnings"
+                                              ],
+                                 "title":  "Acrylic Safety Signs",
+                                 "category":  "Signage \u0026 Displays",
+                                 "tagline":  "Safety First",
+                                 "description":  "Compliant acrylic safety signs for workplaces, factories, and public areas. Durable, weather-resistant, and printed with international safety symbols.",
+                                 "image":  "./assets/service-placeholder.jpg"
+                             },
+    "gift-boxes":  {
+                       "similar":  [
+                                       "product-labels",
+                                       "custom-packaging-boxes",
+                                       "corrugated-boxes",
+                                       "wrapping-paper"
+                                   ],
+                       "features":  [
+                                        "Magnetic closure",
+                                        "Custom inserts",
+                                        "Foil \u0026 embossing",
+                                        "Ribbon options"
+                                    ],
+                       "title":  "Gift Boxes",
+                       "category":  "Packaging Solutions",
+                       "tagline":  "The Art of Gifting",
+                       "description":  "Premium gift boxes with custom printing, ribbons, and inserts. Perfect for corporate gifts, product launches, and luxury retail packaging.",
+                       "image":  "./assets/service-placeholder.jpg"
+                   },
+    "name-badges":  {
+                        "similar":  [
+                                        "id-cards-and-lanyards",
+                                        "folders",
+                                        "company-seals---stamps",
+                                        "calculators"
+                                    ],
+                        "features":  [
+                                         "Metal \u0026 acrylic options",
+                                         "Magnetic \u0026 pin backs",
+                                         "Full color or engraved",
+                                         "Custom shapes"
+                                     ],
+                        "title":  "Name Badges",
+                        "category":  "Corporate Supplies",
+                        "tagline":  "Know Your Team",
+                        "description":  "Professional name badges for staff, events, and conferences. Available in metal, acrylic, and magnetic options with full-color printing or engraving.",
+                        "image":  "./assets/service-placeholder.jpg"
+                    },
+    "laser-engraving":  {
+                            "similar":  [
+                                            "laser-cutting",
+                                            "large-format-printing",
+                                            "acrylic-fabrication",
+                                            "asset-tagging"
+                                        ],
+                            "features":  [
+                                             "Multiple materials",
+                                             "Permanent marking",
+                                             "Fine detail capability",
+                                             "Bulk production"
+                                         ],
+                            "title":  "Laser Engraving",
+                            "category":  "Specialized Services",
+                            "tagline":  "Engraved Excellence",
+                            "description":  "Precision laser engraving on metal, wood, glass, acrylic, and leather. Permanent, detailed marking for trophies, awards, signage, and personalized gifts.",
+                            "image":  "./assets/service-placeholder.jpg"
+                        },
+    "promotional-tents":  {
+                              "similar":  [
+                                              "tabletop-flags",
+                                              "street-pole-flags",
+                                              "bunting---string-flags",
+                                              "gazebos"
+                                          ],
+                              "features":  [
+                                               "Pop-up easy setup",
+                                               "Full canopy printing",
+                                               "Waterproof fabric",
+                                               "Side wall options"
+                                           ],
+                              "title":  "Promotional Tents",
+                              "category":  "Event Branding",
+                              "tagline":  "Shelter Your Brand",
+                              "description":  "Custom branded pop-up tents and canopies for outdoor events, exhibitions, and markets. Full-color printing on weather-resistant fabric with sturdy aluminum frames.",
+                              "image":  "./assets/service-placeholder.jpg"
+                          },
+    "id-cards-and-lanyards":  {
+                                  "similar":  [
+                                                  "name-badges",
+                                                  "folders",
+                                                  "company-seals---stamps",
+                                                  "calculators"
+                                              ],
+                                  "features":  [
+                                                   "PVC card printing",
+                                                   "Photo \u0026 barcode",
+                                                   "Magnetic stripe option",
+                                                   "Custom lanyards"
+                                               ],
+                                  "title":  "ID Cards \u0026 Lanyards",
+                                  "category":  "Corporate Supplies",
+                                  "tagline":  "Identify with Confidence",
+                                  "description":  "Professional ID card printing with custom lanyards for employee identification and access control. PVC card printing with photo, barcode, and magnetic stripe options.",
+                                  "image":  "./assets/service-placeholder.jpg"
+                              },
+    "acrylic-name-boards":  {
+                                "similar":  [
+                                                "acrylic-safety-signs",
+                                                "flex-signs",
+                                                "menu-holders",
+                                                "roll-up-stands"
+                                            ],
+                                "features":  [
+                                                 "Clear \u0026 frosted options",
+                                                 "LED backlight compatible",
+                                                 "Precision laser cut",
+                                                 "Mounting hardware included"
+                                             ],
+                                "title":  "Acrylic Name Boards",
+                                "category":  "Signage \u0026 Displays",
+                                "tagline":  "Crystal Clear Identity",
+                                "description":  "Sleek acrylic name boards for offices, reception areas, and building signage. Crystal-clear or frosted finish with precision-cut lettering and mounting hardware.",
+                                "image":  "./assets/service-placeholder.jpg"
+                            },
+    "corrugated-boxes":  {
+                             "similar":  [
+                                             "product-labels",
+                                             "custom-packaging-boxes",
+                                             "gift-boxes",
+                                             "wrapping-paper"
+                                         ],
+                             "features":  [
+                                              "Single to triple wall",
+                                              "Custom sizes",
+                                              "Full color printing",
+                                              "Eco-friendly material"
+                                          ],
+                             "title":  "Corrugated Boxes",
+                             "category":  "Packaging Solutions",
+                             "tagline":  "Protection Meets Branding",
+                             "description":  "Sturdy corrugated shipping and packaging boxes with custom printing. Available in single, double, and triple wall for maximum product protection.",
+                             "image":  "./assets/service-placeholder.jpg"
+                         },
+    "diaries":  {
+                    "similar":  [
+                                    "balloon-printing",
+                                    "mouse-pads",
+                                    "lanyards",
+                                    "stress-balls"
+                                ],
+                    "features":  [
+                                     "Leather \u0026 PU covers",
+                                     "Custom page layouts",
+                                     "Ribbon bookmarks",
+                                     "Gift box packaging"
+                                 ],
+                    "title":  "Diaries",
+                    "category":  "Promotional Merchandise",
+                    "tagline":  "Plan with Purpose",
+                    "description":  "Premium branded diaries and planners for corporate gifts and daily use. Choose from dated, undated, and custom format options with your branding.",
+                    "image":  "./assets/service-placeholder.jpg"
+                },
+    "sticker-cutting":  {
+                            "similar":  [
+                                            "letterheads",
+                                            "flyers",
+                                            "envelopes",
+                                            "restaurant-menus"
+                                        ],
+                            "features":  [
+                                             "Custom die-cut shapes",
+                                             "Vinyl \u0026 paper options",
+                                             "Indoor \u0026 outdoor use",
+                                             "Waterproof finishes"
+                                         ],
+                            "title":  "Sticker Cutting",
+                            "category":  "Printing Services",
+                            "tagline":  "Stick with Quality",
+                            "description":  "Precision die-cut stickers for branding, packaging, and promotions. Available in any shape, size, and material including vinyl, paper, and transparent.",
+                            "image":  "./assets/service-placeholder.jpg"
+                        },
+    "flex-signs":  {
+                       "similar":  [
+                                       "acrylic-safety-signs",
+                                       "acrylic-name-boards",
+                                       "menu-holders",
+                                       "roll-up-stands"
+                                   ],
+                       "features":  [
+                                        "UV-resistant ink",
+                                        "Weatherproof material",
+                                        "Custom sizes",
+                                        "Backlit options"
+                                    ],
+                       "title":  "Flex Signs",
+                       "category":  "Signage \u0026 Displays",
+                       "tagline":  "Flex Your Brand",
+                       "description":  "Durable flex signage for indoor and outdoor advertising. UV-resistant printing on flexible PVC material for long-lasting visibility.",
+                       "image":  "./assets/service-placeholder.jpg"
+                   },
+    "stress-balls":  {
+                         "similar":  [
+                                         "balloon-printing",
+                                         "mouse-pads",
+                                         "lanyards",
+                                         "diaries"
+                                     ],
+                         "features":  [
+                                          "Custom shapes",
+                                          "Full color printing",
+                                          "Soft PU foam",
+                                          "Low minimum orders"
+                                      ],
+                         "title":  "Stress Balls",
+                         "category":  "Promotional Merchandise",
+                         "tagline":  "Squeeze the Stress Away",
+                         "description":  "Fun, branded stress balls in custom shapes and colors. A playful yet effective promotional item for trade shows, events, and corporate gifts.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "folders":  {
+                    "similar":  [
+                                    "name-badges",
+                                    "id-cards-and-lanyards",
+                                    "company-seals---stamps",
+                                    "calculators"
+                                ],
+                    "features":  [
+                                     "Business card slits",
+                                     "Document pockets",
+                                     "Full color printing",
+                                     "Premium card stock"
+                                 ],
+                    "title":  "Folders",
+                    "category":  "Corporate Supplies",
+                    "tagline":  "Present with Polish",
+                    "description":  "Custom printed presentation folders for proposals, reports, and corporate documents. Available with business card slits, pockets, and premium finishes.",
+                    "image":  "./assets/service-placeholder.jpg"
+                },
+    "wrapping-paper":  {
+                           "similar":  [
+                                           "product-labels",
+                                           "custom-packaging-boxes",
+                                           "gift-boxes",
+                                           "corrugated-boxes"
+                                       ],
+                           "features":  [
+                                            "Full color patterns",
+                                            "Custom roll sizes",
+                                            "Premium paper",
+                                            "Tissue paper options"
+                                        ],
+                           "title":  "Wrapping Paper",
+                           "category":  "Packaging Solutions",
+                           "tagline":  "Wrap It Right",
+                           "description":  "Custom branded wrapping paper for retail stores, gift shops, and corporate gifting. Full-color printing with your patterns, logos, and seasonal designs.",
+                           "image":  "./assets/service-placeholder.jpg"
+                       },
+    "safety-vests":  {
+                         "similar":  [
+                                         "coveralls",
+                                         "printed-caps",
+                                         "staff-uniforms",
+                                         "medical-uniforms"
+                                     ],
+                         "features":  [
+                                          "Hi-vis compliant",
+                                          "Reflective strips",
+                                          "Custom branding",
+                                          "Multiple classes"
+                                      ],
+                         "title":  "Safety Vests",
+                         "category":  "Apparel Branding",
+                         "tagline":  "Safety Meets Branding",
+                         "description":  "High-visibility safety vests branded with your company logo. EN ISO 20471 compliant options available for construction, warehouse, and event use.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "menu-holders":  {
+                         "similar":  [
+                                         "acrylic-safety-signs",
+                                         "acrylic-name-boards",
+                                         "flex-signs",
+                                         "roll-up-stands"
+                                     ],
+                         "features":  [
+                                          "Multiple materials",
+                                          "A4, A5 \u0026 custom sizes",
+                                          "Rotating options",
+                                          "Easy insert change"
+                                      ],
+                         "title":  "Menu Holders",
+                         "category":  "Signage \u0026 Displays",
+                         "tagline":  "Present Your Menu",
+                         "description":  "Premium menu holders and table stands for restaurants, cafes, and hotels. Available in acrylic, wood, and metal finishes to match your decor.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "street-pole-flags":  {
+                              "similar":  [
+                                              "tabletop-flags",
+                                              "promotional-tents",
+                                              "bunting---string-flags",
+                                              "gazebos"
+                                          ],
+                              "features":  [
+                                               "Heavy-duty polyester",
+                                               "Pole clamp hardware",
+                                               "Double-sided print",
+                                               "UV-resistant inks"
+                                           ],
+                              "title":  "Street Pole Flags",
+                              "category":  "Event Branding",
+                              "tagline":  "Own the Street",
+                              "description":  "Large format flags for street poles, ideal for city events, shopping districts, and campus branding. Double-sided printing with secure pole mounting hardware.",
+                              "image":  "./assets/service-placeholder.jpg"
+                          },
+    "roll-up-stands":  {
+                           "similar":  [
+                                           "acrylic-safety-signs",
+                                           "acrylic-name-boards",
+                                           "flex-signs",
+                                           "menu-holders"
+                                       ],
+                           "features":  [
+                                            "Portable \u0026 lightweight",
+                                            "Quick setup",
+                                            "Premium print quality",
+                                            "Carry case included"
+                                        ],
+                           "title":  "Roll-up Stands",
+                           "category":  "Signage \u0026 Displays",
+                           "tagline":  "Stand \u0026 Deliver",
+                           "description":  "Portable roll-up banner stands for exhibitions, trade shows, and retail displays. Easy to set up, transport, and store with a professional finish.",
+                           "image":  "./assets/service-placeholder.jpg"
+                       },
+    "flyers":  {
+                   "similar":  [
+                                   "letterheads",
+                                   "sticker-cutting",
+                                   "envelopes",
+                                   "restaurant-menus"
+                               ],
+                   "features":  [
+                                    "Full color both sides",
+                                    "Various paper weights",
+                                    "Fast delivery",
+                                    "Design assistance"
+                                ],
+                   "title":  "Flyers",
+                   "category":  "Printing Services",
+                   "tagline":  "Spread the Word",
+                   "description":  "High-impact flyers for promotions, events, and product launches. Vibrant full-color printing on premium paper to grab attention and drive action.",
+                   "image":  "./assets/service-placeholder.jpg"
+               },
+    "envelopes":  {
+                      "similar":  [
+                                      "letterheads",
+                                      "sticker-cutting",
+                                      "flyers",
+                                      "restaurant-menus"
+                                  ],
+                      "features":  [
+                                       "Multiple envelope sizes",
+                                       "Full color printing",
+                                       "Self-seal options",
+                                       "Window \u0026 non-window"
+                                   ],
+                      "title":  "Envelopes",
+                      "category":  "Printing Services",
+                      "tagline":  "Seal Your Brand",
+                      "description":  "Branded envelopes that make your mail stand out. Available in multiple sizes with full-color printing, custom flaps, and premium paper options.",
+                      "image":  "./assets/service-placeholder.jpg"
+                  },
+    "printed-caps":  {
+                         "similar":  [
+                                         "coveralls",
+                                         "safety-vests",
+                                         "staff-uniforms",
+                                         "medical-uniforms"
+                                     ],
+                         "features":  [
+                                          "Embroidery \u0026 printing",
+                                          "Adjustable \u0026 fitted",
+                                          "Multiple styles",
+                                          "Low minimums"
+                                      ],
+                         "title":  "Printed Caps",
+                         "category":  "Apparel Branding",
+                         "tagline":  "Cap Off Your Brand",
+                         "description":  "Custom branded caps and hats for promotional events, corporate wear, and retail merchandise. Embroidered or printed with your logo in full color.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "staff-uniforms":  {
+                           "similar":  [
+                                           "coveralls",
+                                           "safety-vests",
+                                           "printed-caps",
+                                           "medical-uniforms"
+                                       ],
+                           "features":  [
+                                            "Custom fit \u0026 design",
+                                            "Durable fabrics",
+                                            "Embroidery \u0026 printing",
+                                            "All sizes available"
+                                        ],
+                           "title":  "Staff Uniforms",
+                           "category":  "Apparel Branding",
+                           "tagline":  "Dress for Success",
+                           "description":  "Professional staff uniforms that build brand identity and team spirit. Custom designed and branded with embroidery or printing to your specifications.",
+                           "image":  "./assets/service-placeholder.jpg"
+                       },
+    "restaurant-menus":  {
+                             "similar":  [
+                                             "letterheads",
+                                             "sticker-cutting",
+                                             "flyers",
+                                             "envelopes"
+                                         ],
+                             "features":  [
+                                              "Water-resistant options",
+                                              "Menu holder combos",
+                                              "Seasonal update service",
+                                              "QR code integration"
+                                          ],
+                             "title":  "Restaurant Menus",
+                             "category":  "Printing Services",
+                             "tagline":  "Taste Starts with the Eyes",
+                             "description":  "Impress your diners with beautifully designed and printed menus. Available in laminated, leather-bound, and single-sheet formats for any restaurant style.",
+                             "image":  "./assets/service-placeholder.jpg"
+                         },
+    "wedding-cards":  {
+                          "similar":  [
+                                          "letterheads",
+                                          "sticker-cutting",
+                                          "flyers",
+                                          "envelopes"
+                                      ],
+                          "features":  [
+                                           "Luxury paper \u0026 finishes",
+                                           "Foil stamping \u0026 embossing",
+                                           "Custom envelope liners",
+                                           "RSVP card sets"
+                                       ],
+                          "title":  "Wedding Cards",
+                          "category":  "Printing Services",
+                          "tagline":  "Celebrate in Style",
+                          "description":  "Celebrate your special day with elegantly designed wedding invitations. From classic to contemporary styles, with premium paper, foiling, and embossing options.",
+                          "image":  "./assets/service-placeholder.jpg"
+                      },
+    "tissue-boxes":  {
+                         "similar":  [
+                                         "letterheads",
+                                         "sticker-cutting",
+                                         "flyers",
+                                         "envelopes"
+                                     ],
+                         "features":  [
+                                          "Full wrap printing",
+                                          "Custom box shapes",
+                                          "Tissue included",
+                                          "Ideal for hotels \u0026 events"
+                                      ],
+                         "title":  "Tissue Boxes",
+                         "category":  "Printing Services",
+                         "tagline":  "Brand Presence, Everywhere",
+                         "description":  "Branded tissue boxes are an innovative promotional item that keeps your logo visible in offices, hotels, and events. Fully customizable with your design.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "acrylic-brochure-stands":  {
+                                    "similar":  [
+                                                    "acrylic-safety-signs",
+                                                    "acrylic-name-boards",
+                                                    "flex-signs",
+                                                    "menu-holders"
+                                                ],
+                                    "features":  [
+                                                     "Crystal clear acrylic",
+                                                     "Multiple pocket sizes",
+                                                     "Wall \u0026 counter mount",
+                                                     "Easy to refill"
+                                                 ],
+                                    "title":  "Acrylic Brochure Stands",
+                                    "category":  "Signage \u0026 Displays",
+                                    "tagline":  "Display with Class",
+                                    "description":  "Clear acrylic brochure and pamphlet holders for reception areas, trade shows, and retail spaces. Organize and display your marketing materials professionally.",
+                                    "image":  "./assets/service-placeholder.jpg"
+                                },
+    "food-packaging":  {
+                           "similar":  [
+                                           "product-labels",
+                                           "custom-packaging-boxes",
+                                           "gift-boxes",
+                                           "corrugated-boxes"
+                                       ],
+                           "features":  [
+                                            "Food-grade materials",
+                                            "Grease-resistant",
+                                            "Custom branding",
+                                            "Eco-friendly options"
+                                        ],
+                           "title":  "Food Packaging",
+                           "category":  "Packaging Solutions",
+                           "tagline":  "Fresh \u0026 Branded",
+                           "description":  "Food-safe packaging solutions including takeaway boxes, bakery packaging, and restaurant supplies. Branded with your logo while meeting all hygiene standards.",
+                           "image":  "./assets/service-placeholder.jpg"
+                       },
+    "foam-board-mounting":  {
+                                "similar":  [
+                                                "acrylic-safety-signs",
+                                                "acrylic-name-boards",
+                                                "flex-signs",
+                                                "menu-holders"
+                                            ],
+                                "features":  [
+                                                 "Lightweight \u0026 rigid",
+                                                 "Full color printing",
+                                                 "Custom shapes",
+                                                 "Self-standing options"
+                                             ],
+                                "title":  "Foam Board Mounting",
+                                "category":  "Signage \u0026 Displays",
+                                "tagline":  "Lightweight Impact",
+                                "description":  "Lightweight foam board mounted prints for presentations, exhibitions, and point-of-sale displays. Clean, professional finish with vibrant color reproduction.",
+                                "image":  "./assets/service-placeholder.jpg"
+                            },
+    "bunting---string-flags":  {
+                                   "similar":  [
+                                                   "tabletop-flags",
+                                                   "promotional-tents",
+                                                   "street-pole-flags",
+                                                   "gazebos"
+                                               ],
+                                   "features":  [
+                                                    "Custom length strings",
+                                                    "Full color printing",
+                                                    "Indoor \u0026 outdoor use",
+                                                    "Reusable material"
+                                                ],
+                                   "title":  "Bunting / String Flags",
+                                   "category":  "Event Branding",
+                                   "tagline":  "Celebrate in Color",
+                                   "description":  "Festive bunting and string flags for events, grand openings, and celebrations. Custom printed with your branding, logos, or seasonal messaging.",
+                                   "image":  "./assets/service-placeholder.jpg"
+                               },
+    "business-cards":  {
+                           "similar":  [
+                                           "letterheads",
+                                           "sticker-cutting",
+                                           "flyers",
+                                           "envelopes"
+                                       ],
+                           "features":  [
+                                            "Premium card stock",
+                                            "Spot UV \u0026 foil options",
+                                            "Fast turnaround",
+                                            "Custom die-cut shapes"
+                                        ],
+                           "title":  "Business Cards",
+                           "category":  "Printing Services",
+                           "tagline":  "First Impressions That Last",
+                           "description":  "Make a memorable first impression with premium business cards. Choose from a variety of finishes including matte, gloss, spot UV, and foil stamping to match your brand aesthetic.",
+                           "image":  "./assets/service-placeholder.jpg"
+                       },
+    "canvas-printing":  {
+                            "similar":  [
+                                            "acrylic-safety-signs",
+                                            "acrylic-name-boards",
+                                            "flex-signs",
+                                            "menu-holders"
+                                        ],
+                            "features":  [
+                                             "Gallery-wrap finish",
+                                             "Archival inks",
+                                             "Multiple frame sizes",
+                                             "Ready to hang"
+                                         ],
+                            "title":  "Canvas Printing",
+                            "category":  "Signage \u0026 Displays",
+                            "tagline":  "Art Meets Branding",
+                            "description":  "Gallery-quality canvas prints for offices, hotels, and retail spaces. Stretched on wooden frames with archival-grade inks for lasting color vibrancy.",
+                            "image":  "./assets/service-placeholder.jpg"
+                        },
+    "large-format-printing":  {
+                                  "similar":  [
+                                                  "laser-cutting",
+                                                  "laser-engraving",
+                                                  "acrylic-fabrication",
+                                                  "asset-tagging"
+                                              ],
+                                  "features":  [
+                                                   "Ultra-high resolution",
+                                                   "Multiple substrates",
+                                                   "Indoor \u0026 outdoor",
+                                                   "Custom sizes"
+                                               ],
+                                  "title":  "Large Format Printing",
+                                  "category":  "Specialized Services",
+                                  "tagline":  "Think Big, Print Bigger",
+                                  "description":  "High-resolution large format printing for posters, murals, wallpapers, and exhibition graphics. Vivid colors on a variety of substrates including vinyl, fabric, and paper.",
+                                  "image":  "./assets/service-placeholder.jpg"
+                              },
+    "acrylic-fabrication":  {
+                                "similar":  [
+                                                "laser-cutting",
+                                                "laser-engraving",
+                                                "large-format-printing",
+                                                "asset-tagging"
+                                            ],
+                                "features":  [
+                                                 "Precision laser cutting",
+                                                 "Crystal clear finish",
+                                                 "Custom shapes",
+                                                 "Assembly service"
+                                             ],
+                                "title":  "Acrylic Fabrication",
+                                "category":  "Specialized Services",
+                                "tagline":  "Shape Your Vision",
+                                "description":  "Custom acrylic fabrication for display cases, signage, furniture, and protective screens. Precision laser cutting and polishing for crystal-clear results.",
+                                "image":  "./assets/service-placeholder.jpg"
+                            },
+    "medical-uniforms":  {
+                             "similar":  [
+                                             "coveralls",
+                                             "safety-vests",
+                                             "printed-caps",
+                                             "staff-uniforms"
+                                         ],
+                             "features":  [
+                                              "Antimicrobial fabrics",
+                                              "Custom embroidery",
+                                              "Comfortable fit",
+                                              "Easy-care materials"
+                                          ],
+                             "title":  "Medical Uniforms",
+                             "category":  "Apparel Branding",
+                             "tagline":  "Care with Confidence",
+                             "description":  "High-quality medical scrubs and lab coats customized with your hospital or clinic branding. Comfortable, durable fabrics built for the healthcare environment.",
+                             "image":  "./assets/service-placeholder.jpg"
+                         },
+    "calendars":  {
+                      "similar":  [
+                                      "letterheads",
+                                      "sticker-cutting",
+                                      "flyers",
+                                      "envelopes"
+                                  ],
+                      "features":  [
+                                       "Wall \u0026 desk formats",
+                                       "Full color printing",
+                                       "Custom start dates",
+                                       "Corporate branding"
+                                   ],
+                      "title":  "Calendars",
+                      "category":  "Printing Services",
+                      "tagline":  "365 Days of Visibility",
+                      "description":  "Keep your brand visible all year round with custom printed calendars. Wall, desk, and pocket formats with full-color imagery and your branding.",
+                      "image":  "./assets/service-placeholder.jpg"
+                  },
+    "usb-printing":  {
+                         "similar":  [
+                                         "balloon-printing",
+                                         "mouse-pads",
+                                         "lanyards",
+                                         "diaries"
+                                     ],
+                         "features":  [
+                                          "Custom shapes \u0026 colors",
+                                          "Multiple capacities",
+                                          "Pre-loaded content",
+                                          "Gift packaging"
+                                      ],
+                         "title":  "USB Printing",
+                         "category":  "Promotional Merchandise",
+                         "tagline":  "Data Meets Branding",
+                         "description":  "Custom branded USB flash drives in various shapes, capacities, and materials. Pre-load with your company presentation or product catalog for maximum impact.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "perfume-boxes":  {
+                          "similar":  [
+                                          "product-labels",
+                                          "custom-packaging-boxes",
+                                          "gift-boxes",
+                                          "corrugated-boxes"
+                                      ],
+                          "features":  [
+                                           "Luxury finishes",
+                                           "Custom inserts",
+                                           "Foil \u0026 embossing",
+                                           "Soft-touch lamination"
+                                       ],
+                          "title":  "Perfume Boxes",
+                          "category":  "Packaging Solutions",
+                          "tagline":  "Scent of Luxury",
+                          "description":  "Luxury perfume packaging with premium finishing options including foil stamping, embossing, and soft-touch lamination. Designed to reflect the sophistication of your fragrance.",
+                          "image":  "./assets/service-placeholder.jpg"
+                      },
+    "corporate-identity":  {
+                               "similar":  [
+                                               "label-design",
+                                               "banner---billboard-design",
+                                               "logo-designs"
+                                           ],
+                               "features":  [
+                                                "Complete brand kit",
+                                                "Consistent visual language",
+                                                "Professional templates",
+                                                "Digital \u0026 print assets"
+                                            ],
+                               "title":  "Corporate Identity",
+                               "category":  "Design \u0026 Branding",
+                               "tagline":  "One Brand, One Voice",
+                               "description":  "Build a cohesive brand presence with a complete corporate identity package including business cards, letterheads, envelopes, and brand guidelines.",
+                               "image":  "./assets/service-placeholder.jpg"
+                           },
+    "wristbands":  {
+                       "similar":  [
+                                       "balloon-printing",
+                                       "mouse-pads",
+                                       "lanyards",
+                                       "diaries"
+                                   ],
+                       "features":  [
+                                        "Silicone \u0026 fabric options",
+                                        "Custom colors",
+                                        "Debossed or printed",
+                                        "Fast production"
+                                    ],
+                       "title":  "Wristbands",
+                       "category":  "Promotional Merchandise",
+                       "tagline":  "Band Together",
+                       "description":  "Custom silicone and fabric wristbands for events, awareness campaigns, and team identification. Printed, debossed, or embossed with your design.",
+                       "image":  "./assets/service-placeholder.jpg"
+                   },
+    "illuminated-3d-signs":  {
+                                 "similar":  [
+                                                 "acrylic-safety-signs",
+                                                 "acrylic-name-boards",
+                                                 "flex-signs",
+                                                 "menu-holders"
+                                             ],
+                                 "features":  [
+                                                  "LED illumination",
+                                                  "Energy efficient",
+                                                  "Day \u0026 night impact",
+                                                  "Custom fabrication"
+                                              ],
+                                 "title":  "Illuminated 3D Signs",
+                                 "category":  "Signage \u0026 Displays",
+                                 "tagline":  "Shine Bright",
+                                 "description":  "Eye-catching 3D illuminated signage for storefronts, offices, and events. LED-powered channel letters and logo signs that make your brand shine day and night.",
+                                 "image":  "./assets/service-placeholder.jpg"
+                             },
+    "label-design":  {
+                         "similar":  [
+                                         "corporate-identity",
+                                         "banner---billboard-design",
+                                         "logo-designs"
+                                     ],
+                         "features":  [
+                                          "Product-specific design",
+                                          "Regulatory compliance",
+                                          "Die-cut ready files",
+                                          "Premium finishes"
+                                      ],
+                         "title":  "Label Design",
+                         "category":  "Design \u0026 Branding",
+                         "tagline":  "Labels That Sell",
+                         "description":  "Attract customers with eye-catching product labels designed for shelf appeal. We handle everything from concept to print-ready files for any product category.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "company-seals---stamps":  {
+                                   "similar":  [
+                                                   "name-badges",
+                                                   "id-cards-and-lanyards",
+                                                   "folders",
+                                                   "calculators"
+                                               ],
+                                   "features":  [
+                                                    "Self-inking stamps",
+                                                    "Company seal presses",
+                                                    "Custom designs",
+                                                    "Replacement ink pads"
+                                                ],
+                                   "title":  "Company Seals / Stamps",
+                                   "category":  "Corporate Supplies",
+                                   "tagline":  "Stamp Your Authority",
+                                   "description":  "Official company seals and custom rubber stamps for document authentication and branding. Self-inking and traditional options available.",
+                                   "image":  "./assets/service-placeholder.jpg"
+                               },
+    "custom-keychains":  {
+                             "similar":  [
+                                             "balloon-printing",
+                                             "mouse-pads",
+                                             "lanyards",
+                                             "diaries"
+                                         ],
+                             "features":  [
+                                              "Multiple materials",
+                                              "Custom shapes",
+                                              "Full color printing",
+                                              "Bulk pricing"
+                                          ],
+                             "title":  "Custom Keychains",
+                             "category":  "Promotional Merchandise",
+                             "tagline":  "Carry Your Brand",
+                             "description":  "Branded keychains in metal, acrylic, leather, and PVC. A versatile and affordable promotional item that travels with your customers everywhere.",
+                             "image":  "./assets/service-placeholder.jpg"
+                         },
+    "display-stands":  {
+                           "similar":  [
+                                           "acrylic-safety-signs",
+                                           "acrylic-name-boards",
+                                           "flex-signs",
+                                           "menu-holders"
+                                       ],
+                           "features":  [
+                                            "Custom configurations",
+                                            "Portable options",
+                                            "Premium materials",
+                                            "Modular designs"
+                                        ],
+                           "title":  "Display Stands",
+                           "category":  "Signage \u0026 Displays",
+                           "tagline":  "Stand Out",
+                           "description":  "Versatile display stands for exhibitions, retail, and events. From brochure stands to product displays, we offer custom solutions for any presentation need.",
+                           "image":  "./assets/service-placeholder.jpg"
+                       },
+    "power-banks":  {
+                        "similar":  [
+                                        "balloon-printing",
+                                        "mouse-pads",
+                                        "lanyards",
+                                        "diaries"
+                                    ],
+                        "features":  [
+                                         "Multiple capacities",
+                                         "Slim \u0026 compact designs",
+                                         "Full color printing",
+                                         "Custom packaging"
+                                     ],
+                        "title":  "Power Banks",
+                        "category":  "Promotional Merchandise",
+                        "tagline":  "Stay Charged, Stay Branded",
+                        "description":  "Branded power banks that your clients will use daily, keeping your logo charged and visible. Available in multiple capacities and sleek designs.",
+                        "image":  "./assets/service-placeholder.jpg"
+                    },
+    "polo-shirt-embroidery":  {
+                                  "similar":  [
+                                                  "coveralls",
+                                                  "safety-vests",
+                                                  "printed-caps",
+                                                  "staff-uniforms"
+                                              ],
+                                  "features":  [
+                                                   "Premium embroidery",
+                                                   "Durable stitching",
+                                                   "Multiple colors",
+                                                   "Corporate packages"
+                                               ],
+                                  "title":  "Polo Shirt Embroidery",
+                                  "category":  "Apparel Branding",
+                                  "tagline":  "Polished \u0026 Professional",
+                                  "description":  "Premium polo shirts with professional embroidery for corporate wear, events, and team uniforms. High-quality stitching that lasts through countless washes.",
+                                  "image":  "./assets/service-placeholder.jpg"
+                              },
+    "wall-clocks":  {
+                        "similar":  [
+                                        "balloon-printing",
+                                        "mouse-pads",
+                                        "lanyards",
+                                        "diaries"
+                                    ],
+                        "features":  [
+                                         "Full face printing",
+                                         "Multiple sizes",
+                                         "Silent movement",
+                                         "Gift packaging"
+                                     ],
+                        "title":  "Wall Clocks",
+                        "category":  "Promotional Merchandise",
+                        "tagline":  "Time for Your Brand",
+                        "description":  "Custom branded wall clocks for offices, reception areas, and corporate gifts. A functional item that displays your brand 24/7.",
+                        "image":  "./assets/service-placeholder.jpg"
+                    },
+    "notebooks":  {
+                      "similar":  [
+                                      "letterheads",
+                                      "sticker-cutting",
+                                      "flyers",
+                                      "envelopes"
+                                  ],
+                      "features":  [
+                                       "Multiple binding styles",
+                                       "Custom cover printing",
+                                       "Various page formats",
+                                       "Bulk pricing available"
+                                   ],
+                      "title":  "Notebooks",
+                      "category":  "Printing Services",
+                      "tagline":  "Notes Worth Keeping",
+                      "description":  "Custom branded notebooks perfect for corporate gifts, events, or daily office use. Choose from hardcover, softcover, spiral-bound, and more.",
+                      "image":  "./assets/service-placeholder.jpg"
+                  },
+    "t-shirts":  {
+                     "similar":  [
+                                     "coveralls",
+                                     "safety-vests",
+                                     "printed-caps",
+                                     "staff-uniforms"
+                                 ],
+                     "features":  [
+                                      "Screen print \u0026 DTG",
+                                      "Multiple fabric options",
+                                      "Size S to 5XL",
+                                      "Low minimum orders"
+                                  ],
+                     "title":  "T-Shirts",
+                     "category":  "Apparel Branding",
+                     "tagline":  "Wear Your Brand",
+                     "description":  "Custom printed and embroidered T-shirts for teams, events, and merchandise. We offer screen printing, DTG, heat transfer, and embroidery on premium quality garments.",
+                     "image":  "./assets/service-placeholder.jpg"
+                 },
+    "asset-tagging":  {
+                          "similar":  [
+                                          "laser-cutting",
+                                          "laser-engraving",
+                                          "large-format-printing",
+                                          "acrylic-fabrication"
+                                      ],
+                          "features":  [
+                                           "Barcode \u0026 QR codes",
+                                           "Tamper-evident",
+                                           "Durable materials",
+                                           "Sequential numbering"
+                                       ],
+                          "title":  "Asset Tagging",
+                          "category":  "Specialized Services",
+                          "tagline":  "Track Every Asset",
+                          "description":  "Durable asset tags and labels for equipment tracking and inventory management. Barcode, QR code, and serial number options on tamper-evident materials.",
+                          "image":  "./assets/service-placeholder.jpg"
+                      },
+    "banner---billboard-design":  {
+                                      "similar":  [
+                                                      "corporate-identity",
+                                                      "label-design",
+                                                      "logo-designs"
+                                                  ],
+                                      "features":  [
+                                                       "High-resolution artwork",
+                                                       "Print-ready files",
+                                                       "Eye-catching layouts",
+                                                       "Optimized for all sizes"
+                                                   ],
+                                      "title":  "Banner / Billboard Design",
+                                      "category":  "Design \u0026 Branding",
+                                      "tagline":  "Big Ideas, Bigger Impact",
+                                      "description":  "Stand out with large-format billboard and banner designs that capture attention from a distance. We create high-resolution artwork optimized for outdoor and indoor display.",
+                                      "image":  "./assets/service-placeholder.jpg"
+                                  },
+    "calculators":  {
+                        "similar":  [
+                                        "name-badges",
+                                        "id-cards-and-lanyards",
+                                        "folders",
+                                        "company-seals---stamps"
+                                    ],
+                        "features":  [
+                                         "Desktop \u0026 pocket sizes",
+                                         "Full color printing",
+                                         "Solar \u0026 battery",
+                                         "Gift packaging"
+                                     ],
+                        "title":  "Calculators",
+                        "category":  "Corporate Supplies",
+                        "tagline":  "Count on Your Brand",
+                        "description":  "Branded desktop and pocket calculators for corporate gifts and office use. Printed with your logo for daily brand visibility on every desk.",
+                        "image":  "./assets/service-placeholder.jpg"
+                    },
+    "gazebos":  {
+                    "similar":  [
+                                    "tabletop-flags",
+                                    "promotional-tents",
+                                    "street-pole-flags",
+                                    "bunting---string-flags"
+                                ],
+                    "features":  [
+                                     "Heavy-duty frames",
+                                     "Full color canopy",
+                                     "Side panel options",
+                                     "Carry bag included"
+                                 ],
+                    "title":  "Gazebos",
+                    "category":  "Event Branding",
+                    "tagline":  "Grand Presence",
+                    "description":  "Premium branded gazebos for exhibitions, outdoor events, and promotional activations. Heavy-duty frames with full-color printed canopies and optional side panels.",
+                    "image":  "./assets/service-placeholder.jpg"
+                },
+    "reflective-stickers":  {
+                                "similar":  [
+                                                "laser-cutting",
+                                                "laser-engraving",
+                                                "large-format-printing",
+                                                "acrylic-fabrication"
+                                            ],
+                                "features":  [
+                                                 "Engineering-grade",
+                                                 "Vehicle safe",
+                                                 "Custom die-cut",
+                                                 "Weather-resistant"
+                                             ],
+                                "title":  "Reflective Stickers",
+                                "category":  "Specialized Services",
+                                "tagline":  "Reflect Your Brand Safely",
+                                "description":  "High-visibility reflective stickers for vehicles, safety equipment, and signage. Engineered-grade reflective material that meets safety standards.",
+                                "image":  "./assets/service-placeholder.jpg"
+                            },
+    "mosque-prayer-mats":  {
+                               "similar":  [
+                                               "laser-cutting",
+                                               "laser-engraving",
+                                               "large-format-printing",
+                                               "acrylic-fabrication"
+                                           ],
+                               "features":  [
+                                                "Premium materials",
+                                                "Custom patterns",
+                                                "Multiple sizes",
+                                                "Bulk production"
+                                            ],
+                               "title":  "Mosque Prayer Mats",
+                               "category":  "Specialized Services",
+                               "tagline":  "Devotion in Detail",
+                               "description":  "Custom designed mosque prayer mats and carpets with intricate patterns and premium materials. Available in various sizes for individual or congregational use.",
+                               "image":  "./assets/service-placeholder.jpg"
+                           },
+    "vehicle-branding":  {
+                             "similar":  [
+                                             "laser-cutting",
+                                             "laser-engraving",
+                                             "large-format-printing",
+                                             "acrylic-fabrication"
+                                         ],
+                             "features":  [
+                                              "Full \u0026 partial wraps",
+                                              "Premium vinyl",
+                                              "UV-resistant lamination",
+                                              "Professional installation"
+                                          ],
+                             "title":  "Vehicle Branding",
+                             "category":  "Specialized Services",
+                             "tagline":  "Drive Your Brand",
+                             "description":  "Transform your fleet into mobile billboards with professional vehicle wraps and decals. Full wraps, partial wraps, and magnetic signs for cars, vans, and trucks.",
+                             "image":  "./assets/service-placeholder.jpg"
+                         },
+    "3d-illuminated-signs":  {
+                                 "similar":  [
+                                                 "laser-cutting",
+                                                 "laser-engraving",
+                                                 "large-format-printing",
+                                                 "acrylic-fabrication"
+                                             ],
+                                 "features":  [
+                                                  "LED channel letters",
+                                                  "Front \u0026 halo lit",
+                                                  "Energy efficient",
+                                                  "Custom colors"
+                                              ],
+                                 "title":  "3D Illuminated Signs",
+                                 "category":  "Specialized Services",
+                                 "tagline":  "Light Up Your Brand",
+                                 "description":  "Premium 3D illuminated channel letter signs for storefronts and corporate offices. LED-powered with front-lit, back-lit, and halo-lit options for maximum visibility.",
+                                 "image":  "./assets/service-placeholder.jpg"
+                             },
+    "branded-stationery":  {
+                               "similar":  [
+                                               "name-badges",
+                                               "id-cards-and-lanyards",
+                                               "folders",
+                                               "company-seals---stamps"
+                                           ],
+                               "features":  [
+                                                "Complete stationery set",
+                                                "Consistent branding",
+                                                "Premium paper",
+                                                "Bulk discounts"
+                                            ],
+                               "title":  "Branded Stationery",
+                               "category":  "Corporate Supplies",
+                               "tagline":  "Write with Authority",
+                               "description":  "Complete branded stationery sets including letterheads, compliment slips, and notepads. Consistent branding across all your office communications.",
+                               "image":  "./assets/service-placeholder.jpg"
+                           },
+    "desk-organizers":  {
+                            "similar":  [
+                                            "name-badges",
+                                            "id-cards-and-lanyards",
+                                            "folders",
+                                            "company-seals---stamps"
+                                        ],
+                            "features":  [
+                                             "Multiple compartments",
+                                             "Custom branding",
+                                             "Premium materials",
+                                             "Gift box options"
+                                         ],
+                            "title":  "Desk Organizers",
+                            "category":  "Corporate Supplies",
+                            "tagline":  "Organize Your Brand",
+                            "description":  "Custom branded desk organizers and office accessories. Keep workspaces tidy while reinforcing your brand with pen holders, trays, and storage solutions.",
+                            "image":  "./assets/service-placeholder.jpg"
+                        },
+    "beach-flags":  {
+                        "similar":  [
+                                        "tabletop-flags",
+                                        "promotional-tents",
+                                        "street-pole-flags",
+                                        "bunting---string-flags"
+                                    ],
+                        "features":  [
+                                         "Teardrop \u0026 feather styles",
+                                         "Double-sided printing",
+                                         "Ground spike included",
+                                         "Wind-resistant"
+                                     ],
+                        "title":  "Beach Flags",
+                        "category":  "Event Branding",
+                        "tagline":  "Fly Your Brand",
+                        "description":  "Eye-catching teardrop and feather beach flags for outdoor events, promotions, and storefronts. Double-sided printing on durable polyester with ground spikes or cross bases.",
+                        "image":  "./assets/service-placeholder.jpg"
+                    },
+    "woven-badges":  {
+                         "similar":  [
+                                         "coveralls",
+                                         "safety-vests",
+                                         "printed-caps",
+                                         "staff-uniforms"
+                                     ],
+                         "features":  [
+                                          "Intricate detail",
+                                          "Iron-on \u0026 sew-on",
+                                          "Custom shapes",
+                                          "Durable construction"
+                                      ],
+                         "title":  "Woven Badges",
+                         "category":  "Apparel Branding",
+                         "tagline":  "Wear Your Identity",
+                         "description":  "Detailed woven badges for uniforms, clubs, and organizations. Precision-woven with intricate designs that maintain their quality over time.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "banners":  {
+                    "similar":  [
+                                    "acrylic-safety-signs",
+                                    "acrylic-name-boards",
+                                    "flex-signs",
+                                    "menu-holders"
+                                ],
+                    "features":  [
+                                     "Vinyl, mesh \u0026 fabric",
+                                     "Weatherproof printing",
+                                     "Multiple mounting options",
+                                     "Custom sizes"
+                                 ],
+                    "title":  "Banners",
+                    "category":  "Signage \u0026 Displays",
+                    "tagline":  "Banner Moments",
+                    "description":  "High-quality indoor and outdoor banners printed on durable vinyl, mesh, or fabric. Available with grommets, pole pockets, and hemmed edges for versatile display.",
+                    "image":  "./assets/service-placeholder.jpg"
+                },
+    "woven-labels":  {
+                         "similar":  [
+                                         "coveralls",
+                                         "safety-vests",
+                                         "printed-caps",
+                                         "staff-uniforms"
+                                     ],
+                         "features":  [
+                                          "Custom woven design",
+                                          "Soft finish options",
+                                          "Multiple fold types",
+                                          "Bulk production"
+                                      ],
+                         "title":  "Woven Labels",
+                         "category":  "Apparel Branding",
+                         "tagline":  "The Mark of Quality",
+                         "description":  "High-quality woven labels for clothing and textile products. Custom designed with your brand logo, care instructions, and sizing information.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     },
+    "brochures":  {
+                      "similar":  [
+                                      "letterheads",
+                                      "sticker-cutting",
+                                      "flyers",
+                                      "envelopes"
+                                  ],
+                      "features":  [
+                                       "Multiple fold options",
+                                       "Premium paper stock",
+                                       "Gloss or matte finish",
+                                       "Bulk order discounts"
+                                   ],
+                      "title":  "Brochures",
+                      "category":  "Printing Services",
+                      "tagline":  "Your Story, Beautifully Told",
+                      "description":  "Tell your brand story with professionally printed brochures. Available in bi-fold, tri-fold, gate-fold, and custom formats with premium finishing.",
+                      "image":  "./assets/service-placeholder.jpg"
+                  },
+    "sandblast-stickers":  {
+                               "similar":  [
+                                               "laser-cutting",
+                                               "laser-engraving",
+                                               "large-format-printing",
+                                               "acrylic-fabrication"
+                                           ],
+                               "features":  [
+                                                "Frosted glass effect",
+                                                "Custom cut designs",
+                                                "Easy application",
+                                                "Removable option"
+                                            ],
+                               "title":  "Sandblast Stickers",
+                               "category":  "Specialized Services",
+                               "tagline":  "Frosted Elegance",
+                               "description":  "Frosted glass effect sandblast stickers for office partitions, storefronts, and interior decor. Privacy meets branding with custom cut designs and logos.",
+                               "image":  "./assets/service-placeholder.jpg"
+                           },
+    "pens":  {
+                 "similar":  [
+                                 "balloon-printing",
+                                 "mouse-pads",
+                                 "lanyards",
+                                 "diaries"
+                             ],
+                 "features":  [
+                                  "Multiple pen styles",
+                                  "Full color printing",
+                                  "Bulk pricing",
+                                  "Gift box options"
+                              ],
+                 "title":  "Pens",
+                 "category":  "Promotional Merchandise",
+                 "tagline":  "Write Your Success",
+                 "description":  "Custom branded pens are the most cost-effective promotional item. Choose from ballpoint, rollerball, and executive styles, all printed with your logo.",
+                 "image":  "./assets/service-placeholder.jpg"
+             },
+    "logo-designs":  {
+                         "similar":  [
+                                         "corporate-identity",
+                                         "label-design",
+                                         "banner---billboard-design"
+                                     ],
+                         "features":  [
+                                          "Custom vector logo design",
+                                          "Unlimited revision rounds",
+                                          "Multiple concept options",
+                                          "Brand guideline document"
+                                      ],
+                         "title":  "Logo Designs",
+                         "category":  "Design \u0026 Branding",
+                         "tagline":  "Your Brand Starts Here",
+                         "description":  "Create a lasting first impression with a professionally crafted logo that embodies your brand identity. Our designers work closely with you to develop unique, scalable logos for print and digital use.",
+                         "image":  "./assets/service-placeholder.jpg"
+                     }
 }

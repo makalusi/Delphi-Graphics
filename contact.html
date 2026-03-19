@@ -23,8 +23,9 @@
         }
 
         .gradient-text {
-            background: linear-gradient(to right, #27aae1, #ec008c);
+            background: linear-gradient(135deg, #00aeef, #ec008c, #fdb913);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
     </style>
@@ -52,19 +53,32 @@
                 What we offer
             </div>
         </div>
-        <!-- Menu Items (Simplified for brevity, but could be fully mirrored) -->
+        <!-- Menu Items -->
         <div class="flex flex-col gap-4 w-full px-4 overflow-y-auto scrollbar-hide flex-grow pb-8">
-            <div class="flex items-center gap-4 cursor-pointer group/item">
+            <a href="index.html#categories-section" class="flex items-center gap-4 cursor-pointer group/item">
                 <div
-                    class="w-10 h-10 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-md group-hover/item:bg-[#1d4ed8] transition z-20">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
-                        stroke="currentColor" class="w-5 h-5">
+                    class="w-12 h-12 rounded-full bg-delphi-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/item:scale-110 group-hover/item:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                     </svg>
-                </div><span
-                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Services</span>
-            </div>
-            <!-- ... more items ... -->
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-semibold">Our
+                    Categories</span>
+            </a>
+            <a href="index.html#collections-section" class="flex items-center gap-4 cursor-pointer group/item">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-accent-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/item:scale-110 group-hover/item:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-semibold">Special
+                    Collections</span>
+            </a>
         </div>
     </div>
 
@@ -137,11 +151,16 @@
             <nav
                 class="flex items-center justify-between text-[10px] lg:text-sm font-semibold text-gray-700 tracking-wide uppercase overflow-x-auto gap-4 scrollbar-hide">
                 <a href="index.html" class="nav-link-underline whitespace-nowrap">Home</a>
-                <a href="#" class="nav-link-underline whitespace-nowrap">Business cards</a>
-                <a href="#" class="nav-link-underline whitespace-nowrap">Stickers & Labels</a>
-                <a href="#" class="nav-link-underline whitespace-nowrap">Clothing & Bags</a>
-                <a href="#" class="nav-link-underline whitespace-nowrap">Promotional Products</a>
-                <a href="#" class="nav-link-underline whitespace-nowrap">Invitations & Wedding</a>
+                <a href="service-detail.html?item=business-cards" class="nav-link-underline whitespace-nowrap">Business
+                    cards</a>
+                <a href="index.html#categories-section" class="nav-link-underline whitespace-nowrap">Stickers &
+                    Labels</a>
+                <a href="index.html#collections-section" class="nav-link-underline whitespace-nowrap">Clothing &
+                    Bags</a>
+                <a href="index.html#seasonal-section" class="nav-link-underline whitespace-nowrap">Promotional
+                    Products</a>
+                <a href="index.html#categories-section" class="nav-link-underline whitespace-nowrap">Invitations &
+                    Wedding</a>
             </nav>
         </div>
     </header>

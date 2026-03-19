@@ -12,92 +12,70 @@ tailwind.config = {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const slides = [
-        {
-            image: './assets/banner images-01.png',
-            title: 'Turn Prospects into Partners',
-            subtitle: 'with Premium Brochures.'
-        },
-        {
-            image: './assets/banner images-02.png',
-            title: 'Make a Lasting Impression',
-            subtitle: 'with Custom Business Cards.'
-        },
-        {
-            image: './assets/banner images-03.png',
-            title: 'Showcase Your Brand',
-            subtitle: 'with Vibrant Banners.'
-        },
-        {
-            image: './assets/banner images-04.png',
-            title: 'Promote Your Business',
-            subtitle: 'with Unique Gifts.'
-        },
-        {
-            image: './assets/banner images-05.png',
-            title: 'Professional Packaging',
-            subtitle: 'that Tells Your Story.'
+    // Hero Slideshow Logic
+    const heroSlideshow = document.getElementById('hero-slideshow');
+    const heroSlides = document.querySelectorAll('.hero-slide');
+    const heroDots = document.querySelectorAll('.hero-dot');
+    const heroNext = document.getElementById('hero-next');
+    const heroPrev = document.getElementById('hero-prev');
+
+    if (heroSlideshow && heroSlides.length > 0) {
+        let currentHeroSlide = 0;
+        let heroInterval;
+        const intervalTime = 4000;
+
+        function showHeroSlide(index) {
+            heroSlides.forEach(slide => slide.classList.remove('active'));
+            heroDots.forEach(dot => dot.classList.remove('active'));
+
+            heroSlides[index].classList.add('active');
+            heroDots[index].classList.add('active');
+            currentHeroSlide = index;
         }
-    ];
 
-    let currentSlide = 0;
-    const heroTitle = document.getElementById('hero-title');
-    const heroSubtitle = document.getElementById('hero-subtitle');
-    const heroImage = document.getElementById('hero-image');
-    const heroTextContainer = document.getElementById('hero-text-container');
+        function nextHeroSlide() {
+            let nextIndex = (currentHeroSlide + 1) % heroSlides.length;
+            showHeroSlide(nextIndex);
+        }
 
-    if (heroTitle && heroSubtitle && heroImage && heroTextContainer) {
-        setInterval(() => {
-            currentSlide = (currentSlide + 1) % slides.length;
-            const slide = slides[currentSlide];
+        function startHeroInterval() {
+            heroInterval = setInterval(nextHeroSlide, intervalTime);
+        }
 
-            // Animate Out
-            // Text slides down and fades out
-            heroTextContainer.style.opacity = '0';
-            heroTextContainer.style.transform = 'translateY(20px)';
+        function resetHeroInterval() {
+            clearInterval(heroInterval);
+            startHeroInterval();
+        }
 
-            // Image slides right and fades out
-            heroImage.style.opacity = '0';
-            heroImage.style.transform = 'translateX(100px) scale(0.9)';
+        // Auto-play
+        startHeroInterval();
 
-            setTimeout(() => {
-                // Update content while invisible
-                heroTitle.innerText = slide.title;
-                heroSubtitle.innerText = slide.subtitle;
-                heroImage.src = slide.image;
+        // Pause on Hover
+        heroSlideshow.addEventListener('mouseenter', () => clearInterval(heroInterval));
+        heroSlideshow.addEventListener('mouseleave', startHeroInterval);
 
-                // Reset position for entry animation (jump to starting position for "slide in")
-                // We want text to come from UP (-20px) and image from LEFT/RIGHT
-                // But to make it smooth, let's just reverse the exit.
-                // Reset to "start" state for entering
+        // Arrows
+        if (heroNext) {
+            heroNext.addEventListener('click', () => {
+                nextHeroSlide();
+                resetHeroInterval();
+            });
+        }
+        if (heroPrev) {
+            heroPrev.addEventListener('click', () => {
+                let prevIndex = (currentHeroSlide - 1 + heroSlides.length) % heroSlides.length;
+                showHeroSlide(prevIndex);
+                resetHeroInterval();
+            });
+        }
 
-                // For a cool effect:
-                // 1. Exit: Text goes Down, Image goes Right
-                // 2. Wait
-                // 3. Setup Entry: Text starts Up, Image starts Right
-
-                heroTextContainer.style.transition = 'none'; // Disable transition for instant snap
-                heroImage.style.transition = 'none';
-
-                heroTextContainer.style.transform = 'translateY(-20px)';
-                heroImage.style.transform = 'translateX(50px) scale(1.05)';
-
-                // Force reflow
-                void heroTextContainer.offsetWidth;
-
-                // Animate In
-                heroTextContainer.style.transition = 'all 700ms ease-out';
-                heroImage.style.transition = 'all 700ms ease-out';
-
-                heroTextContainer.style.opacity = '1';
-                heroTextContainer.style.transform = 'translateY(0)';
-
-                heroImage.style.opacity = '1';
-                heroImage.style.transform = 'translateX(40px) scale(1)'; // matching original translate-x-10 (40px)
-
-            }, 700); // Wait for exit animation to finish
-
-        }, 6000); // 6 seconds
+        // Dots
+        heroDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                showHeroSlide(index);
+                resetHeroInterval();
+            });
+        });
     }
 
     // Carousel Navigation Logic
