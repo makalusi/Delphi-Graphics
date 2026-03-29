@@ -246,50 +246,96 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Global Search Logic
+    // Predictive Search Logic
     const searchInput = document.getElementById('search-input');
-    const searchBtn = document.getElementById('search-btn');
+    const searchResults = document.getElementById('search-results');
+    const searchResultsList = document.getElementById('search-results-list');
+    let servicesData = null;
+    let searchTimeout = null;
 
-    async function performSearch() {
-        if (!searchInput || !searchInput.value.trim()) return;
-        const query = searchInput.value.toLowerCase().trim();
-
+    async function fetchServices() {
+        if (servicesData) return servicesData;
         try {
             const response = await fetch('./data/services.json');
-            const services = await response.json();
-
-            // Find first match in title, category, or tags
-            let matchKey = null;
-            for (const [key, data] of Object.entries(services)) {
-                if (
-                    data.title.toLowerCase().includes(query) ||
-                    data.category.toLowerCase().includes(query) ||
-                    key.includes(query)
-                ) {
-                    matchKey = key;
-                    break;
-                }
-            }
-
-            if (matchKey) {
-                // Redirect to the matched service
-                window.location.href = 'service-detail.html?item=' + matchKey;
-            } else {
-                alert('No matching products found for "' + query + '". Please browse our categories.');
-            }
-
+            servicesData = await response.json();
+            return servicesData;
         } catch (error) {
-            console.error('Search failed: ', error);
+            console.error('Failed to fetch services:', error);
+            return null;
         }
     }
 
-    if (searchBtn) {
-        searchBtn.addEventListener('click', performSearch);
+    function showResults(results) {
+        if (!searchResultsList) return;
+        searchResultsList.innerHTML = '';
+        
+        if (results.length === 0) {
+            searchResultsList.innerHTML = `
+                <div class="p-8 text-center text-gray-400">
+                    <p class="text-sm">No services found matching your search.</p>
+                </div>
+            `;
+        } else {
+            results.forEach(result => {
+                const item = document.createElement('div');
+                item.className = 'p-3 hover:bg-gray-50 cursor-pointer transition-colors flex items-center gap-4 border-b border-gray-50 last:border-none';
+                item.innerHTML = `
+                    <div class="w-10 h-10 rounded-lg bg-gray-100 flex-shrink-0 overflow-hidden">
+                        <img src="${result.data.image}" alt="${result.data.title}" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="text-sm font-bold text-gray-900">${result.data.title}</div>
+                        <div class="text-[10px] text-delphi-cyan uppercase font-bold tracking-wider">${result.data.category}</div>
+                    </div>
+                `;
+                item.onclick = () => {
+                    window.location.href = `service-detail.html?item=${result.id}`;
+                };
+                searchResultsList.appendChild(item);
+            });
+        }
+        
+        searchResults.classList.remove('hidden');
     }
+
     if (searchInput) {
-        searchInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
-                performSearch();
+        searchInput.addEventListener('input', async (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            
+            clearTimeout(searchTimeout);
+            if (query.length < 2) {
+                searchResults.classList.add('hidden');
+                return;
+            }
+
+            searchTimeout = setTimeout(async () => {
+                const data = await fetchServices();
+                if (!data) return;
+
+                const results = Object.entries(data)
+                    .filter(([id, service]) => 
+                        service.title.toLowerCase().includes(query) ||
+                        service.category.toLowerCase().includes(query) ||
+                        (service.tagline && service.tagline.toLowerCase().includes(query))
+                    )
+                    .map(([id, service]) => ({ id, data: service }))
+                    .slice(0, 6); // Limit to top 6 results
+
+                showResults(results);
+            }, 300);
+        });
+
+        // Close results when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+                searchResults.classList.add('hidden');
+            }
+        });
+
+        // Show results back if input focused and has content
+        searchInput.addEventListener('focus', () => {
+            if (searchInput.value.trim().length >= 2 && searchResultsList.children.length > 0) {
+                searchResults.classList.remove('hidden');
             }
         });
     }
