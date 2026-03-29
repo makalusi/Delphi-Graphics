@@ -229,3 +229,68 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Back to top functionality
+    const backToTopBtn = document.getElementById('back-to-top');
+    if (backToTopBtn) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.remove('opacity-0', 'invisible', 'translate-y-4');
+            } else {
+                backToTopBtn.classList.add('opacity-0', 'invisible', 'translate-y-4');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    // Global Search Logic
+    const searchInput = document.getElementById('search-input');
+    const searchBtn = document.getElementById('search-btn');
+
+    async function performSearch() {
+        if (!searchInput || !searchInput.value.trim()) return;
+        const query = searchInput.value.toLowerCase().trim();
+
+        try {
+            const response = await fetch('./data/services.json');
+            const services = await response.json();
+
+            // Find first match in title, category, or tags
+            let matchKey = null;
+            for (const [key, data] of Object.entries(services)) {
+                if (
+                    data.title.toLowerCase().includes(query) ||
+                    data.category.toLowerCase().includes(query) ||
+                    key.includes(query)
+                ) {
+                    matchKey = key;
+                    break;
+                }
+            }
+
+            if (matchKey) {
+                // Redirect to the matched service
+                window.location.href = 'service-detail.html?item=' + matchKey;
+            } else {
+                alert('No matching products found for "' + query + '". Please browse our categories.');
+            }
+
+        } catch (error) {
+            console.error('Search failed: ', error);
+        }
+    }
+
+    if (searchBtn) {
+        searchBtn.addEventListener('click', performSearch);
+    }
+    if (searchInput) {
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+    }
+});
