@@ -351,17 +351,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // Mobile Search Overlay Logic
     if (mobileSearchBtn && mobileSearchOverlay) {
         mobileSearchBtn.addEventListener('click', () => {
-            mobileSearchOverlay.classList.remove('translate-y-full');
+            mobileSearchOverlay.classList.remove('translate-y-full', 'invisible', 'pointer-events-none');
             mobileSearchOverlay.classList.add('translate-y-0');
             document.body.style.overflow = 'hidden'; // Prevent background scroll
             setTimeout(() => mobileSearchInput?.focus(), 300);
         });
 
-        closeMobileSearch?.addEventListener('click', () => {
+        const closeOverlay = () => {
             mobileSearchOverlay.classList.remove('translate-y-0');
-            mobileSearchOverlay.classList.add('translate-y-full');
+            mobileSearchOverlay.classList.add('translate-y-full', 'invisible', 'pointer-events-none');
             document.body.style.overflow = ''; // Restore scroll
-        });
+        };
+
+        closeMobileSearch?.addEventListener('click', closeOverlay);
     }
 
     if (mobileSearchInput) {

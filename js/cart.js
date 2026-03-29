@@ -113,15 +113,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 4. Public API (called from service-detail.html)
-    window.addToCart = function(product) {
-        const existing = cart.find(item => item.title === product.title);
-        if (existing) {
-            existing.quantity = (existing.quantity || 1) + 1;
-        } else {
-            cart.push({ ...product, quantity: 1 });
+    window.Cart = {
+        addItem: function(product) {
+            const existing = cart.find(item => item.title === product.title);
+            if (existing) {
+                existing.quantity = (existing.quantity || 1) + 1;
+            } else {
+                cart.push({ ...product, quantity: 1 });
+            }
+            saveCart();
+            toggleCart(); // Open drawer automatically
         }
-        saveCart();
-        toggleCart(); // Open drawer automatically
     };
 
     // 5. Initial Bindings
