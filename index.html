@@ -331,8 +331,8 @@
             <!-- Actions -->
             <div class="flex items-center gap-3 md:gap-6 text-gray-700">
                 <!-- Mobile Search Icon -->
-                <button class="sm:hidden p-2 text-gray-700">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                <button id="mobile-search-btn" class="md:hidden p-2 text-gray-700 hover:text-delphi-cyan transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                         stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -1057,6 +1057,35 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
             </svg>
         </button>
+    </div>
+
+    <!-- Mobile Search Overlay -->
+    <div id="mobile-search-overlay" class="fixed inset-0 bg-white z-[200] transform translate-y-full transition-transform duration-300 md:hidden">
+        <div class="p-6">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl font-bold text-gray-900">Search Services</h2>
+                <button id="close-mobile-search" class="p-2 text-gray-400 hover:text-gray-900 rounded-full hover:bg-gray-100 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="relative items-center flex mb-6">
+                <input type="text" id="mobile-search-input" placeholder="What are you looking for?"
+                    class="w-full bg-gray-100 border-none rounded-2xl py-4 px-6 pl-12 focus:ring-2 focus:ring-delphi-cyan/30 transition-all outline-none text-lg"
+                    autocomplete="off">
+                <div class="absolute left-4 text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </div>
+            </div>
+            <div id="mobile-search-results" class="space-y-4">
+                <!-- Mobile search results will go here -->
+            </div>
+        </div>
     </div>
 
     <!-- Cart Drawer -->

@@ -30,7 +30,7 @@
 </head>
 
 <body class="bg-white font-['Montserrat']">
-    <!-- Header (Consistent with index.html) -->
+    <!-- Header -->
     <header class="bg-white py-4 shadow-sm sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
             <a href="index.html" class="flex-shrink-0">
@@ -66,13 +66,21 @@
             </div>
 
             <div class="flex items-center gap-4">
+                <!-- Mobile Search Icon -->
+                <button id="mobile-search-btn" class="md:hidden p-2 text-gray-700 hover:text-delphi-cyan transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </button>
                 <button id="cart-icon-btn" class="hover:text-delphi-blue relative p-1 group">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                     </svg>
                     <span id="cart-count-badge" class="absolute -top-1 -right-1 bg-delphi-pink text-white text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center border-2 border-white hidden">0</span>
                 </button>
-                <a href="contact.html" class="bg-delphi-cyan text-white px-5 py-2 rounded-full font-bold text-sm shadow-md hover:bg-cyan-600 transition">Contact Us</a>
+                <a href="contact.html" class="bg-delphi-cyan text-white px-5 py-2 rounded-full font-bold text-sm shadow-md hover:bg-cyan-600 transition tracking-wide hidden sm:block">Contact Us</a>
             </div>
         </div>
     </header>
@@ -203,6 +211,35 @@
             <p class="text-gray-400 text-sm">&copy; 2026 Delphi Graphics. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Mobile Search Overlay -->
+    <div id="mobile-search-overlay" class="fixed inset-0 bg-white z-[200] transform translate-y-full transition-transform duration-300 md:hidden">
+        <div class="p-6">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl font-bold text-gray-900">Search Services</h2>
+                <button id="close-mobile-search" class="p-2 text-gray-400 hover:text-gray-900 rounded-full hover:bg-gray-100 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="relative items-center flex mb-6">
+                <input type="text" id="mobile-search-input" placeholder="What are you looking for?"
+                    class="w-full bg-gray-100 border-none rounded-2xl py-4 px-6 pl-12 focus:ring-2 focus:ring-delphi-cyan/30 transition-all outline-none text-lg"
+                    autocomplete="off">
+                <div class="absolute left-4 text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </div>
+            </div>
+            <div id="mobile-search-results" class="space-y-4">
+                <!-- Mobile search results will go here -->
+            </div>
+        </div>
+    </div>
 
     <!-- Cart Drawer (Common) -->
     <div id="cart-drawer" class="fixed top-0 right-0 h-full w-full sm:w-96 bg-white shadow-2xl z-[150] transform translate-x-full transition-transform duration-300 flex flex-col">

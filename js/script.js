@@ -250,6 +250,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
     const searchResultsList = document.getElementById('search-results-list');
+    
+    // Mobile Search Elements
+    const mobileSearchBtn = document.getElementById('mobile-search-btn');
+    const mobileSearchOverlay = document.getElementById('mobile-search-overlay');
+    const closeMobileSearch = document.getElementById('close-mobile-search');
+    const mobileSearchInput = document.getElementById('mobile-search-input');
+    const mobileSearchResults = document.getElementById('mobile-search-results');
+    
     let servicesData = null;
     let searchTimeout = null;
 
@@ -265,12 +273,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function showResults(results) {
-        if (!searchResultsList) return;
-        searchResultsList.innerHTML = '';
+    function showResults(results, container, isMobile = false) {
+        if (!container) return;
+        container.innerHTML = '';
         
         if (results.length === 0) {
-            searchResultsList.innerHTML = `
+            container.innerHTML = `
                 <div class="p-8 text-center text-gray-400">
                     <p class="text-sm">No services found matching your search.</p>
                 </div>
@@ -278,9 +286,14 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             results.forEach(result => {
                 const item = document.createElement('div');
-                item.className = 'p-3 hover:bg-gray-50 cursor-pointer transition-colors flex items-center gap-4 border-b border-gray-50 last:border-none';
+                if (isMobile) {
+                    item.className = 'p-4 bg-gray-50 rounded-2xl flex items-center gap-4 active:bg-gray-100 transition-colors';
+                } else {
+                    item.className = 'p-3 hover:bg-gray-50 cursor-pointer transition-colors flex items-center gap-4 border-b border-gray-50 last:border-none';
+                }
+                
                 item.innerHTML = `
-                    <div class="w-10 h-10 rounded-lg bg-gray-100 flex-shrink-0 overflow-hidden">
+                    <div class="w-12 h-12 rounded-xl bg-white border border-gray-100 flex-shrink-0 overflow-hidden">
                         <img src="${result.data.image}" alt="${result.data.title}" class="w-full h-full object-cover">
                     </div>
                     <div class="flex-grow">
@@ -291,27 +304,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 item.onclick = () => {
                     window.location.href = `service-detail.html?item=${result.id}`;
                 };
-                searchResultsList.appendChild(item);
+                container.appendChild(item);
             });
         }
         
-        searchResults.classList.remove('hidden');
+        if (!isMobile) searchResults.classList.remove('hidden');
     }
 
+    // Desktop Search Input
     if (searchInput) {
         searchInput.addEventListener('input', async (e) => {
             const query = e.target.value.toLowerCase().trim();
-            
             clearTimeout(searchTimeout);
             if (query.length < 2) {
                 searchResults.classList.add('hidden');
                 return;
             }
-
             searchTimeout = setTimeout(async () => {
                 const data = await fetchServices();
                 if (!data) return;
-
                 const results = Object.entries(data)
                     .filter(([id, service]) => 
                         service.title.toLowerCase().includes(query) ||
@@ -319,24 +330,63 @@ document.addEventListener('DOMContentLoaded', () => {
                         (service.tagline && service.tagline.toLowerCase().includes(query))
                     )
                     .map(([id, service]) => ({ id, data: service }))
-                    .slice(0, 6); // Limit to top 6 results
-
-                showResults(results);
+                    .slice(0, 6);
+                showResults(results, searchResultsList);
             }, 300);
         });
 
-        // Close results when clicking outside
         document.addEventListener('click', (e) => {
             if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
                 searchResults.classList.add('hidden');
             }
         });
 
-        // Show results back if input focused and has content
         searchInput.addEventListener('focus', () => {
             if (searchInput.value.trim().length >= 2 && searchResultsList.children.length > 0) {
                 searchResults.classList.remove('hidden');
             }
+        });
+    }
+
+    // Mobile Search Overlay Logic
+    if (mobileSearchBtn && mobileSearchOverlay) {
+        mobileSearchBtn.addEventListener('click', () => {
+            mobileSearchOverlay.classList.remove('translate-y-full');
+            mobileSearchOverlay.classList.add('translate-y-0');
+            document.body.style.overflow = 'hidden'; // Prevent background scroll
+            setTimeout(() => mobileSearchInput?.focus(), 300);
+        });
+
+        closeMobileSearch?.addEventListener('click', () => {
+            mobileSearchOverlay.classList.remove('translate-y-0');
+            mobileSearchOverlay.classList.add('translate-y-full');
+            document.body.style.overflow = ''; // Restore scroll
+        });
+    }
+
+    if (mobileSearchInput) {
+        mobileSearchInput.addEventListener('input', async (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            clearTimeout(searchTimeout);
+            
+            if (query.length < 2) {
+                if (mobileSearchResults) mobileSearchResults.innerHTML = '';
+                return;
+            }
+
+            searchTimeout = setTimeout(async () => {
+                const data = await fetchServices();
+                if (!data) return;
+                const results = Object.entries(data)
+                    .filter(([id, service]) => 
+                        service.title.toLowerCase().includes(query) ||
+                        service.category.toLowerCase().includes(query) ||
+                        (service.tagline && service.tagline.toLowerCase().includes(query))
+                    )
+                    .map(([id, service]) => ({ id, data: service }))
+                    .slice(0, 10); // Show more on mobile scrollable list
+                showResults(results, mobileSearchResults, true);
+            }, 300);
         });
     }
 });
