@@ -120,22 +120,31 @@
                 const location = document.getElementById('location').value;
                 const notes = document.getElementById('notes').value;
                 
-                // Build Message
-                let message = `*DELPHI GRAPHICS - NEW ORDER*%0A`;
-                message += `---------------------------%0A`;
-                message += `*Customer:* ${name}%0A`;
-                message += `*Phone:* ${phone}%0A`;
-                message += `*Location:* ${location}%0A%0A`;
+                // Build Professional WhatsApp Message
+                let message = `🚀 *NEW ORDER - DELPHI GRAPHICS*\n`;
+                message += `---------------------------\n\n`;
                 
-                message += `*ITEMS:*%0A`;
+                message += `👤 *CUSTOMER DETAILS*\n`;
+                message += `Name: ${name}\n`;
+                message += `Phone: ${phone}\n`;
+                message += `📍 Delivery: ${location}\n\n`;
+                
+                message += `🛒 *ORDER SUMMARY*\n`;
                 cartItems.forEach(item => {
-                    message += `• ${item.quantity}x ${item.title} - KSh ${(parseInt(item.price.replace(/[^\d]/g, '')) * item.quantity).toLocaleString()}%0A`;
+                    const price = (parseInt(item.price.replace(/[^\d]/g, '')) * item.quantity).toLocaleString();
+                    message += `• ${item.quantity}x ${item.title} - KSh ${price}\n`;
                 });
                 
-                message += `%0A*TOTAL: KSh ${total.toLocaleString()}*%0A%0A`;
-                if (notes) message += `*NOTES:* ${notes}%0A`;
-                message += `---------------------------%0A`;
-                message += `_This order was generated from your website._`;
+                message += `\n💰 *TOTAL AMOUNT: KSh ${total.toLocaleString()}*\n`;
+                message += `💳 *PAYMENT:* Discuss via WhatsApp\n\n`;
+                
+                if (notes) {
+                    message += `📝 *SPECIAL NOTES*\n`;
+                    message += `${notes}\n\n`;
+                }
+                
+                message += `---------------------------\n`;
+                message += `_Generated from delphi-graphics web_`;
 
                 const waLink = `https://wa.me/254720069883?text=${encodeURIComponent(message)}`;
                 
