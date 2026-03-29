@@ -137,7 +137,7 @@
                 message += `---------------------------%0A`;
                 message += `_This order was generated from your website._`;
 
-                const waLink = `https://wa.me/25420069883?text=${message}`;
+                const waLink = `https://wa.me/254720069883?text=${encodeURIComponent(message)}`;
                 
                 // Clear cart
                 localStorage.removeItem('delphi_cart');
