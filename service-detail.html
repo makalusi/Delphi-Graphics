@@ -157,6 +157,23 @@
                             Loading detailed description...
                         </p>
                     </div>
+
+                    <!-- Previous Work Gallery -->
+                    <div class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 overflow-hidden relative" id="gallery-container">
+                        <h3 class="text-2xl font-bold mb-6 text-gray-900">Previous Work & Examples</h3>
+                        
+                        <!-- Slider container -->
+                        <div id="gallery-slider" class="relative w-full cursor-grab overflow-hidden rounded-2xl touch-pan-y" style="touch-action: pan-y;">
+                            <!-- Draggable track -->
+                            <div id="gallery-track" class="flex gap-6 w-max" style="will-change: transform;">
+                                <!-- Images injected via JS -->
+                            </div>
+                        </div>
+
+                        <!-- Gradient overlays for smooth fading edges -->
+                        <div class="absolute top-[80px] bottom-8 left-8 md:left-12 w-16 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none rounded-l-2xl"></div>
+                        <div class="absolute top-[80px] bottom-8 right-8 md:right-12 w-16 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none rounded-r-2xl"></div>
+                    </div>
                 </div>
 
                 <!-- Sidebar / CTA -->
@@ -318,6 +335,130 @@
                     `;
                     featuresContainer.appendChild(div);
                 });
+
+                // Gallery Initialization
+                const galleryTrack = document.getElementById('gallery-track');
+                const galleryContainer = document.getElementById('gallery-container');
+                const gallerySlider = document.getElementById('gallery-slider');
+                
+                if (galleryTrack && gallerySlider) {
+                    // Use product gallery or fallback to placeholders
+                    const images = product.gallery && product.gallery.length > 0 
+                        ? product.gallery 
+                        : [
+                            './assets/service-placeholder.jpg',
+                            './assets/service-placeholder.jpg',
+                            './assets/service-placeholder.jpg',
+                            './assets/service-placeholder.jpg',
+                            './assets/service-placeholder.jpg'
+                        ];
+
+                    // Make sure we have enough slides to loop (duplicate if needed)
+                    // We duplicate the array to ensure seamless infinite scroll
+                    const displayImages = [...images, ...images, ...images]; 
+
+                    // Inject slides
+                    galleryTrack.innerHTML = '';
+                    displayImages.forEach(src => {
+                        const slide = document.createElement('div');
+                        slide.className = 'w-64 md:w-80 flex-shrink-0 aspect-[4/3] rounded-2xl overflow-hidden shadow-md border border-gray-100 select-none';
+                        slide.innerHTML = `<img src="${src}" alt="Previous Work" loading="lazy" class="w-full h-full object-cover select-none pointer-events-none hover:scale-105 transition-transform duration-500">`;
+                        galleryTrack.appendChild(slide);
+                    });
+
+                    // Animation & Interaction Logic
+                    let isDown = false;
+                    let startX;
+                    let currentX = 0; // Current translation
+                    let previousX = 0; // Mouse anchor
+                    let isHovered = false;
+                    let animationId;
+                    const speed = 1; // Pixels per frame
+                    
+                    let trackWidth = 0;
+                    
+                    // Wait for layout to measure width correctly
+                    setTimeout(() => {
+                        // The scroll width divided by 3 since we duplicated the array twice
+                        trackWidth = galleryTrack.scrollWidth / 3;
+                        animate();
+                    }, 100);
+
+                    function animate() {
+                        if (!isDown && !isHovered) {
+                            currentX -= speed;
+                        }
+                        
+                        // Seamless loop reset
+                        if (currentX <= -trackWidth) {
+                            currentX += trackWidth; 
+                        } else if (currentX > 0) {
+                            currentX -= trackWidth;
+                        }
+                        
+                        galleryTrack.style.transform = `translate3d(${currentX}px, 0, 0)`;
+                        animationId = requestAnimationFrame(animate);
+                    }
+
+                    // Hover Pause
+                    gallerySlider.addEventListener('mouseenter', () => isHovered = true);
+                    gallerySlider.addEventListener('mouseleave', () => {
+                        isHovered = false;
+                        if(isDown) {
+                            isDown = false;
+                            gallerySlider.classList.remove('cursor-grabbing');
+                            gallerySlider.classList.add('cursor-grab');
+                        }
+                    });
+
+                    // Mouse Events
+                    gallerySlider.addEventListener('mousedown', (e) => {
+                        isDown = true;
+                        isHovered = true; // Act as paused while dragging
+                        gallerySlider.classList.add('cursor-grabbing');
+                        gallerySlider.classList.remove('cursor-grab');
+                        startX = e.pageX;
+                        previousX = currentX;
+                        cancelAnimationFrame(animationId);
+                        animationId = requestAnimationFrame(animate); // Keep loop alive but speed logic handles movement
+                    });
+
+                    gallerySlider.addEventListener('mouseup', () => {
+                        isDown = false;
+                        gallerySlider.classList.remove('cursor-grabbing');
+                        gallerySlider.classList.add('cursor-grab');
+                    });
+
+                    gallerySlider.addEventListener('mousemove', (e) => {
+                        if (!isDown) return;
+                        e.preventDefault();
+                        const x = e.pageX;
+                        const walk = (x - startX) * 1.5; // Drag sensitivity
+                        currentX = previousX + walk;
+                        galleryTrack.style.transform = `translate3d(${currentX}px, 0, 0)`;
+                    });
+
+                    // Touch Events
+                    gallerySlider.addEventListener('touchstart', (e) => {
+                        isDown = true;
+                        startX = e.touches[0].pageX;
+                        previousX = currentX;
+                        cancelAnimationFrame(animationId);
+                        animationId = requestAnimationFrame(animate);
+                    }, { passive: true });
+
+                    gallerySlider.addEventListener('touchend', () => {
+                        isDown = false;
+                    });
+
+                    gallerySlider.addEventListener('touchmove', (e) => {
+                        if (!isDown) return;
+                        const x = e.touches[0].pageX;
+                        const walk = (x - startX) * 1.5;
+                        currentX = previousX + walk;
+                        galleryTrack.style.transform = `translate3d(${currentX}px, 0, 0)`;
+                    }, { passive: true });
+                }
 
                 // Similar Products
                 const similarContainer = document.getElementById('similar-services-container');
