@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delphi Graphics</title>
+    <link rel="icon" type="image/jpeg" href="./assets/delphi logo.jpg">
+    <meta name="description"
+        content="Delphi Graphics Official - Your premium destination for branding, design, and personalized printing services in Kenya. High quality and fast turnaround.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-50">
+
+
+
+    <!-- Left Sidebar -->
+    <div id="left-sidebar"
+        class="fixed left-0 top-0 h-full z-[100] flex flex-col items-center py-6 w-20 bg-transparent transition-all duration-300 hover:w-80 group/sidebar">
+        <!-- Sidebar Background (White panel that expands) -->
+        <div
+            class="absolute inset-0 bg-white shadow-2xl transform -translate-x-full transition-transform duration-300 group-hover/sidebar:translate-x-0 -z-10">
+        </div>
+
+        <!-- Menu Toggle (Always visible) -->
+        <div class="flex items-center gap-4 w-full px-4 mb-8 cursor-pointer group/toggle">
+            <div
+                class="w-12 h-12 rounded-full bg-[#2563eb] text-white flex-shrink-0 flex items-center justify-center shadow-lg z-20">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+            <!-- Content shown on hover/expand -->
+            <div
+                class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-bold text-lg">
+                What we offer
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-4 w-full px-4 scrollbar-hide flex-grow pb-8">
+            <!-- 1. Design & Branding -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.53 16.122l9.37-9.37a2.121 2.121 0 113 3l-9.37 9.37a4.5 4.5 0 01-1.87 1.06l-4.102 1.025 1.025-4.102a4.5 4.5 0 011.06-1.87z" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Design
+                    & Branding</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Design & Branding</div>
+                    <a href="service-detail.html?item=logo-designs" class="fly-link">Logo Designs</a>
+                    <a href="service-detail.html?item=banner---billboard-design" class="fly-link">Banner / Billboard
+                        Design</a>
+                    <a href="service-detail.html?item=corporate-identity" class="fly-link">Corporate Identity</a>
+                    <a href="service-detail.html?item=label-design" class="fly-link">Label Design</a>
+                </div>
+            </div>
+            <!-- 2. Printing Services -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-accent-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L17.5 12.5M12 21V3" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Printing
+                    Services</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Printing Services</div>
+                    <a href="service-detail.html?item=business-cards" class="fly-link">Business Cards</a>
+                    <a href="service-detail.html?item=letterheads" class="fly-link">Letterheads</a>
+                    <a href="service-detail.html?item=envelopes" class="fly-link">Envelopes</a>
+                    <a href="service-detail.html?item=notebooks" class="fly-link">Notebooks</a>
+                    <a href="service-detail.html?item=wedding-cards" class="fly-link">Wedding Cards</a>
+                    <a href="service-detail.html?item=flyers" class="fly-link">Flyers</a>
+                    <a href="service-detail.html?item=brochures" class="fly-link">Brochures</a>
+                    <a href="service-detail.html?item=restaurant-menus" class="fly-link">Restaurant Menus</a>
+                    <a href="service-detail.html?item=calendars" class="fly-link">Calendars</a>
+                    <a href="service-detail.html?item=sticker-cutting" class="fly-link">Sticker Cutting</a>
+                </div>
+            </div>
+            <!-- 3. Apparel Branding -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Apparel
+                    Branding</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Apparel Branding</div>
+                    <a href="service-detail.html?item=t-shirts" class="fly-link">T-Shirts</a>
+                    <a href="service-detail.html?item=staff-uniforms" class="fly-link">Staff Uniforms</a>
+                    <a href="service-detail.html?item=printed-caps" class="fly-link">Printed Caps</a>
+                    <a href="service-detail.html?item=coveralls" class="fly-link">Coveralls</a>
+                    </div>
+            </div>
+            <!-- 4. Promotional Merchandise -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-accent-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Promotional
+                    Merchandise</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Promotional Merchandise</div>
+                    <a href="service-detail.html?item=pens" class="fly-link">Pens</a>
+                    <a href="service-detail.html?item=usb-printing" class="fly-link">USB Printing</a>
+                    <a href="service-detail.html?item=mouse-pads" class="fly-link">Mouse Pads</a>
+                    <a href="service-detail.html?item=custom-keychains" class="fly-link">Custom Keychains</a>
+                    <a href="service-detail.html?item=wall-clocks" class="fly-link">Wall Clocks</a>
+                    <a href="service-detail.html?item=wristbands" class="fly-link">Wristbands</a>
+                    <a href="service-detail.html?item=lanyards" class="fly-link">Lanyards</a>
+                </div>
+            </div>
+            <!-- 5. Signage & Displays -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.062.51.115.77.16m-1.01-9.34c.253-.062.51-.115.77-.16m1.01 9.5a11.96 11.96 0 01-4.45 2.18 11.984 11.984 0 01-6.57-2.18m11.02-9.5c.253.062.51.115.77.16m1.01 9.5c.253.062.51.115.77.16m1.01-9.5a11.96 11.96 0 011.61 9.5m-1.61-9.5c.253-.062.51-.115.77-.16" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Signage
+                    & Displays</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Signage & Displays</div>
+                    <a href="service-detail.html?item=banners" class="fly-link">Banners</a>
+                    <a href="service-detail.html?item=roll-up-stands" class="fly-link">Roll-up Stands</a>
+                    <a href="service-detail.html?item=canvas-printing" class="fly-link">Canvas Printing</a>
+                    <a href="service-detail.html?item=acrylic-name-boards" class="fly-link">Acrylic Name Boards</a>
+                    <a href="service-detail.html?item=acrylic-safety-signs" class="fly-link">Acrylic Safety Signs</a>
+                    <a href="service-detail.html?item=display-stands" class="fly-link">Display Stands</a>
+                </div>
+            </div>
+            <!-- 6. Event Branding -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-accent-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732V4.5l-3.114.732a9 9 0 01-6.086-.71l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Event
+                    Branding</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Event Branding</div>
+                    <a href="service-detail.html?item=beach-flags" class="fly-link">Beach Flags</a>
+                    <a href="service-detail.html?item=tabletop-flags" class="fly-link">Tabletop Flags</a>
+                    <a href="service-detail.html?item=street-pole-flags" class="fly-link">Street Pole Flags</a>
+                    <a href="service-detail.html?item=bunting---string-flags" class="fly-link">Bunting / String
+                        Flags</a>
+                    <a href="service-detail.html?item=promotional-tents" class="fly-link">Promotional Tents</a>
+                    </div>
+            </div>
+            <!-- 7. Packaging Solutions -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Packaging
+                    Solutions</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Packaging Solutions</div>
+                    <a href="service-detail.html?item=gift-boxes" class="fly-link">Gift Boxes</a>
+                    <a href="service-detail.html?item=food-packaging" class="fly-link">Food Packaging</a>
+                    <a href="service-detail.html?item=perfume-boxes" class="fly-link">Perfume Boxes</a>
+                    <a href="service-detail.html?item=corrugated-boxes" class="fly-link">Corrugated Boxes</a>
+                    <a href="service-detail.html?item=product-labels" class="fly-link">Product Labels</a>
+                    <a href="service-detail.html?item=wrapping-paper" class="fly-link">Wrapping Paper</a>
+                </div>
+            </div>
+            <!-- 8. Corporate Supplies -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-accent-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.375a3 3 0 013-3h15a3 3 0 013 3m-18 0v6.75a3 3 0 003 3h15a3 3 0 003-3V13.875M9 7.5a3 3 0 116 0v1.5H9V7.5z" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Corporate
+                    Supplies</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Corporate Supplies</div>
+                    <a href="service-detail.html?item=id-cards-and-lanyards" class="fly-link">ID Cards & Lanyards</a>
+                    <a href="service-detail.html?item=name-badges" class="fly-link">Name Badges</a>
+                    <a href="service-detail.html?item=branded-stationery" class="fly-link">Branded Stationery</a>
+                    <a href="service-detail.html?item=company-seals---stamps" class="fly-link">Company Seals /
+                        Stamps</a>
+                    <a href="service-detail.html?item=letterheads" class="fly-link">Letterheads</a>
+                    <a href="service-detail.html?item=envelopes" class="fly-link">Envelopes</a>
+                    <a href="service-detail.html?item=folders" class="fly-link">Folders</a>
+                    <a href="service-detail.html?item=notebooks" class="fly-link">Notebooks</a>
+                    </div>
+            </div>
+            <!-- 9. Specialized Services -->
+            <div class="flex items-center gap-4 cursor-pointer group/cat relative py-1">
+                <div
+                    class="w-12 h-12 rounded-full bg-delphi-gradient text-white flex-shrink-0 flex items-center justify-center shadow-xl group-hover/cat:scale-110 group-hover/cat:rotate-12 transition-all duration-300 z-20 border-2 border-white/20 shadow-lg hover:shadow-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+                    </svg>
+                </div>
+                <span
+                    class="opacity-0 group-hover/sidebar:opacity-100 transition-opacity duration-300 whitespace-nowrap text-gray-700 font-medium">Specialized
+                    Services</span>
+                <div class="flyout-panel">
+                    <div class="fly-title">Specialized Services</div>
+                    <a href="service-detail.html?item=large-format-printing" class="fly-link">Large Format Printing</a>
+                    <a href="service-detail.html?item=vehicle-branding" class="fly-link">Vehicle Branding</a>
+                    <a href="service-detail.html?item=laser-engraving" class="fly-link">Laser Engraving</a>
+                    <a href="service-detail.html?item=asset-tagging" class="fly-link">Asset Tagging</a>
+                    <a href="service-detail.html?item=reflective-stickers" class="fly-link">Reflective Stickers</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Focus Overlay (Placed after sidebar for CSS sibling selector to work) -->
+    <div id="sidebar-overlay"
+        class="fixed inset-0 bg-black/50 z-[90] opacity-0 pointer-events-none transition-opacity duration-300"></div>
+
+    <!-- Header -->
+    <header class="bg-white py-4 shadow-sm relative z-50 mb-8 sticky top-0">
+        <div class="main-container px-4 flex items-center justify-between gap-4">
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-toggle" class="md:hidden text-gray-700 hover:text-delphi-blue p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+
+            <!-- Left Side: Logo & Top Nav -->
+            <div class="flex items-center gap-6 md:gap-10">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <img src="./assets/delphi logo.jpg" alt="Delphi Graphics" class="h-10 md:h-12">
+                </div>
+                <!-- Top Main Navigation -->
+                <nav class="hidden lg:flex items-center font-bold text-gray-600 uppercase tracking-widest text-[10px] bg-gray-100/80 backdrop-blur-md border border-gray-200/60 rounded-full p-1 shadow-inner">
+                    <a href="index.html" class="bg-white text-delphi-cyan shadow-sm rounded-full px-5 py-2 transition-all whitespace-nowrap">Home</a>
+                    <a href="about.html" class="hover:bg-white hover:text-delphi-cyan hover:shadow-sm rounded-full px-5 py-2 transition-all whitespace-nowrap">About Us</a>
+                    <a href="#categories-section" class="hover:bg-white hover:text-delphi-cyan hover:shadow-sm rounded-full px-5 py-2 transition-all whitespace-nowrap">Services</a>
+                </nav>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="flex-grow max-w-xl mx-8 relative group">
+                <div class="relative items-center hidden md:flex">
+                    <input type="text" id="search-input"
+                        placeholder="Search for services (e.g. business cards, banners...)"
+                        class="w-full bg-gray-100 border-none rounded-full py-2.5 px-6 pl-12 focus:ring-2 focus:ring-delphi-cyan/30 transition-all outline-none text-sm"
+                        autocomplete="off">
+                    <div class="absolute left-4 text-gray-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </div>
+                </div>
+                <!-- Search Results Dropdown -->
+                <div id="search-results"
+                    class="absolute top-full left-0 w-full bg-white mt-2 rounded-2xl shadow-2xl border border-gray-100 hidden z-50 overflow-hidden">
+                    <div class="p-4 text-xs font-bold text-gray-400 uppercase tracking-widest border-b border-gray-50">
+                        Top Results</div>
+                    <div id="search-results-list" class="max-h-[400px] overflow-y-auto">
+                        <!-- Dynamic results will be injected here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex items-center gap-3 md:gap-6 text-gray-700">
+                <!-- Mobile Search Icon -->
+                <button id="mobile-search-btn"
+                    class="md:hidden p-2 text-gray-700 hover:text-delphi-cyan transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </button>
+                <a href="https://wa.me/254720069883?text=Hi%20Delphi%20Graphics,%20I%20have%20an%20inquiry." target="_blank" class="hover:text-delphi-blue relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                    </svg>
+                </a>
+                <button id="cart-icon-btn" class="hover:text-delphi-blue relative p-1 group">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                    <span id="cart-count-badge"
+                        class="absolute -top-1 -right-1 bg-delphi-pink text-white text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center border-2 border-white hidden">0</span>
+                </button>
+                <a href="https://wa.me/254720069883?text=Hi%20Delphi%20Graphics,%20I%20have%20an%20inquiry." target="_blank"
+                    class="bg-delphi-cyan text-white px-3 md:px-4 py-2 rounded-full flex items-center gap-2 text-sm font-medium hover:bg-cyan-600 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                    <div class="text-left hidden md:block">
+                        <div class="text-[10px] uppercase">Contact Us</div>
+                        <div class="text-xs">+254 720069883</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Mobile Top Main Navigation -->
+        <div class="lg:hidden main-container px-4 mt-3 flex justify-center pb-2">
+            <nav class="flex w-full items-center justify-center overflow-x-auto font-bold text-gray-600 uppercase tracking-widest text-[9px] sm:text-[10px] bg-gray-100/80 backdrop-blur-md border border-gray-200/60 rounded-full p-1 shadow-inner scrollbar-hide">
+                <a href="index.html" class="bg-white text-delphi-cyan shadow-sm rounded-full px-4 sm:px-6 py-2 transition-all whitespace-nowrap">Home</a>
+                <a href="about.html" class="hover:bg-white hover:text-delphi-cyan hover:shadow-sm rounded-full px-4 sm:px-6 py-2 transition-all whitespace-nowrap">About Us</a>
+                <a href="#categories-section" class="hover:bg-white hover:text-delphi-cyan hover:shadow-sm rounded-full px-4 sm:px-6 py-2 transition-all whitespace-nowrap">Services</a>
+            </nav>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="main-container px-4 mt-4 hidden md:block">
+            <nav
+                class="bg-gray-100 rounded-full px-8 py-3.5 flex items-center justify-between text-[10px] lg:text-sm font-bold text-gray-600 tracking-wide uppercase overflow-x-auto gap-6 scrollbar-hide border border-gray-200 shadow-sm">
+                <a href="service-detail.html?item=business-cards" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Business cards</a>
+                <a href="#categories-section" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Post & print Advertising</a>
+                <a href="#collections-section" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Sign, Banners & Posters</a>
+                <a href="service-detail.html?item=sticker-cutting" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Stickers & Labels</a>
+                <a href="service-detail.html?item=t-shirts" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Clothing & Bags</a>
+                <a href="#seasonal-section" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Promotional Products</a>
+                <a href="#seasonal-section" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Calendars & Gifts</a>
+                <a href="service-detail.html?item=wedding-cards" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Invitations & Wedding</a>
+                <a href="#categories-section" class="hover:text-delphi-cyan transition-colors whitespace-nowrap">Design Services</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="main-container px-4">
+        <div
+            class="relative rounded-[40px] overflow-hidden bg-[#0a0a0a] min-h-[500px] md:min-h-[600px] flex items-center shadow-2xl group/hero">
+            <!-- Dynamic Background Elements -->
+            <div class="absolute inset-0 z-0">
+                <div
+                    class="absolute top-[-10%] right-[-10%] w-[50%] h-[70%] bg-delphi-cyan/20 blur-[120px] rounded-full animate-pulse">
+                </div>
+                <div class="absolute bottom-[-10%] left-[-10%] w-[40%] h-[60%] bg-delphi-pink/10 blur-[100px] rounded-full animate-pulse"
+                    style="animation-delay: 2s;"></div>
+                <div class="absolute inset-0 bg-gradient-to-br from-black via-black/90 to-transparent"></div>
+            </div>
+
+            <div class="relative z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center px-8 md:px-16 py-12">
+                <!-- Text Content -->
+                <div class="space-y-8 text-center lg:text-left">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md text-delphi-cyan text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] animate-fade-in-down">
+                        <span class="w-2 h-2 rounded-full bg-delphi-cyan animate-ping"></span>
+                        Premium Printing & Design Studio
+                    </div>
+
+                    <div class="space-y-4">
+                        <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] tracking-tight">
+                            Build Your Brand <br />
+                            <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-delphi-cyan via-white to-delphi-pink">With
+                                Perfection.</span>
+                        </h1>
+                        <p
+                            class="text-gray-400 text-lg md:text-xl max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
+                            Elevate your business with state-of-the-art designs and high-quality prints. From vision to
+                            reality, we craft materials that drive results.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#categories-section"
+                            class="w-full sm:w-auto px-10 py-5 bg-white text-black font-bold rounded-full hover:bg-delphi-cyan hover:text-white transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(255,255,255,0.2)] text-center">
+                            Browse Products
+                        </a>
+                        <a href="https://wa.me/254720069883?text=Hi,%20I%20would%20like%20to%20get%20a%20custom%20quote%20for%20a%20project." target="_blank"
+                            class="w-full sm:w-auto px-10 py-5 bg-transparent text-white font-bold rounded-full border border-white/20 hover:bg-white/5 transition-all duration-300 text-center">
+                            Get a Quote
+                        </a>
+                    </div>
+
+                    <div class="flex items-center justify-center lg:justify-start gap-8 pt-8 border-t border-white/5">
+                        <div class="text-center lg:text-left">
+                            <div class="text-2xl font-bold text-white">5K+</div>
+                            <div class="text-xs text-gray-500 uppercase tracking-widest">Happy Clients</div>
+                        </div>
+                        <div class="h-8 w-px bg-white/10"></div>
+                        <div class="text-center lg:text-left">
+                            <div class="text-2xl font-bold text-white">15+</div>
+                            <div class="text-xs text-gray-500 uppercase tracking-widest">Years Exp.</div>
+                        </div>
+                        <div class="h-8 w-px bg-white/10"></div>
+                        <div class="text-center lg:text-left">
+                            <div class="text-2xl font-bold text-white">4.9/5</div>
+                            <div class="text-xs text-gray-500 uppercase tracking-widest">Client Rating</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visual Element -->
+                <div class="relative hidden lg:block">
+                    <div class="absolute inset-0 bg-delphi-cyan/5 rounded-[40px] blur-3xl transform rotate-6"></div>
+                    <div
+                        class="relative bg-white/5 backdrop-blur-sm border border-white/10 p-4 md:p-8 rounded-[40px] shadow-2xl transition-all duration-700 group-hover/hero:scale-[1.02]">
+                        <!-- Slideshow Container -->
+                        <div id="hero-slideshow"
+                            class="relative rounded-2xl md:rounded-[32px] overflow-hidden bg-gray-100">
+                            <div class="slides-wrapper relative aspect-[4/3]">
+                                <img src="./assets/banner images-01.png" alt="Banner 1"
+                                    class="hero-slide active w-full h-full object-contain">
+                                <img src="./assets/banner images-02.png" alt="Banner 2"
+                                    class="hero-slide w-full h-full object-contain">
+                                <img src="./assets/banner images-03.png" alt="Banner 3"
+                                    class="hero-slide w-full h-full object-contain">
+                                <img src="./assets/banner images-04.png" alt="Banner 4"
+                                    class="hero-slide w-full h-full object-contain">
+                                <img src="./assets/banner images-05.png" alt="Banner 5"
+                                    class="hero-slide w-full h-full object-contain">
+                            </div>
+
+                            <!-- Navigation Arrows -->
+                            <button id="hero-prev"
+                                class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 19l-7-7 7-7"></path>
+                                </svg>
+                            </button>
+                            <button id="hero-next"
+                                class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 backdrop-blur-md text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity z-20">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </button>
+
+                            <!-- Dots -->
+                            <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+                                <div class="hero-dot active" data-index="0"></div>
+                                <div class="hero-dot" data-index="1"></div>
+                                <div class="hero-dot" data-index="2"></div>
+                                <div class="hero-dot" data-index="3"></div>
+                                <div class="hero-dot" data-index="4"></div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge -->
+                        <div
+                            class="absolute -top-6 -right-6 bg-delphi-pink text-white p-6 rounded-2xl shadow-xl transform -rotate-12 animate-bounce-slow z-30 pointer-events-none">
+                            <div class="text-sm font-bold uppercase tracking-widest">New Arrival</div>
+                            <div class="text-2xl font-black">20% OFF</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Banners -->
+    <div class="main-container px-4 mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div
+            class="bg-delphi-pink rounded-2xl p-6 text-white text-center shadow-lg transform transition-transform hover:scale-[1.02]">
+            <div class="text-2xl font-bold mb-1">Business Stationery</div>
+            <div class="text-sm opacity-90">Cards, letterheads, and envelopes that make a statement</div>
+        </div>
+        <div
+            class="bg-delphi-yellow rounded-2xl p-6 text-white text-center shadow-lg transform transition-transform hover:scale-[1.02]">
+            <div class="text-2xl font-bold mb-1">Custom Apparel</div>
+            <div class="text-sm opacity-90">High-quality t-shirts, hoodies, and hats for your team</div>
+        </div>
+        <div
+            class="bg-delphi-cyan rounded-2xl p-6 text-white text-center shadow-lg transform transition-transform hover:scale-[1.02]">
+            <div class="text-2xl font-bold mb-1">Marketing Materials</div>
+            <div class="text-sm opacity-90">Flyers, brochures, and banners to grow your brand</div>
+        </div>
+    </div>
+
+    <!-- Trust Signals: Partners -->
+    <div class="main-container px-4 mt-20">
+        <div class="text-center space-y-4 mb-12">
+            <span class="text-delphi-pink font-bold uppercase tracking-[0.2em] text-xs">Trust & Quality</span>
+            <h3 class="text-3xl font-bold text-gray-900 italic">Trusted by Leading Brands</h3>
+            <div class="w-20 h-1 bg-delphi-cyan mx-auto rounded-full"></div>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-12 md:gap-24 transition-all duration-700">
+            <img src="./assets/patners logos/partners-01.png" alt="Partner Logo"
+                class="h-16 md:h-20 w-auto object-contain hover:scale-110 transition-transform">
+            <img src="./assets/patners logos/partners-02.png" alt="Partner Logo"
+                class="h-16 md:h-20 w-auto object-contain hover:scale-110 transition-transform">
+            <img src="./assets/patners logos/partners-03.png" alt="Partner Logo"
+                class="h-16 md:h-20 w-auto object-contain hover:scale-110 transition-transform">
+            <img src="./assets/patners logos/partners-04.png" alt="Partner Logo"
+                class="h-16 md:h-20 w-auto object-contain hover:scale-110 transition-transform">
+            <img src="./assets/patners logos/partners-05.png" alt="Partner Logo"
+                class="h-16 md:h-20 w-auto object-contain hover:scale-110 transition-transform">
+        </div>
+    </div>
+
+    <!-- Why Choose Us -->
+    <div class="main-container px-4 mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="premium-card p-8 space-y-4 border-t-4 border-delphi-cyan">
+            <div class="w-12 h-12 bg-delphi-cyan/10 rounded-xl flex items-center justify-center text-delphi-cyan">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+            </div>
+            <h4 class="text-xl font-bold">Fast Turnaround</h4>
+            <p class="text-gray-500 text-sm">Most orders are processed and ready within 24-48 hours. We value your time.
+            </p>
+        </div>
+        <div class="premium-card p-8 space-y-4 border-t-4 border-delphi-pink">
+            <div class="w-12 h-12 bg-delphi-pink/10 rounded-xl flex items-center justify-center text-delphi-pink">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                    </path>
+                </svg>
+            </div>
+            <h4 class="text-xl font-bold">Premium Quality</h4>
+            <p class="text-gray-500 text-sm">We use top-tier materials and cutting-edge technology for every single
+                print.</p>
+        </div>
+        <div class="premium-card p-8 space-y-4 border-t-4 border-delphi-yellow">
+            <div class="w-12 h-12 bg-delphi-yellow/10 rounded-xl flex items-center justify-center text-delphi-yellow">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                    </path>
+                </svg>
+            </div>
+            <h4 class="text-xl font-bold">Best Pricing</h4>
+            <p class="text-gray-500 text-sm">Get premium results at competitive market rates without compromising on
+                quality.</p>
+        </div>
+        <div class="premium-card p-8 space-y-4 border-t-4 border-blue-600">
+            <div class="w-12 h-12 bg-blue-600/10 rounded-xl flex items-center justify-center text-blue-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
+                    </path>
+                </svg>
+            </div>
+            <h4 class="text-xl font-bold">Expert Support</h4>
+            <p class="text-gray-500 text-sm">Our team of design experts is always ready to help you with your projects.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Special Offer Banner -->
+    <div class="main-container px-4 mt-24">
+        <div
+            class="bg-gradient-to-r from-delphi-pink to-delphi-yellow rounded-[32px] p-8 md:p-12 text-white flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl relative overflow-hidden">
+            <div
+                class="absolute top-0 right-0 w-32 h-32 bg-white/10 blur-3xl rounded-full translate-x-10 -translate-y-10">
+            </div>
+            <div class="space-y-2 text-center md:text-left relative z-10">
+                <div
+                    class="inline-block px-4 py-1 rounded-full bg-white/20 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest">
+                    Limited Time Offer</div>
+                <h3 class="text-3xl md:text-4xl font-black">SAVE 20% ON BULK PRINTING</h3>
+                <p class="text-white/80 font-medium">Order any 500+ items and get an instant discount at checkout.</p>
+            </div>
+            <a href="contact.html"
+                class="px-8 py-4 bg-white text-delphi-pink font-bold rounded-full hover:scale-105 transition-all shadow-xl whitespace-nowrap relative z-10">
+                Claim Discount Now </a>
+        </div>
+    </div>
+
+    <!-- Explore all categories -->
+    <div id="categories-section" class="main-container px-4 mt-24 relative group/section">
+        <div class="flex items-center justify-between mb-8">
+            <h3 class="text-2xl font-black text-gray-900 uppercase tracking-tight">Explore Categories</h3>
+            <a href="#"
+                class="text-delphi-cyan border-b-2 border-delphi-cyan font-bold text-xs uppercase tracking-widest hover:text-delphi-pink hover:border-delphi-pink transition-all">View
+                All</a>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="nav-button prev hidden md:flex" data-target="categories-carousel" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="nav-button next hidden md:flex" data-target="categories-carousel" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div id="categories-carousel" class="flex gap-8 overflow-x-auto scrollbar-hide scroll-smooth py-4">
+            <!-- Item 1 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/business card.jpg" alt="Business Cards"
+                        class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Business cards</span>
+            </a>
+            <!-- Item 2 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/sticker.jpg" alt="Stickers & Labels" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center max-w-[140px]">Stickers & Labels</span>
+            </a>
+            <!-- Item 3 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/bags.jpg" alt="Clothing & Bags" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Clothing & Bags</span>
+            </a>
+            <!-- Item 4 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/promotion items.jpg" alt="Promotional Products"
+                        class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Promotional Products</span>
+            </a>
+            <!-- Item 5-->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/wedding cards.jpg" alt="Invitation & Weddings"
+                        class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Invitation & Weddings</span>
+            </a>
+            <!-- Item 6 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/branding.jpg" alt="Branding" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Branding</span>
+            </a>
+            <!-- Item 7 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/bronchures.jpg" alt="Brochures" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Brochures</span>
+            </a>
+            <!-- Item 8 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./categorise imgs/packaging.jpg" alt="Packaging" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Packaging</span>
+            </a>
+            <!-- Item 9 -->
+            <a href="#" class="category-item group/item">
+                <div class="category-circle">
+                    <img src="./assets/banner images-01.png" alt="Banners" class="w-full h-full object-cover">
+                </div>
+                <span class="text-sm font-medium text-center">Banners</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Services Showcase -->
+    <div id="services-showcase" class="main-container px-4 mt-24">
+        <!-- Section Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+            <div>
+                <span class="text-delphi-pink font-bold uppercase tracking-[0.2em] text-xs">Everything We Offer</span>
+                <h3 class="text-4xl font-black text-gray-900 uppercase italic mt-2">Our Services</h3>
+                <div class="w-24 h-1.5 bg-delphi-cyan mt-3 rounded-full"></div>
+            </div>
+            <a href="#categories-section" class="text-delphi-cyan border-b-2 border-delphi-cyan font-bold text-xs uppercase tracking-widest hover:text-delphi-pink hover:border-delphi-pink transition-all whitespace-nowrap self-start md:self-auto pb-0.5">Browse All Categories →</a>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div id="service-filter-tabs" class="flex gap-2 overflow-x-auto scrollbar-hide pb-2 mb-8">
+            <button class="service-filter-btn active-filter" data-filter="all">All Services</button>
+            <button class="service-filter-btn" data-filter="Printing Services">Printing</button>
+            <button class="service-filter-btn" data-filter="Apparel Branding">Apparel</button>
+            <button class="service-filter-btn" data-filter="Signage &amp; Displays">Signage</button>
+            <button class="service-filter-btn" data-filter="Promotional Merchandise">Promotional</button>
+            <button class="service-filter-btn" data-filter="Event Branding">Events</button>
+            <button class="service-filter-btn" data-filter="Packaging Solutions">Packaging</button>
+            <button class="service-filter-btn" data-filter="Design &amp; Branding">Design</button>
+            <button class="service-filter-btn" data-filter="Corporate Supplies">Corporate</button>
+            <button class="service-filter-btn" data-filter="Specialized Services">Specialized</button>
+        </div>
+
+        <!-- Services Grid (populated by JS) -->
+        <div id="services-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
+            <!-- Cards injected dynamically -->
+        </div>
+
+        <!-- Load More -->
+        <div class="text-center mt-12" id="load-more-container">
+            <button id="load-more-btn" class="px-10 py-4 bg-white border-2 border-gray-200 text-gray-800 font-bold rounded-full hover:border-delphi-cyan hover:text-delphi-cyan transition-all duration-300 shadow-sm">
+                Load More Services
+            </button>
+            <p id="services-count-text" class="text-gray-400 text-xs mt-3 uppercase tracking-widest font-semibold"></p>
+        </div>
+    </div>
+
+    <!-- Shop by collection -->
+    <div id="collections-section" class="main-container px-4 mt-12 relative group/section">
+        <h3 class="text-xl font-bold mb-6">Shop by collection</h3>
+
+        <!-- Navigation Buttons -->
+        <button class="nav-button prev hidden md:flex" data-target="collection-carousel" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="nav-button next hidden md:flex" data-target="collection-carousel" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div id="collection-carousel" class="flex gap-6 overflow-x-auto scrollbar-hide py-4 no-snap">
+            <!-- Card 1 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/3d signs.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">3D Signs</h4>
+            </a>
+            <!-- Card 2 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/Acyrilic signs.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Acrylic Signs</h4>
+            </a>
+            <!-- Card 3 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/Graphic design.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Graphic Design</h4>
+            </a>
+            <!-- Card 4 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/bags & Packaging.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Bags & Packaging</h4>
+            </a>
+            <!-- Card 5 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/banners.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Banners</h4>
+            </a>
+            <!-- Card 6 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/customised gifts.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Customised Gifts</h4>
+            </a>
+            <!-- Card 7 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/digital printing.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Digital Printing</h4>
+            </a>
+            <!-- Card 8 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/offset printing.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Offset Printing</h4>
+            </a>
+            <!-- Card 9 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/promotion gifts.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Promotion Gifts</h4>
+            </a>
+            <!-- Card 10 -->
+            <a href="#" class="min-w-[280px] md:min-w-[320px] group/card">
+                <div class="rounded-lg overflow-hidden mb-3 relative aspect-[4/3]">
+                    <img src="./collections imgs/wedding cards.jpg" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-sm">Wedding Cards</h4>
+            </a>
+        </div>
+    </div>
+
+    <!-- Explore our seasonal favorites -->
+    <div id="seasonal-section" class="main-container px-4 mt-12 mb-20 relative group/section">
+        <h3 class="text-xl font-bold mb-6">Explore our seasonal favorites</h3>
+
+        <!-- Navigation Buttons -->
+        <button class="nav-button prev hidden md:flex" data-target="seasonal-carousel" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="nav-button next hidden md:flex" data-target="seasonal-carousel" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div id="seasonal-carousel" class="flex gap-6 overflow-x-auto scrollbar-hide scroll-smooth py-4">
+            <!-- Item 1: Wall Calendar -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6 shadow-md">
+                    <img src="./explore imgs/Wall calendar.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Wall Calendar</h4>
+            </a>
+            <!-- Item 2: Desk Calendar -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Desk Calendar.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Desk Calendar</h4>
+            </a>
+            <!-- Item 3: Booklets -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Booklets.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Booklets</h4>
+            </a>
+            <!-- Item 4: Flyers -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Flyers.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Flyers</h4>
+            </a>
+            <!-- Item 5: Brand Identity -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Brand Identity.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Brand Identity</h4>
+            </a>
+            <!-- Item 6: Promotion Items -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Promotion Items.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Promotion Items</h4>
+            </a>
+            <!-- Item 7: Car Branding -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Car Branding.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Car Branding</h4>
+            </a>
+            <!-- Item 8: Umbrellas -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Umbrellas.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Umbrellas</h4>
+            </a>
+            <!-- Item 9: Trophies -->
+            <a href="#" class="min-w-[240px] md:min-w-[280px] group/fav">
+                <div
+                    class="bg-gray-100 rounded-lg overflow-hidden mb-3 aspect-square relative flex items-center justify-center p-6">
+                    <img src="./explore imgs/Trophies.jpg"
+                        class="object-contain w-full h-full shadow-lg transform group-hover/fav:scale-105 transition duration-300">
+                </div>
+                <h4 class="font-bold text-sm">Trophies</h4>
+            </a>
+        </div>
+    </div>
+
+    <!-- Floating Widgets -->
+    <div class="fixed bottom-6 right-6 z-[100] flex flex-col gap-3">
+        <!-- WhatsApp Widget -->
+        <a href="https://wa.me/254720069883" target="_blank"
+            class="w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 hover:shadow-[#25d366]/50 transition-all duration-300"
+            aria-label="Chat on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+        </a>
+        <!-- Back to Top Button -->
+        <button id="back-to-top"
+            class="w-14 h-14 bg-gray-900 border border-gray-700 text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 hover:bg-black transition-all duration-300 opacity-0 invisible translate-y-4"
+            aria-label="Back to Top">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Search Overlay -->
+    <div id="mobile-search-overlay"
+        class="fixed inset-0 bg-white z-[200] transform translate-y-full transition-transform duration-300 md:hidden invisible pointer-events-none">
+        <div class="p-6">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl font-bold text-gray-900">Search Services</h2>
+                <button id="close-mobile-search"
+                    class="p-2 text-gray-400 hover:text-gray-900 rounded-full hover:bg-gray-100 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="relative items-center flex mb-6">
+                <input type="text" id="mobile-search-input" placeholder="What are you looking for?"
+                    class="w-full bg-gray-100 border-none rounded-2xl py-4 px-6 pl-12 focus:ring-2 focus:ring-delphi-cyan/30 transition-all outline-none text-lg"
+                    autocomplete="off">
+                <div class="absolute left-4 text-gray-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </div>
+            </div>
+            <div id="mobile-search-results" class="space-y-4">
+                <!-- Mobile search results will go here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Drawer -->
+    <div id="cart-drawer"
+        class="fixed top-0 right-0 h-full w-full sm:w-96 bg-white shadow-2xl z-[150] transform translate-x-full transition-transform duration-300 flex flex-col">
+        <div class="p-6 border-b border-gray-100 flex items-center justify-between">
+            <h2 class="text-2xl font-bold text-gray-900">Your Cart</h2>
+            <button id="close-cart-btn"
+                class="p-2 text-gray-400 hover:text-gray-900 rounded-full hover:bg-gray-100 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+
+        <div id="cart-items-container" class="flex-grow p-6 overflow-y-auto space-y-4">
+            <!-- Items injected by JS -->
+            <div id="empty-cart-msg" class="flex flex-col items-center justify-center h-full text-gray-400 opacity-70">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-16 h-16 mb-4">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg>
+                <p>Your cart is empty.</p>
+            </div>
+        </div>
+
+        <div class="p-6 border-t border-gray-100 bg-gray-50">
+            <div class="flex justify-between items-center mb-4">
+                <span class="text-gray-600 font-medium">Subtotal</span>
+                <span id="cart-total" class="text-xl font-bold text-gray-900">KSh 0</span>
+            </div>
+            <a href="checkout.html"
+                class="w-full bg-gradient-to-r from-delphi-cyan to-delphi-blue text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-cyan-500/30 transition-all flex items-center justify-center">
+                Proceed to Checkout
+            </a>
+        </div>
+    </div>
+    <div id="cart-overlay"
+        class="fixed inset-0 bg-black/50 z-[140] opacity-0 pointer-events-none transition-opacity duration-300"></div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials-section" class="main-container px-4 mt-32 relative group/section overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:items-center">
+            <!-- Left Info Column (Stays at top on mobile) -->
+            <div class="lg:col-span-4 space-y-8 order-1">
+                <div class="space-y-4">
+                    <div class="w-16 h-16 bg-delphi-cyan/10 rounded-2xl flex items-center justify-center text-delphi-cyan">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-10 h-10">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-4xl md:text-5xl font-black text-gray-900 leading-tight">
+                        Read reviews, <br/>
+                        <span class="text-delphi-cyan">trust</span> our expertise.
+                    </h3>
+                </div>
+
+                <div class="flex items-center gap-4 py-4 border-y border-gray-100">
+                    <div class="flex -space-x-2">
+                        <img src="./assets/testimonials/jesse.png" class="w-10 h-10 rounded-full border-2 border-white object-cover">
+                        <img src="./assets/testimonials/mercy.png" class="w-10 h-10 rounded-full border-2 border-white object-cover">
+                        <img src="./assets/testimonials/sam.png" class="w-10 h-10 rounded-full border-2 border-white object-cover">
+                    </div>
+                    <div>
+                        <div class="text-sm font-bold text-gray-900">4.9/5 Rating</div>
+                        <div class="text-[10px] text-gray-400 uppercase font-bold tracking-widest">Based on 500+ Reviews</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Custom Navigation Controls (Moves to bottom on mobile) -->
+            <div class="lg:col-span-4 lg:row-start-2 lg:col-start-1 order-3 pt-4 lg:pt-0">
+                <div class="flex items-center gap-6 justify-center lg:justify-start">
+                    <div class="flex gap-2">
+                        <button id="testimonial-prev" class="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center hover:bg-gray-50 hover:border-delphi-cyan hover:text-delphi-cyan transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                            </svg>
+                        </button>
+                        <button id="testimonial-next" class="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center hover:bg-gray-50 hover:border-delphi-cyan hover:text-delphi-cyan transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- Progress Bar -->
+                    <div class="flex-grow h-1 bg-gray-100 rounded-full relative overflow-hidden max-w-[120px]">
+                        <div id="testimonial-progress" class="absolute top-0 left-0 h-full bg-delphi-cyan transition-all duration-300 w-1/3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Carousel Column (Middle on mobile) -->
+            <div class="lg:col-span-8 lg:row-span-2 lg:col-start-5 order-2">
+                <div id="testimonial-carousel" class="flex gap-8 overflow-x-auto scrollbar-hide py-12 px-4 snap-x snap-mandatory">
+                    <!-- Testimonial 1 -->
+                    <div class="min-w-[85vw] md:min-w-[420px] relative group/card snap-center mx-auto md:mx-0">
+                        <div class="testimonial-card p-10 relative z-10 transition-transform group-hover/card:-translate-y-2">
+                            <div class="flex gap-1 mb-6">
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            </div>
+                            <p class="text-gray-700 text-lg leading-relaxed font-medium mb-8">
+                                "When we decided to go with suggestions by Delphi Graphics our stationery went from 'same old same old' to <span class="text-delphi-pink font-bold">'WOW'</span>. The response from our clients is amazing with the new look. I recommend them anytime."
+                            </p>
+                            <div class="flex items-center gap-4">
+                                <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-delphi-cyan/20">
+                                    <img src="./assets/testimonials/jesse.png" class="w-full h-full object-cover">
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900">Jesse</div>
+                                    <div class="text-xs text-gray-400 font-medium">Systems Engineer, Dynamic Systems Kenya</div>
+                                </div>
+                            </div>
+                            <!-- Tail -->
+                            <div class="absolute -bottom-4 left-10 w-8 h-8 bg-white rotate-45 -z-10 shadow-lg"></div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="min-w-[85vw] md:min-w-[420px] relative group/card snap-center mx-auto md:mx-0">
+                        <div class="testimonial-card p-10 relative z-10 transition-transform group-hover/card:-translate-y-2">
+                            <div class="flex gap-1 mb-6">
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            </div>
+                            <p class="text-gray-700 text-lg leading-relaxed font-medium mb-8">
+                                "You guys did a great job on our branding and we have been getting lots of compliments. We look forward to your future delivery of the same standard across our upcoming branches."
+                            </p>
+                            <div class="flex items-center gap-4">
+                                <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-delphi-pink/20">
+                                    <img src="./assets/testimonials/mercy.png" class="w-full h-full object-cover">
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900">Mercy</div>
+                                    <div class="text-xs text-gray-400 font-medium">Public Relations, Global One Organization</div>
+                                </div>
+                            </div>
+                            <!-- Tail -->
+                            <div class="absolute -bottom-4 left-10 w-8 h-8 bg-white rotate-45 -z-10 shadow-lg"></div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="min-w-[85vw] md:min-w-[420px] relative group/card snap-center mx-auto md:mx-0">
+                        <div class="testimonial-card p-10 relative z-10 transition-transform group-hover/card:-translate-y-2">
+                            <div class="flex gap-1 mb-6">
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-5 h-5 text-delphi-yellow" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            </div>
+                            <p class="text-gray-700 text-lg leading-relaxed font-medium mb-8">
+                                "I have been very impressed with your friendliness and responsiveness. I would go so far as say you set a benchmark in customer support that other companies could learn a lot from."
+                            </p>
+                            <div class="flex items-center gap-4">
+                                <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-delphi-yellow/20">
+                                    <img src="./assets/testimonials/sam.png" class="w-full h-full object-cover">
+                                </div>
+                                <div>
+                                    <div class="font-bold text-gray-900">Sam</div>
+                                    <div class="text-xs text-gray-400 font-medium">Procurement, Melchizedek Hospital</div>
+                                </div>
+                            </div>
+                            <!-- Tail -->
+                            <div class="absolute -bottom-4 left-10 w-8 h-8 bg-white rotate-45 -z-10 shadow-lg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-container relative overflow-hidden bg-[#0d0d0d] text-white">
+        <!-- Background Blobs -->
+        <div
+            class="footer-blob absolute w-[500px] h-[500px] bg-delphi-cyan/20 blur-[120px] rounded-full top-[-250px] right-[-100px] pointer-events-none z-0">
+        </div>
+        <div class="footer-blob absolute w-[400px] h-[400px] bg-delphi-pink/15 blur-[100px] rounded-full bottom-[-200px] left-[-100px] pointer-events-none z-0"
+            style="animation-delay: -2s;"></div>
+
+        <div class="main-container px-4 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Brand Column -->
+                <div class="space-y-6">
+                    <img src="./assets/delphi logo.jpg" alt="Delphi Graphics" class="h-12 bg-white/10 p-2 rounded-xl backdrop-blur-sm">
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Making ordinary brands extraordinary. Your premier destination for professional graphic design, large format printing, and comprehensive branding solutions.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 hover:bg-delphi-cyan flex items-center justify-center transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 hover:bg-delphi-pink flex items-center justify-center transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 hover:bg-delphi-yellow hover:text-black flex items-center justify-center transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="bg-gradient-to-r from-delphi-cyan to-delphi-blue inline-block text-transparent bg-clip-text font-bold text-lg mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2"><span class="text-delphi-cyan">›</span> Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2"><span class="text-delphi-cyan">›</span> About Us</a></li>
+                        <li><a href="index.html#categories-section" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2"><span class="text-delphi-cyan">›</span> Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2"><span class="text-delphi-cyan">›</span> Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h3 class="bg-gradient-to-r from-delphi-pink to-delphi-yellow inline-block text-transparent bg-clip-text font-bold text-lg mb-6">Top Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2"><span class="text-delphi-pink">›</span> Large Format Printing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2"><span class="text-delphi-pink">›</span> Graphic Design</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2"><span class="text-delphi-pink">›</span> T-Shirt Branding</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors flex items-center gap-2"><span class="text-delphi-pink">›</span> Banner Printing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-6">Contact Us</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 bg-white/10 p-2 rounded-lg text-delphi-cyan">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+                            </div>
+                            <span class="text-gray-400 text-sm leading-relaxed">Sun Rays House, Nairobi, Kenya</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="bg-white/10 p-2 rounded-lg text-delphi-pink">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.896-1.596-5.069-3.769-6.664-6.664l1.292-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+                            </div>
+                            <a href="tel:+254720069883" class="text-gray-400 hover:text-white transition-colors text-sm">+254 720069883</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="bg-white/10 p-2 rounded-lg text-delphi-yellow">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+                            </div>
+                            <div class="space-y-1">
+                                <a href="mailto:info@delphigraphics.co.ke" class="text-gray-400 hover:text-white transition-colors text-sm block">info@delphigraphics.co.ke</a>
+                                <a href="mailto:delphigraphics@gmail.com" class="text-gray-400 hover:text-white transition-colors text-sm block">delphigraphics@gmail.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">&copy; 2026 Delphi Graphics. All rights reserved.</p>
+                <div class="flex gap-6 text-sm">
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         Services Showcase: Dynamic Renderer
+         ============================================ -->
+    <script>
+    (function () {
+        const ITEMS_PER_PAGE = 12;
+
+        // Per-category visual config (gradient bg, icon color, badge color)
+        const CATEGORY_CONFIG = {
+            'Printing Services':       { bg: 'linear-gradient(135deg,#e0f7ff,#b3eaff)', icon: '#00aeef', badge: '#00aeef' },
+            'Apparel Branding':        { bg: 'linear-gradient(135deg,#ffe4f2,#ffb3d9)', icon: '#ec008c', badge: '#ec008c' },
+            'Signage & Displays':      { bg: 'linear-gradient(135deg,#dbeafe,#bfdbfe)', icon: '#2563eb', badge: '#2563eb' },
+            'Promotional Merchandise': { bg: 'linear-gradient(135deg,#fef9c3,#fde68a)', icon: '#d97706', badge: '#d97706' },
+            'Event Branding':          { bg: 'linear-gradient(135deg,#ede9fe,#ddd6fe)', icon: '#7c3aed', badge: '#7c3aed' },
+            'Packaging Solutions':     { bg: 'linear-gradient(135deg,#d1fae5,#a7f3d0)', icon: '#059669', badge: '#059669' },
+            'Design & Branding':       { bg: 'linear-gradient(135deg,#fdf4ff,#e879f9)', icon: '#a21caf', badge: '#a21caf' },
+            'Corporate Supplies':      { bg: 'linear-gradient(135deg,#f1f5f9,#cbd5e1)', icon: '#475569', badge: '#475569' },
+            'Specialized Services':    { bg: 'linear-gradient(135deg,#fff7ed,#fed7aa)', icon: '#ea580c', badge: '#ea580c' },
+        };
+
+        // Short badge labels per category
+        const BADGE_LABELS = {
+            'Printing Services':       'Printing',
+            'Apparel Branding':        'Apparel',
+            'Signage & Displays':      'Signage',
+            'Promotional Merchandise': 'Promo',
+            'Event Branding':          'Events',
+            'Packaging Solutions':     'Packaging',
+            'Design & Branding':       'Design',
+            'Corporate Supplies':      'Corporate',
+            'Specialized Services':    'Specialized',
+        };
+
+        // Real image overrides keyed by service slug
+        const SLUG_IMAGES = {
+            'business-cards':            './assets/Product Images/Bussiness cards.jpg',
+            'letterheads':               './assets/Product Images/Letterheads.jpg',
+            'sticker-cutting':           './assets/Product Images/Sticker cutting.jpg',
+            'flyers':                    './assets/Product Images/Flyers.jpg',
+            'envelopes':                 './assets/Product Images/Envelopes.jpg',
+            'restaurant-menus':          './assets/Product Images/Restauraunt menus.jpg',
+            'wedding-cards':             './assets/Product Images/Wedding cards.jpg',
+            'banners':                   './collections imgs/banners.jpg',
+            'acrylic-name-boards':       './collections imgs/Acyrilic signs.jpg',
+            'acrylic-safety-signs':      './collections imgs/Acyrilic signs.jpg',
+            'logo-designs':              './collections imgs/Graphic design.jpg',
+            'banner---billboard-design': './categorise imgs/branding.jpg',
+            'corporate-identity':        './explore imgs/Brand Identity.jpg',
+            'label-design':              './explore imgs/Brand Identity.jpg',
+            'calendars':                 './explore imgs/Wall calendar.jpg',
+            'brochures':                 './explore imgs/Booklets.jpg',
+            'notebooks':                 './explore imgs/Booklets.jpg',
+            'vehicle-branding':          './explore imgs/Car Branding.jpg',
+            'laser-engraving':           './explore imgs/Trophies.jpg',
+            'canvas-printing':           './collections imgs/digital printing.jpg',
+            'large-format-printing':     './collections imgs/offset printing.jpg',
+            't-shirts':                  './categorise imgs/bags.jpg',
+            'staff-uniforms':            './categorise imgs/bags.jpg',
+            'gift-boxes':                './categorise imgs/packaging.jpg',
+            'food-packaging':            './categorise imgs/packaging.jpg',
+            'corrugated-boxes':          './categorise imgs/packaging.jpg',
+            'pens':                      './explore imgs/Promotion Items.jpg',
+            'lanyards':                  './explore imgs/Promotion Items.jpg',
+            'mouse-pads':                './explore imgs/Promotion Items.jpg',
+            'usb-printing':              './explore imgs/Promotion Items.jpg',
+            'wristbands':                './explore imgs/Promotion Items.jpg',
+            'custom-keychains':          './collections imgs/customised gifts.jpg',
+            'wall-clocks':               './collections imgs/customised gifts.jpg',
+            'beach-flags':               './categorise imgs/branding.jpg',
+            'tabletop-flags':            './categorise imgs/branding.jpg',
+            'street-pole-flags':         './categorise imgs/branding.jpg',
+            'bunting---string-flags':    './categorise imgs/branding.jpg',
+            'promotional-tents':         './categorise imgs/branding.jpg',
+            'roll-up-stands':            './categorise imgs/promotion items.jpg',
+            'display-stands':            './categorise imgs/promotion items.jpg',
+            'folders':                   './categorise imgs/business card.jpg',
+            'id-cards-and-lanyards':     './explore imgs/Promotion Items.jpg',
+            'name-badges':               './explore imgs/Promotion Items.jpg',
+            'branded-stationery':        './categorise imgs/business card.jpg',
+            'wedding-cards':             './categorise imgs/wedding cards.jpg',
+            'promotion-items':           './categorise imgs/promotion items.jpg',
+        };
+
+        // State
+        var allServices = [];
+        var filteredServices = [];
+        var visibleCount = ITEMS_PER_PAGE;
+
+        var grid = document.getElementById('services-grid');
+        var loadMoreBtn = document.getElementById('load-more-btn');
+        var countText = document.getElementById('services-count-text');
+        var filterTabs = document.querySelectorAll('.service-filter-btn');
+
+        function getImage(slug, serviceData) {
+            if (SLUG_IMAGES[slug]) return SLUG_IMAGES[slug];
+            if (serviceData.image && serviceData.image.indexOf('service-placeholder') === -1) return serviceData.image;
+            return null;
+        }
+
+        function svgIcon(color) {
+            return '<svg width="52" height="52" fill="none" stroke="' + color + '" stroke-width="1.3" viewBox="0 0 24 24" style="opacity:0.55;">' +
+                '<path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/>' +
+                '<path stroke-linecap="round" stroke-linejoin="round" d="M18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/>' +
+            '</svg>';
+        }
+
+        function buildCard(slug, service) {
+            var cfg = CATEGORY_CONFIG[service.category] || { bg: '#f3f4f6', icon: '#6b7280', badge: '#6b7280' };
+            var badge = BADGE_LABELS[service.category] || service.category;
+            var imgSrc = getImage(slug, service);
+
+            var imgAreaHtml;
+            if (imgSrc) {
+                imgAreaHtml =
+                    '<img src="' + imgSrc + '" alt="' + service.title + '" loading="lazy" ' +
+                    'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';">' +
+                    '<div class="service-card-gradient" style="display:none;background:' + cfg.bg + ';">' + svgIcon(cfg.icon) + '</div>';
+            } else {
+                imgAreaHtml = '<div class="service-card-gradient" style="background:' + cfg.bg + ';">' + svgIcon(cfg.icon) + '</div>';
+            }
+
+            return '<div class="service-card animating" data-category="' + service.category + '">' +
+                '<div class="service-card-img-wrap">' +
+                    imgAreaHtml +
+                    '<span class="service-cat-badge" style="background:' + cfg.badge + ';color:#fff;">' + badge + '</span>' +
+                    '<div class="service-card-overlay">' +
+                        '<a href="service-detail.html?item=' + slug + '" class="service-card-overlay-btn">View Details</a>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="service-card-body">' +
+                    '<div class="service-card-name">' + service.title + '</div>' +
+                    '<div class="service-card-tagline">' + (service.tagline || '') + '</div>' +
+                    '<div class="service-card-price">' + (service.price || '') + '</div>' +
+                '</div>' +
+            '</div>';
+        }
+
+        function renderGrid() {
+            var toShow = filteredServices.slice(0, visibleCount);
+            if (toShow.length === 0) {
+                grid.innerHTML = '<div id="services-no-results">No services found in this category.</div>';
+            } else {
+                grid.innerHTML = toShow.map(function (item) { return buildCard(item.slug, item.data); }).join('');
+                // Stagger animation delay
+                var cards = grid.querySelectorAll('.service-card');
+                cards.forEach(function (card, i) {
+                    card.style.animationDelay = Math.min(i * 35, 500) + 'ms';
+                });
+                // Remove animating class after animations complete
+                setTimeout(function () {
+                    cards.forEach(function (c) { c.classList.remove('animating'); });
+                }, 800);
+            }
+            updateLoadMore();
+            updateCount();
+        }
+
+        function updateLoadMore() {
+            var remaining = filteredServices.length - visibleCount;
+            if (remaining <= 0) {
+                loadMoreBtn.style.display = 'none';
+            } else {
+                loadMoreBtn.style.display = 'inline-block';
+                loadMoreBtn.textContent = 'Load More Services (' + remaining + ' more)';
+            }
+        }
+
+        function updateCount() {
+            var shown = Math.min(visibleCount, filteredServices.length);
+            countText.textContent = 'Showing ' + shown + ' of ' + filteredServices.length + ' services';
+        }
+
+        function applyFilter(category) {
+            visibleCount = ITEMS_PER_PAGE;
+            filteredServices = category === 'all'
+                ? allServices
+                : allServices.filter(function (s) { return s.data.category === category; });
+            renderGrid();
+        }
+
+        // Fetch data and boot
+        fetch('./data/services.json')
+            .then(function (r) { return r.json(); })
+            .then(function (data) {
+                allServices = Object.keys(data).map(function (slug) {
+                    return { slug: slug, data: data[slug] };
+                });
+                // Sort: services with real images first, then alphabetically
+                allServices.sort(function (a, b) {
+                    var aHas = !!getImage(a.slug, a.data);
+                    var bHas = !!getImage(b.slug, b.data);
+                    if (aHas && !bHas) return -1;
+                    if (!aHas && bHas) return 1;
+                    return a.data.title.localeCompare(b.data.title);
+                });
+                filteredServices = allServices;
+                renderGrid();
+            })
+            .catch(function () {
+                grid.innerHTML = '<div id="services-no-results">Unable to load services. Please refresh the page.</div>';
+            });
+
+        // Load More
+        loadMoreBtn.addEventListener('click', function () {
+            visibleCount += ITEMS_PER_PAGE;
+            renderGrid();
+        });
+
+        // Filter tabs
+        filterTabs.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                filterTabs.forEach(function (b) { b.classList.remove('active-filter'); });
+                btn.classList.add('active-filter');
+                applyFilter(btn.getAttribute('data-filter'));
+            });
+        });
+
+    })();
+    </script>
+
+</body>
+
+</html>
