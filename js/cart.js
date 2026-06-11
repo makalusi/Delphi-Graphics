@@ -46,9 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (emptyCartMsg) emptyCartMsg.style.display = 'none';
 
         cart.forEach((item, index) => {
-            const itemPrice = parseInt(item.price.replace(/[^\d]/g, '')) || 0;
-            const itemTotal = itemPrice * (item.quantity || 1);
-            total += itemTotal;
 
             const itemElement = document.createElement('div');
             itemElement.className = 'flex items-center gap-4 bg-gray-50 p-3 rounded-xl border border-gray-100 group';
@@ -64,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="text-sm font-semibold w-4 text-center">${item.quantity || 1}</span>
                             <button class="qty-btn inc-btn w-6 h-6 rounded-full border border-gray-200 flex items-center justify-center text-gray-500 hover:bg-gray-100" data-index="${index}">+</button>
                         </div>
-                        <span class="text-delphi-blue font-bold text-sm">KSh ${itemTotal.toLocaleString()}</span>
+                        <span class="text-delphi-blue font-bold text-sm">Custom Quote</span>
                     </div>
                 </div>
                 <button class="remove-btn text-gray-300 hover:text-red-500 transition-colors p-1" data-index="${index}">
@@ -76,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cartItemsContainer.appendChild(itemElement);
         });
 
-        if (cartTotalElement) cartTotalElement.innerText = `KSh ${total.toLocaleString()}`;
+        if (cartTotalElement) cartTotalElement.innerText = `Custom Quote`;
         
         // Bind events to new elements
         document.querySelectorAll('.dec-btn').forEach(btn => btn.onclick = (e) => updateQty(e.target.dataset.index, -1));

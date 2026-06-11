@@ -3,8 +3,7 @@
         "similar": [
             "promotional-tents",
             "street-pole-flags",
-            "bunting---string-flags",
-            "gazebos"
+            "bunting---string-flags"
         ],
         "features": [
             "Satin & polyester",
@@ -17,7 +16,7 @@
         "tagline": "Small Flag, Big Brand",
         "description": "Miniature branded flags for desks, conference tables, and reception areas. A subtle yet effective way to reinforce your brand in corporate environments.",
         "image": "./assets/previous work & examples/Tabletop Flags-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Tabletop Flags-01.jpg",
             "./assets/previous work & examples/Tabletop Flags-02.jpg",
@@ -28,10 +27,9 @@
     },
     "coveralls": {
         "similar": [
-            "safety-vests",
             "printed-caps",
             "staff-uniforms",
-            "medical-uniforms"
+            "t-shirts"
         ],
         "features": [
             "Heavy-duty fabric",
@@ -44,7 +42,7 @@
         "tagline": "Built for the Job",
         "description": "Heavy-duty branded coveralls for industrial and workshop environments. Customized with your logo through embroidery or heat transfer printing.",
         "image": "./assets/previous work & examples/coveralls-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/coveralls-01.jpg",
             "./assets/previous work & examples/coveralls-02.jpg",
@@ -53,32 +51,11 @@
             "./assets/previous work & examples/coveralls-05.jpg"
         ]
     },
-    "product-labels": {
-        "similar": [
-            "custom-packaging-boxes",
-            "gift-boxes",
-            "corrugated-boxes",
-            "wrapping-paper"
-        ],
-        "features": [
-            "Self-adhesive",
-            "Multiple materials",
-            "Custom die-cut",
-            "Waterproof options"
-        ],
-        "title": "Product Labels",
-        "category": "Packaging Solutions",
-        "tagline": "Label Your Success",
-        "description": "Custom printed product labels on paper, vinyl, and specialty materials. Self-adhesive labels with premium finishes for retail shelving and product branding.",
-        "image": "./assets/service-placeholder.jpg",
-        "price": "Starting at KSh 500"
-    },
     "mouse-pads": {
         "similar": [
-            "balloon-printing",
             "lanyards",
-            "diaries",
-            "stress-balls"
+            "usb-printing",
+            "wristbands"
         ],
         "features": [
             "Full color printing",
@@ -91,7 +68,7 @@
         "tagline": "Desk-Level Branding",
         "description": "Custom printed mouse pads that keep your brand on every desk. Full-color printing with anti-slip rubber base for daily use.",
         "image": "./assets/previous work & examples/mouse pads-01.jpg",
-        "price": "Starting at KSh 250",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/mouse pads-01.jpg",
             "./assets/previous work & examples/mouse pads-02.jpg",
@@ -102,10 +79,9 @@
     },
     "lanyards": {
         "similar": [
-            "balloon-printing",
             "mouse-pads",
-            "diaries",
-            "stress-balls"
+            "usb-printing",
+            "wristbands"
         ],
         "features": [
             "Full color printing",
@@ -118,7 +94,7 @@
         "tagline": "Hang with Your Brand",
         "description": "Custom printed lanyards for ID cards, events, and corporate use. Available in polyester, nylon, and eco-friendly materials with safety breakaway clips.",
         "image": "./assets/previous work & examples/lanyards-01.jpg",
-        "price": "Starting at KSh 250",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/lanyards-01.jpg",
             "./assets/previous work & examples/lanyards-02.jpg",
@@ -145,7 +121,7 @@
         "tagline": "Professional Correspondence",
         "description": "Professional letterheads that reinforce your corporate identity on every piece of correspondence. Printed on premium paper with your logo and branding elements.",
         "image": "./assets/previous work & examples/Letterheads examples-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "From KES 1,000",
         "gallery": [
             "./assets/previous work & examples/Letterheads examples-01.jpg",
             "./assets/previous work & examples/Letterheads examples-02.jpg",
@@ -157,9 +133,8 @@
     "acrylic-safety-signs": {
         "similar": [
             "acrylic-name-boards",
-            "flex-signs",
-            "menu-holders",
-            "roll-up-stands"
+            "roll-up-stands",
+            "banners"
         ],
         "features": [
             "Regulatory compliant",
@@ -172,7 +147,7 @@
         "tagline": "Safety First",
         "description": "Compliant acrylic safety signs for workplaces, factories, and public areas. Durable, weather-resistant, and printed with international safety symbols.",
         "image": "./assets/previous work & examples/Acrylic Safety Signs-01.jpg",
-        "price": "Starting at KSh 8,000",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Acrylic Safety Signs-01.jpg",
             "./assets/previous work & examples/Acrylic Safety Signs-02.jpg",
@@ -181,32 +156,11 @@
             "./assets/previous work & examples/Acrylic Safety Signs-05.jpg"
         ]
     },
-    "gift-boxes": {
-        "similar": [
-            "product-labels",
-            "custom-packaging-boxes",
-            "corrugated-boxes",
-            "wrapping-paper"
-        ],
-        "features": [
-            "Magnetic closure",
-            "Custom inserts",
-            "Foil & embossing",
-            "Ribbon options"
-        ],
-        "title": "Gift Boxes",
-        "category": "Packaging Solutions",
-        "tagline": "The Art of Gifting",
-        "description": "Premium gift boxes with custom printing, ribbons, and inserts. Perfect for corporate gifts, product launches, and luxury retail packaging.",
-        "image": "./assets/service-placeholder.jpg",
-        "price": "Starting at KSh 500"
-    },
     "name-badges": {
         "similar": [
             "id-cards-and-lanyards",
             "folders",
-            "company-seals---stamps",
-            "calculators"
+            "company-seals---stamps"
         ],
         "features": [
             "Metal & acrylic options",
@@ -219,7 +173,7 @@
         "tagline": "Know Your Team",
         "description": "Professional name badges for staff, events, and conferences. Available in metal, acrylic, and magnetic options with full-color printing or engraving.",
         "image": "./assets/previous work & examples/Name Badges-01.jpg",
-        "price": "Starting at KSh 500",
+        "price": "From KES 50",
         "gallery": [
             "./assets/previous work & examples/Name Badges-01.jpg",
             "./assets/previous work & examples/Name Badges-02.jpg",
@@ -230,10 +184,9 @@
     },
     "laser-engraving": {
         "similar": [
-            "laser-cutting",
             "large-format-printing",
-            "acrylic-fabrication",
-            "asset-tagging"
+            "asset-tagging",
+            "vehicle-branding"
         ],
         "features": [
             "Multiple materials",
@@ -246,7 +199,7 @@
         "tagline": "Engraved Excellence",
         "description": "Precision laser engraving on metal, wood, glass, acrylic, and leather. Permanent, detailed marking for trophies, awards, signage, and personalized gifts.",
         "image": "./assets/previous work & examples/Laser Engraving-01.jpg",
-        "price": "Starting at KSh 12,000",
+        "price": "From KES 200",
         "gallery": [
             "./assets/previous work & examples/Laser Engraving-01.jpg",
             "./assets/previous work & examples/Laser Engraving-02.jpg",
@@ -259,8 +212,7 @@
         "similar": [
             "tabletop-flags",
             "street-pole-flags",
-            "bunting---string-flags",
-            "gazebos"
+            "bunting---string-flags"
         ],
         "features": [
             "Pop-up easy setup",
@@ -273,7 +225,7 @@
         "tagline": "Shelter Your Brand",
         "description": "Custom branded pop-up tents and canopies for outdoor events, exhibitions, and markets. Full-color printing on weather-resistant fabric with sturdy aluminum frames.",
         "image": "./assets/previous work & examples/Promotional Tents-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Promotional Tents-01.jpg",
             "./assets/previous work & examples/Promotional Tents-02.jpg",
@@ -286,8 +238,7 @@
         "similar": [
             "name-badges",
             "folders",
-            "company-seals---stamps",
-            "calculators"
+            "company-seals---stamps"
         ],
         "features": [
             "PVC card printing",
@@ -300,7 +251,7 @@
         "tagline": "Identify with Confidence",
         "description": "Professional ID card printing with custom lanyards for employee identification and access control. PVC card printing with photo, barcode, and magnetic stripe options.",
         "image": "./assets/previous work & examples/ID Cards & Lanyards-01.jpg",
-        "price": "Starting at KSh 500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/ID Cards & Lanyards-01.jpg",
             "./assets/previous work & examples/ID Cards & Lanyards-02.jpg",
@@ -312,9 +263,8 @@
     "acrylic-name-boards": {
         "similar": [
             "acrylic-safety-signs",
-            "flex-signs",
-            "menu-holders",
-            "roll-up-stands"
+            "roll-up-stands",
+            "banners"
         ],
         "features": [
             "Clear & frosted options",
@@ -327,7 +277,7 @@
         "tagline": "Crystal Clear Identity",
         "description": "Sleek acrylic name boards for offices, reception areas, and building signage. Crystal-clear or frosted finish with precision-cut lettering and mounting hardware.",
         "image": "./assets/previous work & examples/Acrylic Name Boards-01.jpg",
-        "price": "Starting at KSh 8,000",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Acrylic Name Boards-01.jpg",
             "./assets/previous work & examples/Acrylic Name Boards-02.jpg",
@@ -335,26 +285,6 @@
             "./assets/previous work & examples/Acrylic Name Boards-04.jpg",
             "./assets/previous work & examples/Acrylic Name Boards-05.jpg"
         ]
-    },
-    "corrugated-boxes": {
-        "similar": [
-            "product-labels",
-            "custom-packaging-boxes",
-            "gift-boxes",
-            "wrapping-paper"
-        ],
-        "features": [
-            "Single to triple wall",
-            "Custom sizes",
-            "Full color printing",
-            "Eco-friendly material"
-        ],
-        "title": "Corrugated Boxes",
-        "category": "Packaging Solutions",
-        "tagline": "Protection Meets Branding",
-        "description": "Sturdy corrugated shipping and packaging boxes with custom printing. Available in single, double, and triple wall for maximum product protection.",
-        "image": "./assets/service-placeholder.jpg",
-        "price": "Starting at KSh 500"
     },
     "sticker-cutting": {
         "similar": [
@@ -374,7 +304,7 @@
         "tagline": "Stick with Quality",
         "description": "Precision die-cut stickers for branding, packaging, and promotions. Available in any shape, size, and material including vinyl, paper, and transparent.",
         "image": "./assets/previous work & examples/Sticker Cutting examples-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Sticker Cutting examples-01.jpg",
             "./assets/previous work & examples/Sticker Cutting examples-02.jpg",
@@ -387,8 +317,7 @@
         "similar": [
             "name-badges",
             "id-cards-and-lanyards",
-            "company-seals---stamps",
-            "calculators"
+            "company-seals---stamps"
         ],
         "features": [
             "Business card slits",
@@ -401,34 +330,13 @@
         "tagline": "Present with Polish",
         "description": "Custom printed presentation folders for proposals, reports, and corporate documents. Available with business card slits, pockets, and premium finishes.",
         "image": "./assets/service-placeholder.jpg",
-        "price": "Starting at KSh 500"
-    },
-    "wrapping-paper": {
-        "similar": [
-            "product-labels",
-            "custom-packaging-boxes",
-            "gift-boxes",
-            "corrugated-boxes"
-        ],
-        "features": [
-            "Full color patterns",
-            "Custom roll sizes",
-            "Premium paper",
-            "Tissue paper options"
-        ],
-        "title": "Wrapping Paper",
-        "category": "Packaging Solutions",
-        "tagline": "Wrap It Right",
-        "description": "Custom branded wrapping paper for retail stores, gift shops, and corporate gifting. Full-color printing with your patterns, logos, and seasonal designs.",
-        "image": "./assets/service-placeholder.jpg",
-        "price": "Starting at KSh 500"
+        "price": "Custom Quote"
     },
     "street-pole-flags": {
         "similar": [
             "tabletop-flags",
             "promotional-tents",
-            "bunting---string-flags",
-            "gazebos"
+            "bunting---string-flags"
         ],
         "features": [
             "Heavy-duty polyester",
@@ -441,7 +349,7 @@
         "tagline": "Own the Street",
         "description": "Large format flags for street poles, ideal for city events, shopping districts, and campus branding. Double-sided printing with secure pole mounting hardware.",
         "image": "./assets/previous work & examples/Street Pole Flags-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Street Pole Flags-01.jpg",
             "./assets/previous work & examples/Street Pole Flags-02.jpg",
@@ -454,8 +362,7 @@
         "similar": [
             "acrylic-safety-signs",
             "acrylic-name-boards",
-            "flex-signs",
-            "menu-holders"
+            "banners"
         ],
         "features": [
             "Portable & lightweight",
@@ -468,7 +375,7 @@
         "tagline": "Stand & Deliver",
         "description": "Portable roll-up banner stands for exhibitions, trade shows, and retail displays. Easy to set up, transport, and store with a professional finish.",
         "image": "./assets/previous work & examples/roll up stands-01.jpg",
-        "price": "Starting at KSh 8,000",
+        "price": "From KES 6,500",
         "gallery": [
             "./assets/previous work & examples/roll up stands-01.jpg",
             "./assets/previous work & examples/roll up stands-02.jpg",
@@ -495,7 +402,7 @@
         "tagline": "Spread the Word",
         "description": "High-impact flyers for promotions, events, and product launches. Vibrant full-color printing on premium paper to grab attention and drive action.",
         "image": "./assets/previous work & examples/Flyers examples-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "From KES 20",
         "gallery": [
             "./assets/previous work & examples/Flyers examples-01.jpg",
             "./assets/previous work & examples/Flyers examples-02.jpg",
@@ -527,7 +434,7 @@
         "tagline": "Seal Your Brand",
         "description": "Branded envelopes that make your mail stand out. Available in multiple sizes with full-color printing, custom flaps, and premium paper options.",
         "image": "./assets/previous work & examples/Envelopes examples-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "From KES 15",
         "gallery": [
             "./assets/previous work & examples/Envelopes examples-01.jpg",
             "./assets/previous work & examples/Envelopes examples-02.jpg",
@@ -539,9 +446,8 @@
     "printed-caps": {
         "similar": [
             "coveralls",
-            "safety-vests",
             "staff-uniforms",
-            "medical-uniforms"
+            "t-shirts"
         ],
         "features": [
             "Embroidery & printing",
@@ -554,7 +460,7 @@
         "tagline": "Cap Off Your Brand",
         "description": "Custom branded caps and hats for promotional events, corporate wear, and retail merchandise. Embroidered or printed with your logo in full color.",
         "image": "./assets/previous work & examples/printed caps-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "From KES 100",
         "gallery": [
             "./assets/previous work & examples/printed caps-01.jpg",
             "./assets/previous work & examples/printed caps-02.jpg",
@@ -566,9 +472,8 @@
     "staff-uniforms": {
         "similar": [
             "coveralls",
-            "safety-vests",
             "printed-caps",
-            "medical-uniforms"
+            "t-shirts"
         ],
         "features": [
             "Custom fit & design",
@@ -581,7 +486,7 @@
         "tagline": "Dress for Success",
         "description": "Professional staff uniforms that build brand identity and team spirit. Custom designed and branded with embroidery or printing to your specifications.",
         "image": "./assets/previous work & examples/staff uniforms-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/staff uniforms-01.jpg",
             "./assets/previous work & examples/staff uniforms-02.jpg",
@@ -599,16 +504,16 @@
         ],
         "features": [
             "Water-resistant options",
-            "Menu holder combos",
             "Seasonal update service",
-            "QR code integration"
+            "QR code integration",
+            "Premium paper stock"
         ],
         "title": "Restaurant Menus",
         "category": "Printing Services",
         "tagline": "Taste Starts with the Eyes",
         "description": "Impress your diners with beautifully designed and printed menus. Available in laminated, leather-bound, and single-sheet formats for any restaurant style.",
         "image": "./assets/previous work & examples/Restaurant Menus examples-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Restaurant Menus examples-01.jpg",
             "./assets/previous work & examples/Restaurant Menus examples-02.jpg",
@@ -635,7 +540,7 @@
         "tagline": "Celebrate in Style",
         "description": "Celebrate your special day with elegantly designed wedding invitations. From classic to contemporary styles, with premium paper, foiling, and embossing options.",
         "image": "./assets/previous work & examples/Wedding Cards examples-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Wedding Cards examples-01.jpg",
             "./assets/previous work & examples/Wedding Cards examples-02.jpg",
@@ -644,32 +549,11 @@
             "./assets/previous work & examples/Wedding Cards examples-05.jpg"
         ]
     },
-    "food-packaging": {
-        "similar": [
-            "product-labels",
-            "custom-packaging-boxes",
-            "gift-boxes",
-            "corrugated-boxes"
-        ],
-        "features": [
-            "Food-grade materials",
-            "Grease-resistant",
-            "Custom branding",
-            "Eco-friendly options"
-        ],
-        "title": "Food Packaging",
-        "category": "Packaging Solutions",
-        "tagline": "Fresh & Branded",
-        "description": "Food-safe packaging solutions including takeaway boxes, bakery packaging, and restaurant supplies. Branded with your logo while meeting all hygiene standards.",
-        "image": "./assets/service-placeholder.jpg",
-        "price": "Starting at KSh 500"
-    },
     "bunting---string-flags": {
         "similar": [
             "tabletop-flags",
             "promotional-tents",
-            "street-pole-flags",
-            "gazebos"
+            "street-pole-flags"
         ],
         "features": [
             "Custom length strings",
@@ -682,7 +566,7 @@
         "tagline": "Celebrate in Color",
         "description": "Festive bunting and string flags for events, grand openings, and celebrations. Custom printed with your branding, logos, or seasonal messaging.",
         "image": "./assets/previous work & examples/String Flags-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/String Flags-01.jpg",
             "./assets/previous work & examples/String Flags-02.jpg",
@@ -709,7 +593,7 @@
         "tagline": "First Impressions That Last",
         "description": "Make a memorable first impression with premium business cards. Choose from a variety of finishes including matte, gloss, spot UV, and foil stamping to match your brand aesthetic.",
         "image": "./assets/previous work & examples/Business Cards example-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "From KES 5",
         "gallery": [
             "./assets/previous work & examples/Business Cards example-01.jpg",
             "./assets/previous work & examples/Business Cards example-02.jpg",
@@ -722,8 +606,7 @@
         "similar": [
             "acrylic-safety-signs",
             "acrylic-name-boards",
-            "flex-signs",
-            "menu-holders"
+            "banners"
         ],
         "features": [
             "Gallery-wrap finish",
@@ -736,7 +619,7 @@
         "tagline": "Art Meets Branding",
         "description": "Gallery-quality canvas prints for offices, hotels, and retail spaces. Stretched on wooden frames with archival-grade inks for lasting color vibrancy.",
         "image": "./assets/previous work & examples/canvas printing-01.jpg",
-        "price": "Starting at KSh 8,000",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/canvas printing-01.jpg",
             "./assets/previous work & examples/canvas printing-02.jpg",
@@ -747,10 +630,9 @@
     },
     "large-format-printing": {
         "similar": [
-            "laser-cutting",
             "laser-engraving",
-            "acrylic-fabrication",
-            "asset-tagging"
+            "asset-tagging",
+            "vehicle-branding"
         ],
         "features": [
             "Ultra-high resolution",
@@ -763,7 +645,7 @@
         "tagline": "Think Big, Print Bigger",
         "description": "High-resolution large format printing for posters, murals, wallpapers, and exhibition graphics. Vivid colors on a variety of substrates including vinyl, fabric, and paper.",
         "image": "./assets/previous work & examples/Large Format Printing-01.jpg",
-        "price": "Starting at KSh 12,000",
+        "price": "From KES 500",
         "gallery": [
             "./assets/previous work & examples/Large Format Printing-01.jpg",
             "./assets/previous work & examples/Large Format Printing-02.jpg",
@@ -790,7 +672,7 @@
         "tagline": "365 Days of Visibility",
         "description": "Keep your brand visible all year round with custom printed calendars. Wall, desk, and pocket formats with full-color imagery and your branding.",
         "image": "./assets/previous work & examples/Calendars examples-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "From KES 150",
         "gallery": [
             "./assets/previous work & examples/Calendars examples-01.jpg",
             "./assets/previous work & examples/Calendars examples-02.jpg",
@@ -801,10 +683,9 @@
     },
     "usb-printing": {
         "similar": [
-            "balloon-printing",
             "mouse-pads",
             "lanyards",
-            "diaries"
+            "wristbands"
         ],
         "features": [
             "Custom shapes & colors",
@@ -817,7 +698,7 @@
         "tagline": "Data Meets Branding",
         "description": "Custom branded USB flash drives in various shapes, capacities, and materials. Pre-load with your company presentation or product catalog for maximum impact.",
         "image": "./assets/previous work & examples/USB printing-01.jpg",
-        "price": "Starting at KSh 250",
+        "price": "From KES 5",
         "gallery": [
             "./assets/previous work & examples/USB printing-01.jpg",
             "./assets/previous work & examples/USB printing-02.jpg",
@@ -825,26 +706,6 @@
             "./assets/previous work & examples/USB printing-04.jpg",
             "./assets/previous work & examples/USB printing-05.jpg"
         ]
-    },
-    "perfume-boxes": {
-        "similar": [
-            "product-labels",
-            "custom-packaging-boxes",
-            "gift-boxes",
-            "corrugated-boxes"
-        ],
-        "features": [
-            "Luxury finishes",
-            "Custom inserts",
-            "Foil & embossing",
-            "Soft-touch lamination"
-        ],
-        "title": "Perfume Boxes",
-        "category": "Packaging Solutions",
-        "tagline": "Scent of Luxury",
-        "description": "Luxury perfume packaging with premium finishing options including foil stamping, embossing, and soft-touch lamination. Designed to reflect the sophistication of your fragrance.",
-        "image": "./assets/service-placeholder.jpg",
-        "price": "Starting at KSh 500"
     },
     "corporate-identity": {
         "similar": [
@@ -863,7 +724,7 @@
         "tagline": "One Brand, One Voice",
         "description": "Build a cohesive brand presence with a complete corporate identity package including business cards, letterheads, envelopes, and brand guidelines.",
         "image": "./assets/previous work & examples/Corporate Identity example-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Corporate Identity example-01.jpg",
             "./assets/previous work & examples/Corporate Identity example-02.jpg",
@@ -874,10 +735,9 @@
     },
     "wristbands": {
         "similar": [
-            "balloon-printing",
             "mouse-pads",
             "lanyards",
-            "diaries"
+            "usb-printing"
         ],
         "features": [
             "Silicone & fabric options",
@@ -890,7 +750,7 @@
         "tagline": "Band Together",
         "description": "Custom silicone and fabric wristbands for events, awareness campaigns, and team identification. Printed, debossed, or embossed with your design.",
         "image": "./assets/previous work & examples/wristbands-01.jpg",
-        "price": "Starting at KSh 250",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/wristbands-01.jpg",
             "./assets/previous work & examples/wristbands-02.jpg",
@@ -916,7 +776,7 @@
         "tagline": "Labels That Sell",
         "description": "Attract customers with eye-catching product labels designed for shelf appeal. We handle everything from concept to print-ready files for any product category.",
         "image": "./assets/previous work & examples/Label Design examples-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Label Design examples-01.jpg",
             "./assets/previous work & examples/Label Design examples-02.jpg",
@@ -929,8 +789,7 @@
         "similar": [
             "name-badges",
             "id-cards-and-lanyards",
-            "folders",
-            "calculators"
+            "folders"
         ],
         "features": [
             "Self-inking stamps",
@@ -943,7 +802,7 @@
         "tagline": "Stamp Your Authority",
         "description": "Official company seals and custom rubber stamps for document authentication and branding. Self-inking and traditional options available.",
         "image": "./assets/previous work & examples/Company Seals AND  Stamps-01.jpg",
-        "price": "Starting at KSh 500",
+        "price": "From KES 1,500",
         "gallery": [
             "./assets/previous work & examples/Company Seals AND  Stamps-01.jpg",
             "./assets/previous work & examples/Company Seals AND  Stamps-02.jpg",
@@ -954,10 +813,9 @@
     },
     "custom-keychains": {
         "similar": [
-            "balloon-printing",
             "mouse-pads",
             "lanyards",
-            "diaries"
+            "wristbands"
         ],
         "features": [
             "Multiple materials",
@@ -970,7 +828,7 @@
         "tagline": "Carry Your Brand",
         "description": "Branded keychains in metal, acrylic, leather, and PVC. A versatile and affordable promotional item that travels with your customers everywhere.",
         "image": "./assets/previous work & examples/custom key chains-01.jpg",
-        "price": "Starting at KSh 250",
+        "price": "From KES 80",
         "gallery": [
             "./assets/previous work & examples/custom key chains-01.jpg",
             "./assets/previous work & examples/custom key chains-02.jpg",
@@ -983,8 +841,7 @@
         "similar": [
             "acrylic-safety-signs",
             "acrylic-name-boards",
-            "flex-signs",
-            "menu-holders"
+            "roll-up-stands"
         ],
         "features": [
             "Custom configurations",
@@ -997,7 +854,7 @@
         "tagline": "Stand Out",
         "description": "Versatile display stands for exhibitions, retail, and events. From brochure stands to product displays, we offer custom solutions for any presentation need.",
         "image": "./assets/previous work & examples/Display Stands-01.jpg",
-        "price": "Starting at KSh 8,000",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Display Stands-01.jpg",
             "./assets/previous work & examples/Display Stands-02.jpg",
@@ -1008,10 +865,9 @@
     },
     "wall-clocks": {
         "similar": [
-            "balloon-printing",
             "mouse-pads",
             "lanyards",
-            "diaries"
+            "usb-printing"
         ],
         "features": [
             "Full face printing",
@@ -1024,7 +880,7 @@
         "tagline": "Time for Your Brand",
         "description": "Custom branded wall clocks for offices, reception areas, and corporate gifts. A functional item that displays your brand 24/7.",
         "image": "./assets/previous work & examples/wall clocks-01.jpg",
-        "price": "Starting at KSh 250",
+        "price": "From KES 2,000",
         "gallery": [
             "./assets/previous work & examples/wall clocks-01.jpg",
             "./assets/previous work & examples/wall clocks-02.jpg",
@@ -1051,7 +907,7 @@
         "tagline": "Notes Worth Keeping",
         "description": "Custom branded notebooks perfect for corporate gifts, events, or daily office use. Choose from hardcover, softcover, spiral-bound, and more.",
         "image": "./assets/previous work & examples/Notebooks examples-01.jpg",
-        "price": "Starting at KSh 1,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Notebooks examples-01.jpg",
             "./assets/previous work & examples/Notebooks examples-02.jpg",
@@ -1063,7 +919,6 @@
     "t-shirts": {
         "similar": [
             "coveralls",
-            "safety-vests",
             "printed-caps",
             "staff-uniforms"
         ],
@@ -1078,7 +933,7 @@
         "tagline": "Wear Your Brand",
         "description": "Custom printed and embroidered T-shirts for teams, events, and merchandise. We offer screen printing, DTG, heat transfer, and embroidery on premium quality garments.",
         "image": "./assets/previous work & examples/tshirts-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "From KES 250",
         "gallery": [
             "./assets/previous work & examples/tshirts-01.jpg",
             "./assets/previous work & examples/tshirts-02.jpg",
@@ -1089,10 +944,9 @@
     },
     "asset-tagging": {
         "similar": [
-            "laser-cutting",
             "laser-engraving",
             "large-format-printing",
-            "acrylic-fabrication"
+            "vehicle-branding"
         ],
         "features": [
             "Barcode & QR codes",
@@ -1105,7 +959,7 @@
         "tagline": "Track Every Asset",
         "description": "Durable asset tags and labels for equipment tracking and inventory management. Barcode, QR code, and serial number options on tamper-evident materials.",
         "image": "./assets/previous work & examples/Asset Tagging-01.jpg",
-        "price": "Starting at KSh 12,000",
+        "price": "From KES 10",
         "gallery": [
             "./assets/previous work & examples/Asset Tagging-01.jpg",
             "./assets/previous work & examples/Asset Tagging-02.jpg",
@@ -1131,7 +985,7 @@
         "tagline": "Big Ideas, Bigger Impact",
         "description": "Stand out with large-format billboard and banner designs that capture attention from a distance. We create high-resolution artwork optimized for outdoor and indoor display.",
         "image": "./assets/previous work & examples/Billboard Design example-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Billboard Design example-01.jpg",
             "./assets/previous work & examples/Billboard Design example-02.jpg",
@@ -1142,10 +996,9 @@
     },
     "reflective-stickers": {
         "similar": [
-            "laser-cutting",
             "laser-engraving",
             "large-format-printing",
-            "acrylic-fabrication"
+            "vehicle-branding"
         ],
         "features": [
             "Engineering-grade",
@@ -1158,7 +1011,7 @@
         "tagline": "Reflect Your Brand Safely",
         "description": "High-visibility reflective stickers for vehicles, safety equipment, and signage. Engineered-grade reflective material that meets safety standards.",
         "image": "./assets/previous work & examples/Reflective Stickers-01.jpg",
-        "price": "Starting at KSh 12,000",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Reflective Stickers-01.jpg",
             "./assets/previous work & examples/Reflective Stickers-02.jpg",
@@ -1169,10 +1022,9 @@
     },
     "vehicle-branding": {
         "similar": [
-            "laser-cutting",
             "laser-engraving",
             "large-format-printing",
-            "acrylic-fabrication"
+            "asset-tagging"
         ],
         "features": [
             "Full & partial wraps",
@@ -1185,7 +1037,7 @@
         "tagline": "Drive Your Brand",
         "description": "Transform your fleet into mobile billboards with professional vehicle wraps and decals. Full wraps, partial wraps, and magnetic signs for cars, vans, and trucks.",
         "image": "./assets/previous work & examples/Vehicle Branding-01.jpg",
-        "price": "Starting at KSh 12,000",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Vehicle Branding-01.jpg",
             "./assets/previous work & examples/Vehicle Branding-02.jpg",
@@ -1212,7 +1064,7 @@
         "tagline": "Write with Authority",
         "description": "Complete branded stationery sets including letterheads, compliment slips, and notepads. Consistent branding across all your office communications.",
         "image": "./assets/previous work & examples/Branded Stationery-01.jpg",
-        "price": "Starting at KSh 500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Branded Stationery-01.jpg",
             "./assets/previous work & examples/Branded Stationery-02.jpg",
@@ -1239,7 +1091,7 @@
         "tagline": "Fly Your Brand",
         "description": "Eye-catching teardrop and feather beach flags for outdoor events, promotions, and storefronts. Double-sided printing on durable polyester with ground spikes or cross bases.",
         "image": "./assets/previous work & examples/BEACH FLAGS-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/BEACH FLAGS-01.jpg",
             "./assets/previous work & examples/BEACH FLAGS-02.jpg",
@@ -1252,8 +1104,7 @@
         "similar": [
             "acrylic-safety-signs",
             "acrylic-name-boards",
-            "flex-signs",
-            "menu-holders"
+            "roll-up-stands"
         ],
         "features": [
             "Vinyl, mesh & fabric",
@@ -1266,7 +1117,7 @@
         "tagline": "Banner Moments",
         "description": "High-quality indoor and outdoor banners printed on durable vinyl, mesh, or fabric. Available with grommets, pole pockets, and hemmed edges for versatile display.",
         "image": "./assets/previous work & examples/banners-01.jpg",
-        "price": "Starting at KSh 8,000",
+        "price": "From KES 500",
         "gallery": [
             "./assets/previous work & examples/banners-01.jpg",
             "./assets/previous work & examples/banners-02.jpg",
@@ -1293,14 +1144,13 @@
         "tagline": "Your Story, Beautifully Told",
         "description": "Tell your brand story with professionally printed brochures. Available in bi-fold, tri-fold, gate-fold, and custom formats with premium finishing.",
         "image": "./assets/Product Images/Bronchures.jpg",
-        "price": "Starting at KSh 1,500"
+        "price": "From KES 50"
     },
     "pens": {
         "similar": [
-            "balloon-printing",
             "mouse-pads",
             "lanyards",
-            "diaries"
+            "wristbands"
         ],
         "features": [
             "Multiple pen styles",
@@ -1313,7 +1163,7 @@
         "tagline": "Write Your Success",
         "description": "Custom branded pens are the most cost-effective promotional item. Choose from ballpoint, rollerball, and executive styles, all printed with your logo.",
         "image": "./assets/previous work & examples/pens-01.jpg",
-        "price": "Starting at KSh 250",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/pens-01.jpg",
             "./assets/previous work & examples/pens-02.jpg",
@@ -1339,7 +1189,7 @@
         "tagline": "Your Brand Starts Here",
         "description": "Create a lasting first impression with a professionally crafted logo that embodies your brand identity. Our designers work closely with you to develop unique, scalable logos for print and digital use.",
         "image": "./assets/previous work & examples/Logo examples-01.jpg",
-        "price": "Starting at KSh 3,500",
+        "price": "Custom Quote",
         "gallery": [
             "./assets/previous work & examples/Logo examples-01.jpg",
             "./assets/previous work & examples/Logo examples-02.jpg",
@@ -1349,3 +1199,4 @@
         ]
     }
 }
+

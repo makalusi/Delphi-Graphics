@@ -4,27 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service Detail - Delphi Graphics Official</title>
+    <title>Service Detail | Delphi Graphics — Printing & Branding, Nairobi</title>
     <link rel="icon" type="image/jpeg" href="./assets/delphi logo.jpg">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Explore Delphi Graphics printing and branding services in detail. Features, pricing, and gallery for every product we offer in Nairobi, Kenya.">
+    <meta name="keywords" content="printing services Nairobi, branding Kenya, service details Delphi Graphics">
+    <meta name="author" content="Delphi Graphics">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph (dynamically updated by JS per service) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Delphi Graphics">
+    <meta property="og:locale" content="en_KE">
+    <meta property="og:image" content="https://www.delphigraphics.co.ke/assets/delphi logo.jpg">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.delphigraphics.co.ke/assets/delphi logo.jpg">
+    <link rel="stylesheet" href="css/tailwind.css">
     <script src="js/script.js"></script>
     <script src="js/cart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'delphi-blue': '#2563eb',
-                        'delphi-cyan': '#00aeef',
-                        'delphi-pink': '#ec008c',
-                        'delphi-yellow': '#fff200'
-                    }
-                }
-            }
-        }
-    </script>
 </head>
 
 <body class="bg-white font-['Montserrat']">
@@ -114,7 +112,7 @@
                     <div>
                         <h2 id="product-tagline" class="text-delphi-yellow font-bold uppercase tracking-widest text-sm mb-2">Loading...</h2>
                         <h1 id="product-title" class="text-5xl md:text-7xl font-bold leading-tight uppercase">Loading...</h1>
-                        <div id="product-price" class="text-2xl md:text-3xl font-extrabold text-white mt-4 tracking-wide shadow-black drop-shadow-lg">Starting at KSh ---</div>
+                        <div id="product-price" class="text-2xl md:text-3xl font-extrabold text-white mt-4 tracking-wide shadow-black drop-shadow-lg">Custom Quote</div>
                     </div>
 
                     <p id="product-description" class="text-lg md:text-xl text-white/90 leading-relaxed font-medium max-w-xl mx-auto lg:mx-0">
@@ -123,7 +121,7 @@
 
                     <div class="flex flex-wrap justify-center lg:justify-start gap-5 pt-4">
                         <button id="add-to-cart-btn" class="bg-white text-delphi-blue px-10 py-4 rounded-full font-bold shadow-xl hover:scale-105 transition transform flex items-center gap-2">
-                            <span>Add to Cart</span>
+                            <span>Add to Quote</span>
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                             </svg>
@@ -216,19 +214,12 @@
         <section class="mt-32 mb-20">
             <div class="flex items-center justify-between mb-12 px-4">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Similar Services</h2>
-                <div class="flex gap-4">
-                    <button class="nav-button prev p-3 rounded-full border border-gray-200 hover:bg-white hover:shadow-md transition" data-target="similar-services-container">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-                    </button>
-                    <button class="nav-button next p-3 rounded-full border border-gray-200 hover:bg-white hover:shadow-md transition" data-target="similar-services-container">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-                    </button>
-                </div>
             </div>
-            <div id="similar-services-container" class="flex gap-8 overflow-x-auto scrollbar-hide snap-x px-4 pb-8">
+            <div id="similar-services-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 pb-8">
                 <!-- Similar items injected here -->
             </div>
         </section>
+    </main>
     <!-- Footer -->
     <footer class="footer-container relative overflow-hidden bg-[#0d0d0d] text-white">
         <!-- Background Blobs -->
@@ -310,8 +301,8 @@
             <div class="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-gray-500 text-sm">&copy; 2026 Delphi Graphics. All rights reserved.</p>
                 <div class="flex gap-6 text-sm">
-                    <a href="#" class="text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
-                    <a href="#" class="text-gray-500 hover:text-white transition-colors">Terms of Service</a>
+                    <a href="privacy-policy.html" class="text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="text-gray-500 hover:text-white transition-colors">Terms of Service</a>
                 </div>
             </div>
         </div>
@@ -565,23 +556,23 @@
                 const similarContainer = document.getElementById('similar-services-container');
                 similarContainer.innerHTML = '';
                 
-                // Get 4 random services from the same category
+                // Get 8 random services from the same category
                 const similarItems = Object.entries(services)
                     .filter(([id, s]) => s.category === product.category && id !== itemId)
-                    .slice(0, 4);
+                    .slice(0, 8);
 
                 similarItems.forEach(([id, s]) => {
                     const div = document.createElement('div');
-                    div.className = 'flex-shrink-0 w-72 md:w-80 snap-start group';
+                    div.className = 'group h-full';
                     div.innerHTML = `
-                        <a href="service-detail.html?item=${id}" class="block bg-white rounded-3xl overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300">
-                            <div class="h-48 overflow-hidden relative">
-                                <img src="${s.image}" alt="${s.title}" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        <a href="service-detail.html?item=${id}" class="flex flex-col h-full bg-white rounded-3xl overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300">
+                            <div class="h-48 overflow-hidden relative bg-gray-50 p-4 flex items-center justify-center">
+                                <img src="${s.image}" alt="${s.title}" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500">
                                 <div class="absolute top-4 left-4">
                                     <span class="px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-bold uppercase tracking-wider text-delphi-blue">${s.category}</span>
                                 </div>
                             </div>
-                            <div class="p-6">
+                            <div class="p-6 flex-grow flex flex-col justify-between">
                                 <h4 class="font-bold text-gray-900 group-hover:text-delphi-blue transition-colors">${s.title}</h4>
                                 <p class="text-sm text-gray-500 mt-2 line-clamp-1">${s.tagline}</p>
                                 <div class="flex items-center justify-between mt-6">
@@ -596,7 +587,7 @@
                     similarContainer.appendChild(div);
                 });
 
-                // Add to Cart Event
+                // Add to Quote Event
                 const addToCartBtn = document.getElementById('add-to-cart-btn');
                 if (addToCartBtn) {
                   addToCartBtn.onclick = () => {
@@ -628,3 +619,4 @@
 </body>
 
 </html>
+
