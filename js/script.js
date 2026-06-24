@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     const sidebarCloseMobile = document.getElementById('sidebar-close-mobile');
     const sidebarCloseBottom = document.getElementById('sidebar-close-bottom');
-    if (sidebarCloseMobile) sidebarCloseMobile.addEventListener('click', closeMobileSidebar);
+    if (sidebarCloseMobile) sidebarCloseMobile.addEventListener('click', (e) => { e.stopPropagation(); closeMobileSidebar(); });
     if (sidebarCloseBottom) sidebarCloseBottom.addEventListener('click', closeMobileSidebar);
 
     // Mobile: header hamburger opens full drawer
