@@ -1,16 +1,3 @@
-tailwind.config = {
-    theme: {
-        extend: {
-            colors: {
-                'delphi-pink': '#ec008c',
-                'delphi-yellow': '#fdb913',
-                'delphi-blue': '#00aeef',
-                'delphi-cyan': '#27aae1',
-            }
-        }
-    }
-}
-
 document.addEventListener('DOMContentLoaded', () => {
     // Hero Slideshow Logic
     const heroSlideshow = document.getElementById('hero-slideshow');
@@ -179,11 +166,28 @@ document.addEventListener('DOMContentLoaded', () => {
         // but if the click pushes it way past, we might want to check immediately.
     }
 
-    // Mobile Menu Toggle Logic
+    // Sidebar & Mobile Menu Logic
     const mobileToggle = document.getElementById('mobile-toggle');
     const leftSidebar = document.getElementById('left-sidebar');
     const sidebarOverlay = document.getElementById('sidebar-overlay');
+    const sidebarMainBtn = document.getElementById('sidebar-main-btn');
 
+    // Desktop: click main icon to open/close the sidebar categories
+    if (sidebarMainBtn && leftSidebar) {
+        sidebarMainBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            leftSidebar.classList.toggle('sidebar-open');
+        });
+    }
+
+    // Close desktop sidebar when clicking outside
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth >= 768 && leftSidebar && !leftSidebar.contains(e.target)) {
+            leftSidebar.classList.remove('sidebar-open');
+        }
+    });
+
+    // Mobile: header hamburger opens full drawer
     if (mobileToggle && leftSidebar) {
         mobileToggle.addEventListener('click', (e) => {
             e.stopPropagation();

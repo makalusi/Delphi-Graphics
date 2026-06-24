@@ -124,9 +124,26 @@ body {
 }
 
 /* Sidebar Overlay Logic */
-#left-sidebar:hover~#sidebar-overlay {
+#left-sidebar.sidebar-open ~ #sidebar-overlay {
     opacity: 1;
     pointer-events: auto;
+}
+
+/* Sidebar open state (desktop click-to-open) */
+#left-sidebar.sidebar-open {
+    width: 20rem;
+}
+#left-sidebar.sidebar-open .sidebar-bg {
+    transform: translateX(0);
+}
+#left-sidebar.sidebar-open .sidebar-label {
+    opacity: 1;
+}
+.sidebar-categories {
+    display: none;
+}
+#left-sidebar.sidebar-open .sidebar-categories {
+    display: flex;
 }
 
 /* Ensure sidebar stays on top */
@@ -227,6 +244,14 @@ body {
 
     #left-sidebar.active-mobile {
         transform: translateX(0);
+    }
+
+    #left-sidebar.active-mobile .sidebar-categories {
+        display: flex;
+    }
+
+    #left-sidebar.active-mobile .sidebar-label {
+        opacity: 1;
     }
 
     #left-sidebar .absolute.inset-0 {
