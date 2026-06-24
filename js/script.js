@@ -187,6 +187,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Mobile: close button inside sidebar
+    const sidebarCloseMobile = document.getElementById('sidebar-close-mobile');
+    if (sidebarCloseMobile && leftSidebar) {
+        sidebarCloseMobile.addEventListener('click', () => {
+            leftSidebar.classList.remove('active-mobile');
+            if (sidebarOverlay) sidebarOverlay.classList.remove('active-mobile');
+        });
+    }
+
     // Mobile: header hamburger opens full drawer
     if (mobileToggle && leftSidebar) {
         mobileToggle.addEventListener('click', (e) => {
