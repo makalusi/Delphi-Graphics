@@ -187,14 +187,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Mobile: close button inside sidebar
+    // Mobile: close buttons inside sidebar
+    const closeMobileSidebar = () => {
+        leftSidebar.classList.remove('active-mobile');
+        if (sidebarOverlay) sidebarOverlay.classList.remove('active-mobile');
+    };
     const sidebarCloseMobile = document.getElementById('sidebar-close-mobile');
-    if (sidebarCloseMobile && leftSidebar) {
-        sidebarCloseMobile.addEventListener('click', () => {
-            leftSidebar.classList.remove('active-mobile');
-            if (sidebarOverlay) sidebarOverlay.classList.remove('active-mobile');
-        });
-    }
+    const sidebarCloseBottom = document.getElementById('sidebar-close-bottom');
+    if (sidebarCloseMobile) sidebarCloseMobile.addEventListener('click', closeMobileSidebar);
+    if (sidebarCloseBottom) sidebarCloseBottom.addEventListener('click', closeMobileSidebar);
 
     // Mobile: header hamburger opens full drawer
     if (mobileToggle && leftSidebar) {

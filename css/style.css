@@ -321,6 +321,18 @@ body {
         opacity: 1;
         pointer-events: auto;
     }
+
+    /* Sticky close strip at bottom of mobile drawer */
+    .mobile-close-strip {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        padding: 0.875rem 0.875rem 1.25rem;
+        background: white;
+        border-top: 1px solid #f3f4f6;
+        margin-top: auto;
+        flex-shrink: 0;
+    }
 }
 
 /* Info Banners Responsive */
