@@ -26,7 +26,7 @@ collections:
             widget: "list"
             summary: "{{fields.title}} — {{fields.category}}"
             collapsed: true
-            minimize_collapsed: true
+            add_to_top: true
             fields:
               - { label: "URL Slug (lowercase, hyphens, no spaces — e.g. business-cards)", name: "slug", widget: "string", pattern: ["^[a-z0-9]+(-+[a-z0-9]+)*$", "Lowercase letters, numbers and hyphens only"] }
               - { label: "Title", name: "title", widget: "string" }
