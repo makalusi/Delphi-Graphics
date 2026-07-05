@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
 
 # Where uploaded images are stored in the repo, and the path pages use to load them
 media_folder: "assets/uploads"

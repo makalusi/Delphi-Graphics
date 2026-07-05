@@ -63,4 +63,4 @@ That's it. From then on the owner just visits `/admin/`, logs in, and edits.
   editable field, add it to `config.yml` and (for site settings) either tag an
   element with `data-site="field_name"` or extend `site-config.js`.
 - CMS image uploads go to `assets/uploads/`.
-- The CMS commits to the `master` branch (set in `admin/config.yml`).
+- The CMS commits to the `main` branch (set in `admin/config.yml`).
