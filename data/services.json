@@ -7,7 +7,10 @@
       "category": "Printing Services",
       "tagline": "Very lovely cups",
       "description": "Very lovely cups",
-      "image": "assets/uploads/cup-printing.jpg"
+      "image": "assets/uploads/cup-printing.jpg",
+      "gallery": [
+        "assets/uploads/partycups.jpg"
+      ]
     },
     {
       "price": "Custom Quote",
