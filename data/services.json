@@ -2,15 +2,19 @@
   "services": [
     {
       "price": "Custom Quote",
+      "similar": [],
       "slug": "cup-printing",
-      "title": "party-cups",
-      "category": "Printing Services",
       "tagline": "Very lovely cups",
-      "description": "Very lovely cups",
-      "image": "assets/uploads/cup-printing.jpg",
       "gallery": [
         "assets/uploads/partycups.jpg"
-      ]
+      ],
+      "title": "party-cups",
+      "image": "assets/uploads/cup-printing.jpg",
+      "description": "Very lovely cups",
+      "features": [
+        "water-proof"
+      ],
+      "category": "Printing Services"
     },
     {
       "price": "Custom Quote",
