@@ -1,425 +1,424 @@
 {
   "services": [
     {
-      "slug": "tabletop-flags",
+      "price": "Custom Quote",
+      "slug": "teardrops",
+      "title": "Banner",
+      "image": "assets/uploads/teardrops.jpg",
+      "tagline": "This is NIce!",
+      "category": "Event Branding",
+      "description": "This is Nice!"
+    },
+    {
+      "price": "Custom Quote",
       "similar": [
         "promotional-tents",
         "street-pole-flags",
         "bunting---string-flags"
       ],
-      "features": [
-        "Satin & polyester",
-        "Chrome & wooden bases",
-        "Full color printing",
-        "Custom sizes"
-      ],
-      "title": "Tabletop Flags",
-      "category": "Event Branding",
+      "slug": "tabletop-flags",
       "tagline": "Small Flag, Big Brand",
-      "description": "Miniature branded flags for desks, conference tables, and reception areas. A subtle yet effective way to reinforce your brand in corporate environments.",
-      "image": "./assets/previous work & examples/Tabletop Flags-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Tabletop Flags-01.jpg",
         "./assets/previous work & examples/Tabletop Flags-02.jpg",
         "./assets/previous work & examples/Tabletop Flags-03.jpg",
         "./assets/previous work & examples/Tabletop Flags-04.jpg",
         "./assets/previous work & examples/Tabletop Flags-05.jpg"
-      ]
+      ],
+      "title": "Tabletop Flags",
+      "image": "./assets/previous work & examples/Tabletop Flags-01.jpg",
+      "description": "Miniature branded flags for desks, conference tables, and reception areas. A subtle yet effective way to reinforce your brand in corporate environments.",
+      "features": [
+        "Satin & polyester",
+        "Chrome & wooden bases",
+        "Full color printing",
+        "Custom sizes"
+      ],
+      "category": "Event Branding"
     },
     {
-      "slug": "coveralls",
+      "price": "Custom Quote",
       "similar": [
         "printed-caps",
         "staff-uniforms",
         "t-shirts"
       ],
-      "features": [
-        "Heavy-duty fabric",
-        "Flame retardant options",
-        "Custom branding",
-        "All sizes available"
-      ],
-      "title": "Coveralls",
-      "category": "Apparel Branding",
+      "slug": "coveralls",
       "tagline": "Built for the Job",
-      "description": "Heavy-duty branded coveralls for industrial and workshop environments. Customized with your logo through embroidery or heat transfer printing.",
-      "image": "./assets/previous work & examples/coveralls-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/coveralls-01.jpg",
         "./assets/previous work & examples/coveralls-02.jpg",
         "./assets/previous work & examples/coveralls-03.jpg",
         "./assets/previous work & examples/coveralls-04.jpg",
         "./assets/previous work & examples/coveralls-05.jpg"
-      ]
+      ],
+      "title": "Coveralls",
+      "image": "./assets/previous work & examples/coveralls-01.jpg",
+      "description": "Heavy-duty branded coveralls for industrial and workshop environments. Customized with your logo through embroidery or heat transfer printing.",
+      "features": [
+        "Heavy-duty fabric",
+        "Flame retardant options",
+        "Custom branding",
+        "All sizes available"
+      ],
+      "category": "Apparel Branding"
     },
     {
-      "slug": "mouse-pads",
+      "price": "Custom Quote",
       "similar": [
         "lanyards",
         "usb-printing",
         "wristbands"
       ],
-      "features": [
-        "Full color printing",
-        "Anti-slip rubber base",
-        "Various sizes",
-        "Ergonomic options"
-      ],
-      "title": "Mouse Pads",
-      "category": "Promotional Merchandise",
+      "slug": "mouse-pads",
       "tagline": "Desk-Level Branding",
-      "description": "Custom printed mouse pads that keep your brand on every desk. Full-color printing with anti-slip rubber base for daily use.",
-      "image": "./assets/previous work & examples/mouse pads-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/mouse pads-01.jpg",
         "./assets/previous work & examples/mouse pads-02.jpg",
         "./assets/previous work & examples/mouse pads-03.jpg",
         "./assets/previous work & examples/mouse pads-04.jpg",
         "./assets/previous work & examples/mouse pads-05.jpg"
-      ]
+      ],
+      "title": "Mouse Pads",
+      "image": "./assets/previous work & examples/mouse pads-01.jpg",
+      "description": "Custom printed mouse pads that keep your brand on every desk. Full-color printing with anti-slip rubber base for daily use.",
+      "features": [
+        "Full color printing",
+        "Anti-slip rubber base",
+        "Various sizes",
+        "Ergonomic options"
+      ],
+      "category": "Promotional Merchandise"
     },
     {
-      "slug": "lanyards",
+      "price": "Custom Quote",
       "similar": [
         "mouse-pads",
         "usb-printing",
         "wristbands"
       ],
-      "features": [
-        "Full color printing",
-        "Safety breakaway clips",
-        "Multiple materials",
-        "Custom attachments"
-      ],
-      "title": "Lanyards",
-      "category": "Promotional Merchandise",
+      "slug": "lanyards",
       "tagline": "Hang with Your Brand",
-      "description": "Custom printed lanyards for ID cards, events, and corporate use. Available in polyester, nylon, and eco-friendly materials with safety breakaway clips.",
-      "image": "./assets/previous work & examples/lanyards-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/lanyards-01.jpg",
         "./assets/previous work & examples/lanyards-02.jpg",
         "./assets/previous work & examples/lanyards-03.jpg",
         "./assets/previous work & examples/lanyards-04.jpg",
         "./assets/previous work & examples/lanyards-05.jpg"
-      ]
+      ],
+      "title": "Lanyards",
+      "image": "./assets/previous work & examples/lanyards-01.jpg",
+      "description": "Custom printed lanyards for ID cards, events, and corporate use. Available in polyester, nylon, and eco-friendly materials with safety breakaway clips.",
+      "features": [
+        "Full color printing",
+        "Safety breakaway clips",
+        "Multiple materials",
+        "Custom attachments"
+      ],
+      "category": "Promotional Merchandise"
     },
     {
-      "slug": "letterheads",
+      "price": "From KES 1,000",
       "similar": [
         "sticker-cutting",
         "flyers",
         "envelopes",
         "restaurant-menus"
       ],
-      "features": [
-        "Premium paper stock",
-        "Full color printing",
-        "Consistent brand identity",
-        "Bulk order discounts"
-      ],
-      "title": "Letterheads",
-      "category": "Printing Services",
+      "slug": "letterheads",
       "tagline": "Professional Correspondence",
-      "description": "Professional letterheads that reinforce your corporate identity on every piece of correspondence. Printed on premium paper with your logo and branding elements.",
-      "image": "./assets/previous work & examples/Letterheads examples-01.jpg",
-      "price": "From KES 1,000",
       "gallery": [
         "./assets/previous work & examples/Letterheads examples-01.jpg",
         "./assets/previous work & examples/Letterheads examples-02.jpg",
         "./assets/previous work & examples/Letterheads examples-03.jpg",
         "./assets/previous work & examples/Letterheads examples-04.jpg",
         "./assets/previous work & examples/Letterheads examples-05.jpg"
-      ]
+      ],
+      "title": "Letterheads",
+      "image": "./assets/previous work & examples/Letterheads examples-01.jpg",
+      "description": "Professional letterheads that reinforce your corporate identity on every piece of correspondence. Printed on premium paper with your logo and branding elements.",
+      "features": [
+        "Premium paper stock",
+        "Full color printing",
+        "Consistent brand identity",
+        "Bulk order discounts"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "acrylic-safety-signs",
+      "price": "Custom Quote",
       "similar": [
         "acrylic-name-boards",
         "roll-up-stands",
         "banners"
       ],
-      "features": [
-        "Regulatory compliant",
-        "Weather-resistant",
-        "Durable acrylic",
-        "Custom warnings"
-      ],
-      "title": "Acrylic Safety Signs",
-      "category": "Signage & Displays",
+      "slug": "acrylic-safety-signs",
       "tagline": "Safety First",
-      "description": "Compliant acrylic safety signs for workplaces, factories, and public areas. Durable, weather-resistant, and printed with international safety symbols.",
-      "image": "./assets/previous work & examples/Acrylic Safety Signs-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Acrylic Safety Signs-01.jpg",
         "./assets/previous work & examples/Acrylic Safety Signs-02.jpg",
         "./assets/previous work & examples/Acrylic Safety Signs-03.jpg",
         "./assets/previous work & examples/Acrylic Safety Signs-04.jpg",
         "./assets/previous work & examples/Acrylic Safety Signs-05.jpg"
-      ]
+      ],
+      "title": "Acrylic Safety Signs",
+      "image": "./assets/previous work & examples/Acrylic Safety Signs-01.jpg",
+      "description": "Compliant acrylic safety signs for workplaces, factories, and public areas. Durable, weather-resistant, and printed with international safety symbols.",
+      "features": [
+        "Regulatory compliant",
+        "Weather-resistant",
+        "Durable acrylic",
+        "Custom warnings"
+      ],
+      "category": "Signage & Displays"
     },
     {
-      "slug": "name-badges",
+      "price": "From KES 50",
       "similar": [
         "id-cards-and-lanyards",
         "folders",
         "company-seals---stamps"
       ],
-      "features": [
-        "Metal & acrylic options",
-        "Magnetic & pin backs",
-        "Full color or engraved",
-        "Custom shapes"
-      ],
-      "title": "Name Badges",
-      "category": "Corporate Supplies",
+      "slug": "name-badges",
       "tagline": "Know Your Team",
-      "description": "Professional name badges for staff, events, and conferences. Available in metal, acrylic, and magnetic options with full-color printing or engraving.",
-      "image": "./assets/previous work & examples/Name Badges-01.jpg",
-      "price": "From KES 50",
       "gallery": [
         "./assets/previous work & examples/Name Badges-01.jpg",
         "./assets/previous work & examples/Name Badges-02.jpg",
         "./assets/previous work & examples/Name Badges-03.jpg",
         "./assets/previous work & examples/Name Badges-04.jpg",
         "./assets/previous work & examples/Name Badges-05.jpg"
-      ]
+      ],
+      "title": "Name Badges",
+      "image": "./assets/previous work & examples/Name Badges-01.jpg",
+      "description": "Professional name badges for staff, events, and conferences. Available in metal, acrylic, and magnetic options with full-color printing or engraving.",
+      "features": [
+        "Metal & acrylic options",
+        "Magnetic & pin backs",
+        "Full color or engraved",
+        "Custom shapes"
+      ],
+      "category": "Corporate Supplies"
     },
     {
-      "slug": "laser-engraving",
+      "price": "From KES 200",
       "similar": [
         "large-format-printing",
         "asset-tagging",
         "vehicle-branding"
       ],
-      "features": [
-        "Multiple materials",
-        "Permanent marking",
-        "Fine detail capability",
-        "Bulk production"
-      ],
-      "title": "Laser Engraving",
-      "category": "Specialized Services",
+      "slug": "laser-engraving",
       "tagline": "Engraved Excellence",
-      "description": "Precision laser engraving on metal, wood, glass, acrylic, and leather. Permanent, detailed marking for trophies, awards, signage, and personalized gifts.",
-      "image": "./assets/previous work & examples/Laser Engraving-01.jpg",
-      "price": "From KES 200",
       "gallery": [
         "./assets/previous work & examples/Laser Engraving-01.jpg",
         "./assets/previous work & examples/Laser Engraving-02.jpg",
         "./assets/previous work & examples/Laser Engraving-03.jpg",
         "./assets/previous work & examples/Laser Engraving-04.jpg",
         "./assets/previous work & examples/Laser Engraving-05.jpg"
-      ]
+      ],
+      "title": "Laser Engraving",
+      "image": "./assets/previous work & examples/Laser Engraving-01.jpg",
+      "description": "Precision laser engraving on metal, wood, glass, acrylic, and leather. Permanent, detailed marking for trophies, awards, signage, and personalized gifts.",
+      "features": [
+        "Multiple materials",
+        "Permanent marking",
+        "Fine detail capability",
+        "Bulk production"
+      ],
+      "category": "Specialized Services"
     },
     {
-      "slug": "promotional-tents",
+      "price": "Custom Quote",
       "similar": [
         "tabletop-flags",
         "street-pole-flags",
         "bunting---string-flags"
       ],
-      "features": [
-        "Pop-up easy setup",
-        "Full canopy printing",
-        "Waterproof fabric",
-        "Side wall options"
-      ],
-      "title": "Promotional Tents",
-      "category": "Event Branding",
+      "slug": "promotional-tents",
       "tagline": "Shelter Your Brand",
-      "description": "Custom branded pop-up tents and canopies for outdoor events, exhibitions, and markets. Full-color printing on weather-resistant fabric with sturdy aluminum frames.",
-      "image": "./assets/previous work & examples/Promotional Tents-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Promotional Tents-01.jpg",
         "./assets/previous work & examples/Promotional Tents-02.jpg",
         "./assets/previous work & examples/Promotional Tents-03.jpg",
         "./assets/previous work & examples/Promotional Tents-04.jpg",
         "./assets/previous work & examples/Promotional Tents-05.jpg"
-      ]
+      ],
+      "title": "Promotional Tents",
+      "image": "./assets/previous work & examples/Promotional Tents-01.jpg",
+      "description": "Custom branded pop-up tents and canopies for outdoor events, exhibitions, and markets. Full-color printing on weather-resistant fabric with sturdy aluminum frames.",
+      "features": [
+        "Pop-up easy setup",
+        "Full canopy printing",
+        "Waterproof fabric",
+        "Side wall options"
+      ],
+      "category": "Event Branding"
     },
     {
-      "slug": "id-cards-and-lanyards",
+      "price": "Custom Quote",
       "similar": [
         "name-badges",
         "folders",
         "company-seals---stamps"
       ],
-      "features": [
-        "PVC card printing",
-        "Photo & barcode",
-        "Magnetic stripe option",
-        "Custom lanyards"
-      ],
-      "title": "ID Cards & Lanyards",
-      "category": "Corporate Supplies",
+      "slug": "id-cards-and-lanyards",
       "tagline": "Identify with Confidence",
-      "description": "Professional ID card printing with custom lanyards for employee identification and access control. PVC card printing with photo, barcode, and magnetic stripe options.",
-      "image": "./assets/previous work & examples/ID Cards & Lanyards-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/ID Cards & Lanyards-01.jpg",
         "./assets/previous work & examples/ID Cards & Lanyards-02.jpg",
         "./assets/previous work & examples/ID Cards & Lanyards-03.jpg",
         "./assets/previous work & examples/ID Cards & Lanyards-04.jpg",
         "./assets/previous work & examples/ID Cards & Lanyards-05.jpg"
-      ]
+      ],
+      "title": "ID Cards & Lanyards",
+      "image": "./assets/previous work & examples/ID Cards & Lanyards-01.jpg",
+      "description": "Professional ID card printing with custom lanyards for employee identification and access control. PVC card printing with photo, barcode, and magnetic stripe options.",
+      "features": [
+        "PVC card printing",
+        "Photo & barcode",
+        "Magnetic stripe option",
+        "Custom lanyards"
+      ],
+      "category": "Corporate Supplies"
     },
     {
-      "slug": "acrylic-name-boards",
+      "price": "Custom Quote",
       "similar": [
         "acrylic-safety-signs",
         "roll-up-stands",
         "banners"
       ],
-      "features": [
-        "Clear & frosted options",
-        "LED backlight compatible",
-        "Precision laser cut",
-        "Mounting hardware included"
-      ],
-      "title": "Acrylic Name Boards",
-      "category": "Signage & Displays",
+      "slug": "acrylic-name-boards",
       "tagline": "Crystal Clear Identity",
-      "description": "Sleek acrylic name boards for offices, reception areas, and building signage. Crystal-clear or frosted finish with precision-cut lettering and mounting hardware.",
-      "image": "./assets/previous work & examples/Acrylic Name Boards-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Acrylic Name Boards-01.jpg",
         "./assets/previous work & examples/Acrylic Name Boards-02.jpg",
         "./assets/previous work & examples/Acrylic Name Boards-03.jpg",
         "./assets/previous work & examples/Acrylic Name Boards-04.jpg",
         "./assets/previous work & examples/Acrylic Name Boards-05.jpg"
-      ]
+      ],
+      "title": "Acrylic Name Boards",
+      "image": "./assets/previous work & examples/Acrylic Name Boards-01.jpg",
+      "description": "Sleek acrylic name boards for offices, reception areas, and building signage. Crystal-clear or frosted finish with precision-cut lettering and mounting hardware.",
+      "features": [
+        "Clear & frosted options",
+        "LED backlight compatible",
+        "Precision laser cut",
+        "Mounting hardware included"
+      ],
+      "category": "Signage & Displays"
     },
     {
-      "slug": "sticker-cutting",
+      "price": "Custom Quote",
       "similar": [
         "letterheads",
         "flyers",
         "envelopes",
         "restaurant-menus"
       ],
-      "features": [
-        "Custom die-cut shapes",
-        "Vinyl & paper options",
-        "Indoor & outdoor use",
-        "Waterproof finishes"
-      ],
-      "title": "Sticker Cutting",
-      "category": "Printing Services",
+      "slug": "sticker-cutting",
       "tagline": "Stick with Quality",
-      "description": "Precision die-cut stickers for branding, packaging, and promotions. Available in any shape, size, and material including vinyl, paper, and transparent.",
-      "image": "./assets/previous work & examples/Sticker Cutting examples-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Sticker Cutting examples-01.jpg",
         "./assets/previous work & examples/Sticker Cutting examples-02.jpg",
         "./assets/previous work & examples/Sticker Cutting examples-03.jpg",
         "./assets/previous work & examples/Sticker Cutting examples-04.jpg",
         "./assets/previous work & examples/Sticker Cutting examples-05.jpg"
-      ]
+      ],
+      "title": "Sticker Cutting",
+      "image": "./assets/previous work & examples/Sticker Cutting examples-01.jpg",
+      "description": "Precision die-cut stickers for branding, packaging, and promotions. Available in any shape, size, and material including vinyl, paper, and transparent.",
+      "features": [
+        "Custom die-cut shapes",
+        "Vinyl & paper options",
+        "Indoor & outdoor use",
+        "Waterproof finishes"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "folders",
+      "price": "Custom Quote",
       "similar": [
         "name-badges",
         "id-cards-and-lanyards",
         "company-seals---stamps"
       ],
+      "slug": "folders",
+      "tagline": "Present with Polish",
+      "title": "Folders",
+      "image": "./assets/service-placeholder.jpg",
+      "description": "Custom printed presentation folders for proposals, reports, and corporate documents. Available with business card slits, pockets, and premium finishes.",
       "features": [
         "Business card slits",
         "Document pockets",
         "Full color printing",
         "Premium card stock"
       ],
-      "title": "Folders",
-      "category": "Corporate Supplies",
-      "tagline": "Present with Polish",
-      "description": "Custom printed presentation folders for proposals, reports, and corporate documents. Available with business card slits, pockets, and premium finishes.",
-      "image": "./assets/service-placeholder.jpg",
-      "price": "Custom Quote"
+      "category": "Corporate Supplies"
     },
     {
-      "slug": "street-pole-flags",
+      "price": "Custom Quote",
       "similar": [
         "tabletop-flags",
         "promotional-tents",
         "bunting---string-flags"
       ],
-      "features": [
-        "Heavy-duty polyester",
-        "Pole clamp hardware",
-        "Double-sided print",
-        "UV-resistant inks"
-      ],
-      "title": "Street Pole Flags",
-      "category": "Event Branding",
+      "slug": "street-pole-flags",
       "tagline": "Own the Street",
-      "description": "Large format flags for street poles, ideal for city events, shopping districts, and campus branding. Double-sided printing with secure pole mounting hardware.",
-      "image": "./assets/previous work & examples/Street Pole Flags-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Street Pole Flags-01.jpg",
         "./assets/previous work & examples/Street Pole Flags-02.jpg",
         "./assets/previous work & examples/Street Pole Flags-03.jpg",
         "./assets/previous work & examples/Street Pole Flags-04.jpg",
         "./assets/previous work & examples/Street Pole Flags-05.jpg"
-      ]
+      ],
+      "title": "Street Pole Flags",
+      "image": "./assets/previous work & examples/Street Pole Flags-01.jpg",
+      "description": "Large format flags for street poles, ideal for city events, shopping districts, and campus branding. Double-sided printing with secure pole mounting hardware.",
+      "features": [
+        "Heavy-duty polyester",
+        "Pole clamp hardware",
+        "Double-sided print",
+        "UV-resistant inks"
+      ],
+      "category": "Event Branding"
     },
     {
-      "slug": "roll-up-stands",
+      "price": "From KES 6,500",
       "similar": [
         "acrylic-safety-signs",
         "acrylic-name-boards",
         "banners"
       ],
-      "features": [
-        "Portable & lightweight",
-        "Quick setup",
-        "Premium print quality",
-        "Carry case included"
-      ],
-      "title": "Roll-up Stands",
-      "category": "Signage & Displays",
+      "slug": "roll-up-stands",
       "tagline": "Stand & Deliver",
-      "description": "Portable roll-up banner stands for exhibitions, trade shows, and retail displays. Easy to set up, transport, and store with a professional finish.",
-      "image": "./assets/previous work & examples/roll up stands-01.jpg",
-      "price": "From KES 6,500",
       "gallery": [
         "./assets/previous work & examples/roll up stands-01.jpg",
         "./assets/previous work & examples/roll up stands-02.jpg",
         "./assets/previous work & examples/roll up stands-03.jpg",
         "./assets/previous work & examples/roll up stands-04.jpg",
         "./assets/previous work & examples/roll up stands-05.jpg"
-      ]
+      ],
+      "title": "Roll-up Stands",
+      "image": "./assets/previous work & examples/roll up stands-01.jpg",
+      "description": "Portable roll-up banner stands for exhibitions, trade shows, and retail displays. Easy to set up, transport, and store with a professional finish.",
+      "features": [
+        "Portable & lightweight",
+        "Quick setup",
+        "Premium print quality",
+        "Carry case included"
+      ],
+      "category": "Signage & Displays"
     },
     {
-      "slug": "flyers",
+      "price": "From KES 20",
       "similar": [
         "letterheads",
         "sticker-cutting",
         "envelopes",
         "restaurant-menus"
       ],
-      "features": [
-        "Full color both sides",
-        "Various paper weights",
-        "Fast delivery",
-        "Design assistance"
-      ],
-      "title": "Flyers",
-      "category": "Printing Services",
+      "slug": "flyers",
       "tagline": "Spread the Word",
-      "description": "High-impact flyers for promotions, events, and product launches. Vibrant full-color printing on premium paper to grab attention and drive action.",
-      "image": "./assets/previous work & examples/Flyers examples-01.jpg",
-      "price": "From KES 20",
       "gallery": [
         "./assets/previous work & examples/Flyers examples-01.jpg",
         "./assets/previous work & examples/Flyers examples-02.jpg",
@@ -431,819 +430,829 @@
         "./assets/previous work & examples/flyers exmples-03.jpg",
         "./assets/previous work & examples/flyers exmples-04.jpg",
         "./assets/previous work & examples/flyers exmples-05.jpg"
-      ]
+      ],
+      "title": "Flyers",
+      "image": "./assets/previous work & examples/Flyers examples-01.jpg",
+      "description": "High-impact flyers for promotions, events, and product launches. Vibrant full-color printing on premium paper to grab attention and drive action.",
+      "features": [
+        "Full color both sides",
+        "Various paper weights",
+        "Fast delivery",
+        "Design assistance"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "envelopes",
+      "price": "From KES 15",
       "similar": [
         "letterheads",
         "sticker-cutting",
         "flyers",
         "restaurant-menus"
       ],
-      "features": [
-        "Multiple envelope sizes",
-        "Full color printing",
-        "Self-seal options",
-        "Window & non-window"
-      ],
-      "title": "Envelopes",
-      "category": "Printing Services",
+      "slug": "envelopes",
       "tagline": "Seal Your Brand",
-      "description": "Branded envelopes that make your mail stand out. Available in multiple sizes with full-color printing, custom flaps, and premium paper options.",
-      "image": "./assets/previous work & examples/Envelopes examples-01.jpg",
-      "price": "From KES 15",
       "gallery": [
         "./assets/previous work & examples/Envelopes examples-01.jpg",
         "./assets/previous work & examples/Envelopes examples-02.jpg",
         "./assets/previous work & examples/Envelopes examples-03.jpg",
         "./assets/previous work & examples/Envelopes examples-04.jpg",
         "./assets/previous work & examples/Envelopes examples-05.jpg"
-      ]
+      ],
+      "title": "Envelopes",
+      "image": "./assets/previous work & examples/Envelopes examples-01.jpg",
+      "description": "Branded envelopes that make your mail stand out. Available in multiple sizes with full-color printing, custom flaps, and premium paper options.",
+      "features": [
+        "Multiple envelope sizes",
+        "Full color printing",
+        "Self-seal options",
+        "Window & non-window"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "printed-caps",
+      "price": "From KES 100",
       "similar": [
         "coveralls",
         "staff-uniforms",
         "t-shirts"
       ],
-      "features": [
-        "Embroidery & printing",
-        "Adjustable & fitted",
-        "Multiple styles",
-        "Low minimums"
-      ],
-      "title": "Printed Caps",
-      "category": "Apparel Branding",
+      "slug": "printed-caps",
       "tagline": "Cap Off Your Brand",
-      "description": "Custom branded caps and hats for promotional events, corporate wear, and retail merchandise. Embroidered or printed with your logo in full color.",
-      "image": "./assets/previous work & examples/printed caps-01.jpg",
-      "price": "From KES 100",
       "gallery": [
         "./assets/previous work & examples/printed caps-01.jpg",
         "./assets/previous work & examples/printed caps-02.jpg",
         "./assets/previous work & examples/printed caps-03.jpg",
         "./assets/previous work & examples/printed caps-04.jpg",
         "./assets/previous work & examples/printed caps-05.jpg"
-      ]
+      ],
+      "title": "Printed Caps",
+      "image": "./assets/previous work & examples/printed caps-01.jpg",
+      "description": "Custom branded caps and hats for promotional events, corporate wear, and retail merchandise. Embroidered or printed with your logo in full color.",
+      "features": [
+        "Embroidery & printing",
+        "Adjustable & fitted",
+        "Multiple styles",
+        "Low minimums"
+      ],
+      "category": "Apparel Branding"
     },
     {
-      "slug": "staff-uniforms",
+      "price": "Custom Quote",
       "similar": [
         "coveralls",
         "printed-caps",
         "t-shirts"
       ],
-      "features": [
-        "Custom fit & design",
-        "Durable fabrics",
-        "Embroidery & printing",
-        "All sizes available"
-      ],
-      "title": "Staff Uniforms",
-      "category": "Apparel Branding",
+      "slug": "staff-uniforms",
       "tagline": "Dress for Success",
-      "description": "Professional staff uniforms that build brand identity and team spirit. Custom designed and branded with embroidery or printing to your specifications.",
-      "image": "./assets/previous work & examples/staff uniforms-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/staff uniforms-01.jpg",
         "./assets/previous work & examples/staff uniforms-02.jpg",
         "./assets/previous work & examples/staff uniforms-03.jpg",
         "./assets/previous work & examples/staff uniforms-04.jpg",
         "./assets/previous work & examples/staff uniforms-05.jpg"
-      ]
+      ],
+      "title": "Staff Uniforms",
+      "image": "./assets/previous work & examples/staff uniforms-01.jpg",
+      "description": "Professional staff uniforms that build brand identity and team spirit. Custom designed and branded with embroidery or printing to your specifications.",
+      "features": [
+        "Custom fit & design",
+        "Durable fabrics",
+        "Embroidery & printing",
+        "All sizes available"
+      ],
+      "category": "Apparel Branding"
     },
     {
-      "slug": "restaurant-menus",
+      "price": "Custom Quote",
       "similar": [
         "letterheads",
         "sticker-cutting",
         "flyers",
         "envelopes"
       ],
-      "features": [
-        "Water-resistant options",
-        "Seasonal update service",
-        "QR code integration",
-        "Premium paper stock"
-      ],
-      "title": "Restaurant Menus",
-      "category": "Printing Services",
+      "slug": "restaurant-menus",
       "tagline": "Taste Starts with the Eyes",
-      "description": "Impress your diners with beautifully designed and printed menus. Available in laminated, leather-bound, and single-sheet formats for any restaurant style.",
-      "image": "./assets/previous work & examples/Restaurant Menus examples-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Restaurant Menus examples-01.jpg",
         "./assets/previous work & examples/Restaurant Menus examples-02.jpg",
         "./assets/previous work & examples/Restaurant Menus examples-03.jpg",
         "./assets/previous work & examples/Restaurant Menus examples-04.jpg",
         "./assets/previous work & examples/Restaurant Menus examples-05.jpg"
-      ]
+      ],
+      "title": "Restaurant Menus",
+      "image": "./assets/previous work & examples/Restaurant Menus examples-01.jpg",
+      "description": "Impress your diners with beautifully designed and printed menus. Available in laminated, leather-bound, and single-sheet formats for any restaurant style.",
+      "features": [
+        "Water-resistant options",
+        "Seasonal update service",
+        "QR code integration",
+        "Premium paper stock"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "wedding-cards",
+      "price": "Custom Quote",
       "similar": [
         "letterheads",
         "sticker-cutting",
         "flyers",
         "envelopes"
       ],
-      "features": [
-        "Luxury paper & finishes",
-        "Foil stamping & embossing",
-        "Custom envelope liners",
-        "RSVP card sets"
-      ],
-      "title": "Wedding Cards",
-      "category": "Printing Services",
+      "slug": "wedding-cards",
       "tagline": "Celebrate in Style",
-      "description": "Celebrate your special day with elegantly designed wedding invitations. From classic to contemporary styles, with premium paper, foiling, and embossing options.",
-      "image": "./assets/previous work & examples/Wedding Cards examples-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Wedding Cards examples-01.jpg",
         "./assets/previous work & examples/Wedding Cards examples-02.jpg",
         "./assets/previous work & examples/Wedding Cards examples-03.jpg",
         "./assets/previous work & examples/Wedding Cards examples-04.jpg",
         "./assets/previous work & examples/Wedding Cards examples-05.jpg"
-      ]
+      ],
+      "title": "Wedding Cards",
+      "image": "./assets/previous work & examples/Wedding Cards examples-01.jpg",
+      "description": "Celebrate your special day with elegantly designed wedding invitations. From classic to contemporary styles, with premium paper, foiling, and embossing options.",
+      "features": [
+        "Luxury paper & finishes",
+        "Foil stamping & embossing",
+        "Custom envelope liners",
+        "RSVP card sets"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "bunting---string-flags",
+      "price": "Custom Quote",
       "similar": [
         "tabletop-flags",
         "promotional-tents",
         "street-pole-flags"
       ],
-      "features": [
-        "Custom length strings",
-        "Full color printing",
-        "Indoor & outdoor use",
-        "Reusable material"
-      ],
-      "title": "Bunting / String Flags",
-      "category": "Event Branding",
+      "slug": "bunting---string-flags",
       "tagline": "Celebrate in Color",
-      "description": "Festive bunting and string flags for events, grand openings, and celebrations. Custom printed with your branding, logos, or seasonal messaging.",
-      "image": "./assets/previous work & examples/String Flags-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/String Flags-01.jpg",
         "./assets/previous work & examples/String Flags-02.jpg",
         "./assets/previous work & examples/String Flags-03.jpg",
         "./assets/previous work & examples/String Flags-04.jpg",
         "./assets/previous work & examples/String Flags-05.jpg"
-      ]
+      ],
+      "title": "Bunting / String Flags",
+      "image": "./assets/previous work & examples/String Flags-01.jpg",
+      "description": "Festive bunting and string flags for events, grand openings, and celebrations. Custom printed with your branding, logos, or seasonal messaging.",
+      "features": [
+        "Custom length strings",
+        "Full color printing",
+        "Indoor & outdoor use",
+        "Reusable material"
+      ],
+      "category": "Event Branding"
     },
     {
-      "slug": "business-cards",
+      "price": "From KES 5",
       "similar": [
         "letterheads",
         "sticker-cutting",
         "flyers",
         "envelopes"
       ],
-      "features": [
-        "Premium card stock",
-        "Spot UV & foil options",
-        "Fast turnaround",
-        "Custom die-cut shapes"
-      ],
-      "title": "Business Cards",
-      "category": "Printing Services",
+      "slug": "business-cards",
       "tagline": "First Impressions That Last",
-      "description": "Make a memorable first impression with premium business cards. Choose from a variety of finishes including matte, gloss, spot UV, and foil stamping to match your brand aesthetic.",
-      "image": "./assets/previous work & examples/Business Cards example-01.jpg",
-      "price": "From KES 5",
       "gallery": [
         "./assets/previous work & examples/Business Cards example-01.jpg",
         "./assets/previous work & examples/Business Cards example-02.jpg",
         "./assets/previous work & examples/Business Cards example-03.jpg",
         "./assets/previous work & examples/Business Cards example-04.jpg",
         "./assets/previous work & examples/Business Cards example-05.jpg"
-      ]
+      ],
+      "title": "Business Cards",
+      "image": "./assets/previous work & examples/Business Cards example-01.jpg",
+      "description": "Make a memorable first impression with premium business cards. Choose from a variety of finishes including matte, gloss, spot UV, and foil stamping to match your brand aesthetic.",
+      "features": [
+        "Premium card stock",
+        "Spot UV & foil options",
+        "Fast turnaround",
+        "Custom die-cut shapes"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "canvas-printing",
+      "price": "Custom Quote",
       "similar": [
         "acrylic-safety-signs",
         "acrylic-name-boards",
         "banners"
       ],
-      "features": [
-        "Gallery-wrap finish",
-        "Archival inks",
-        "Multiple frame sizes",
-        "Ready to hang"
-      ],
-      "title": "Canvas Printing",
-      "category": "Signage & Displays",
+      "slug": "canvas-printing",
       "tagline": "Art Meets Branding",
-      "description": "Gallery-quality canvas prints for offices, hotels, and retail spaces. Stretched on wooden frames with archival-grade inks for lasting color vibrancy.",
-      "image": "./assets/previous work & examples/canvas printing-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/canvas printing-01.jpg",
         "./assets/previous work & examples/canvas printing-02.jpg",
         "./assets/previous work & examples/canvas printing-03.jpg",
         "./assets/previous work & examples/canvas printing-04.jpg",
         "./assets/previous work & examples/canvas printing-05.jpg"
-      ]
+      ],
+      "title": "Canvas Printing",
+      "image": "./assets/previous work & examples/canvas printing-01.jpg",
+      "description": "Gallery-quality canvas prints for offices, hotels, and retail spaces. Stretched on wooden frames with archival-grade inks for lasting color vibrancy.",
+      "features": [
+        "Gallery-wrap finish",
+        "Archival inks",
+        "Multiple frame sizes",
+        "Ready to hang"
+      ],
+      "category": "Signage & Displays"
     },
     {
-      "slug": "large-format-printing",
+      "price": "From KES 500",
       "similar": [
         "laser-engraving",
         "asset-tagging",
         "vehicle-branding"
       ],
-      "features": [
-        "Ultra-high resolution",
-        "Multiple substrates",
-        "Indoor & outdoor",
-        "Custom sizes"
-      ],
-      "title": "Large Format Printing",
-      "category": "Specialized Services",
+      "slug": "large-format-printing",
       "tagline": "Think Big, Print Bigger",
-      "description": "High-resolution large format printing for posters, murals, wallpapers, and exhibition graphics. Vivid colors on a variety of substrates including vinyl, fabric, and paper.",
-      "image": "./assets/previous work & examples/Large Format Printing-01.jpg",
-      "price": "From KES 500",
       "gallery": [
         "./assets/previous work & examples/Large Format Printing-01.jpg",
         "./assets/previous work & examples/Large Format Printing-02.jpg",
         "./assets/previous work & examples/Large Format Printing-03.jpg",
         "./assets/previous work & examples/Large Format Printing-04.jpg",
         "./assets/previous work & examples/Large Format Printing-05.jpg"
-      ]
+      ],
+      "title": "Large Format Printing",
+      "image": "./assets/previous work & examples/Large Format Printing-01.jpg",
+      "description": "High-resolution large format printing for posters, murals, wallpapers, and exhibition graphics. Vivid colors on a variety of substrates including vinyl, fabric, and paper.",
+      "features": [
+        "Ultra-high resolution",
+        "Multiple substrates",
+        "Indoor & outdoor",
+        "Custom sizes"
+      ],
+      "category": "Specialized Services"
     },
     {
-      "slug": "calendars",
+      "price": "From KES 150",
       "similar": [
         "letterheads",
         "sticker-cutting",
         "flyers",
         "envelopes"
       ],
-      "features": [
-        "Wall & desk formats",
-        "Full color printing",
-        "Custom start dates",
-        "Corporate branding"
-      ],
-      "title": "Calendars",
-      "category": "Printing Services",
+      "slug": "calendars",
       "tagline": "365 Days of Visibility",
-      "description": "Keep your brand visible all year round with custom printed calendars. Wall, desk, and pocket formats with full-color imagery and your branding.",
-      "image": "./assets/previous work & examples/Calendars examples-01.jpg",
-      "price": "From KES 150",
       "gallery": [
         "./assets/previous work & examples/Calendars examples-01.jpg",
         "./assets/previous work & examples/Calendars examples-02.jpg",
         "./assets/previous work & examples/Calendars examples-03.jpg",
         "./assets/previous work & examples/Calendars examples-04.jpg",
         "./assets/previous work & examples/Calendars examples-05.jpg"
-      ]
+      ],
+      "title": "Calendars",
+      "image": "./assets/previous work & examples/Calendars examples-01.jpg",
+      "description": "Keep your brand visible all year round with custom printed calendars. Wall, desk, and pocket formats with full-color imagery and your branding.",
+      "features": [
+        "Wall & desk formats",
+        "Full color printing",
+        "Custom start dates",
+        "Corporate branding"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "usb-printing",
+      "price": "From KES 5",
       "similar": [
         "mouse-pads",
         "lanyards",
         "wristbands"
       ],
-      "features": [
-        "Custom shapes & colors",
-        "Multiple capacities",
-        "Pre-loaded content",
-        "Gift packaging"
-      ],
-      "title": "USB Printing",
-      "category": "Promotional Merchandise",
+      "slug": "usb-printing",
       "tagline": "Data Meets Branding",
-      "description": "Custom branded USB flash drives in various shapes, capacities, and materials. Pre-load with your company presentation or product catalog for maximum impact.",
-      "image": "./assets/previous work & examples/USB printing-01.jpg",
-      "price": "From KES 5",
       "gallery": [
         "./assets/previous work & examples/USB printing-01.jpg",
         "./assets/previous work & examples/USB printing-02.jpg",
         "./assets/previous work & examples/USB printing-03.jpg",
         "./assets/previous work & examples/USB printing-04.jpg",
         "./assets/previous work & examples/USB printing-05.jpg"
-      ]
+      ],
+      "title": "USB Printing",
+      "image": "./assets/previous work & examples/USB printing-01.jpg",
+      "description": "Custom branded USB flash drives in various shapes, capacities, and materials. Pre-load with your company presentation or product catalog for maximum impact.",
+      "features": [
+        "Custom shapes & colors",
+        "Multiple capacities",
+        "Pre-loaded content",
+        "Gift packaging"
+      ],
+      "category": "Promotional Merchandise"
     },
     {
-      "slug": "corporate-identity",
+      "price": "Custom Quote",
       "similar": [
         "label-design",
         "banner---billboard-design",
         "logo-designs"
       ],
-      "features": [
-        "Complete brand kit",
-        "Consistent visual language",
-        "Professional templates",
-        "Digital & print assets"
-      ],
-      "title": "Corporate Identity",
-      "category": "Design & Branding",
+      "slug": "corporate-identity",
       "tagline": "One Brand, One Voice",
-      "description": "Build a cohesive brand presence with a complete corporate identity package including business cards, letterheads, envelopes, and brand guidelines.",
-      "image": "./assets/previous work & examples/Corporate Identity example-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Corporate Identity example-01.jpg",
         "./assets/previous work & examples/Corporate Identity example-02.jpg",
         "./assets/previous work & examples/Corporate Identity example-03.jpg",
         "./assets/previous work & examples/Corporate Identity example-04.jpg",
         "./assets/previous work & examples/Corporate Identity example-05.jpg"
-      ]
+      ],
+      "title": "Corporate Identity",
+      "image": "./assets/previous work & examples/Corporate Identity example-01.jpg",
+      "description": "Build a cohesive brand presence with a complete corporate identity package including business cards, letterheads, envelopes, and brand guidelines.",
+      "features": [
+        "Complete brand kit",
+        "Consistent visual language",
+        "Professional templates",
+        "Digital & print assets"
+      ],
+      "category": "Design & Branding"
     },
     {
-      "slug": "wristbands",
+      "price": "Custom Quote",
       "similar": [
         "mouse-pads",
         "lanyards",
         "usb-printing"
       ],
-      "features": [
-        "Silicone & fabric options",
-        "Custom colors",
-        "Debossed or printed",
-        "Fast production"
-      ],
-      "title": "Wristbands",
-      "category": "Promotional Merchandise",
+      "slug": "wristbands",
       "tagline": "Band Together",
-      "description": "Custom silicone and fabric wristbands for events, awareness campaigns, and team identification. Printed, debossed, or embossed with your design.",
-      "image": "./assets/previous work & examples/wristbands-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/wristbands-01.jpg",
         "./assets/previous work & examples/wristbands-02.jpg",
         "./assets/previous work & examples/wristbands-03.jpg",
         "./assets/previous work & examples/wristbands-04.jpg",
         "./assets/previous work & examples/wristbands-05.jpg"
-      ]
+      ],
+      "title": "Wristbands",
+      "image": "./assets/previous work & examples/wristbands-01.jpg",
+      "description": "Custom silicone and fabric wristbands for events, awareness campaigns, and team identification. Printed, debossed, or embossed with your design.",
+      "features": [
+        "Silicone & fabric options",
+        "Custom colors",
+        "Debossed or printed",
+        "Fast production"
+      ],
+      "category": "Promotional Merchandise"
     },
     {
-      "slug": "label-design",
+      "price": "Custom Quote",
       "similar": [
         "corporate-identity",
         "banner---billboard-design",
         "logo-designs"
       ],
-      "features": [
-        "Product-specific design",
-        "Regulatory compliance",
-        "Die-cut ready files",
-        "Premium finishes"
-      ],
-      "title": "Label Design",
-      "category": "Design & Branding",
+      "slug": "label-design",
       "tagline": "Labels That Sell",
-      "description": "Attract customers with eye-catching product labels designed for shelf appeal. We handle everything from concept to print-ready files for any product category.",
-      "image": "./assets/previous work & examples/Label Design examples-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Label Design examples-01.jpg",
         "./assets/previous work & examples/Label Design examples-02.jpg",
         "./assets/previous work & examples/Label Design examples-03.jpg",
         "./assets/previous work & examples/Label Design examples-04.jpg",
         "./assets/previous work & examples/Label Design examples-05.jpg"
-      ]
+      ],
+      "title": "Label Design",
+      "image": "./assets/previous work & examples/Label Design examples-01.jpg",
+      "description": "Attract customers with eye-catching product labels designed for shelf appeal. We handle everything from concept to print-ready files for any product category.",
+      "features": [
+        "Product-specific design",
+        "Regulatory compliance",
+        "Die-cut ready files",
+        "Premium finishes"
+      ],
+      "category": "Design & Branding"
     },
     {
-      "slug": "company-seals---stamps",
+      "price": "From KES 1,500",
       "similar": [
         "name-badges",
         "id-cards-and-lanyards",
         "folders"
       ],
-      "features": [
-        "Self-inking stamps",
-        "Company seal presses",
-        "Custom designs",
-        "Replacement ink pads"
-      ],
-      "title": "Company Seals / Stamps",
-      "category": "Corporate Supplies",
+      "slug": "company-seals---stamps",
       "tagline": "Stamp Your Authority",
-      "description": "Official company seals and custom rubber stamps for document authentication and branding. Self-inking and traditional options available.",
-      "image": "./assets/previous work & examples/Company Seals AND  Stamps-01.jpg",
-      "price": "From KES 1,500",
       "gallery": [
         "./assets/previous work & examples/Company Seals AND  Stamps-01.jpg",
         "./assets/previous work & examples/Company Seals AND  Stamps-02.jpg",
         "./assets/previous work & examples/Company Seals AND  Stamps-03.jpg",
         "./assets/previous work & examples/Company Seals AND  Stamps-04.jpg",
         "./assets/previous work & examples/Company Seals AND  Stamps-05.jpg"
-      ]
+      ],
+      "title": "Company Seals / Stamps",
+      "image": "./assets/previous work & examples/Company Seals AND  Stamps-01.jpg",
+      "description": "Official company seals and custom rubber stamps for document authentication and branding. Self-inking and traditional options available.",
+      "features": [
+        "Self-inking stamps",
+        "Company seal presses",
+        "Custom designs",
+        "Replacement ink pads"
+      ],
+      "category": "Corporate Supplies"
     },
     {
-      "slug": "custom-keychains",
+      "price": "From KES 80",
       "similar": [
         "mouse-pads",
         "lanyards",
         "wristbands"
       ],
-      "features": [
-        "Multiple materials",
-        "Custom shapes",
-        "Full color printing",
-        "Bulk pricing"
-      ],
-      "title": "Custom Keychains",
-      "category": "Promotional Merchandise",
+      "slug": "custom-keychains",
       "tagline": "Carry Your Brand",
-      "description": "Branded keychains in metal, acrylic, leather, and PVC. A versatile and affordable promotional item that travels with your customers everywhere.",
-      "image": "./assets/previous work & examples/custom key chains-01.jpg",
-      "price": "From KES 80",
       "gallery": [
         "./assets/previous work & examples/custom key chains-01.jpg",
         "./assets/previous work & examples/custom key chains-02.jpg",
         "./assets/previous work & examples/custom key chains-03.jpg",
         "./assets/previous work & examples/custom key chains-04.jpg",
         "./assets/previous work & examples/custom key chains-05.jpg"
-      ]
+      ],
+      "title": "Custom Keychains",
+      "image": "./assets/previous work & examples/custom key chains-01.jpg",
+      "description": "Branded keychains in metal, acrylic, leather, and PVC. A versatile and affordable promotional item that travels with your customers everywhere.",
+      "features": [
+        "Multiple materials",
+        "Custom shapes",
+        "Full color printing",
+        "Bulk pricing"
+      ],
+      "category": "Promotional Merchandise"
     },
     {
-      "slug": "display-stands",
+      "price": "Custom Quote",
       "similar": [
         "acrylic-safety-signs",
         "acrylic-name-boards",
         "roll-up-stands"
       ],
-      "features": [
-        "Custom configurations",
-        "Portable options",
-        "Premium materials",
-        "Modular designs"
-      ],
-      "title": "Display Stands",
-      "category": "Signage & Displays",
+      "slug": "display-stands",
       "tagline": "Stand Out",
-      "description": "Versatile display stands for exhibitions, retail, and events. From brochure stands to product displays, we offer custom solutions for any presentation need.",
-      "image": "./assets/previous work & examples/Display Stands-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Display Stands-01.jpg",
         "./assets/previous work & examples/Display Stands-02.jpg",
         "./assets/previous work & examples/Display Stands-03.jpg",
         "./assets/previous work & examples/Display Stands-04.jpg",
         "./assets/previous work & examples/Display Stands-05.jpg"
-      ]
+      ],
+      "title": "Display Stands",
+      "image": "./assets/previous work & examples/Display Stands-01.jpg",
+      "description": "Versatile display stands for exhibitions, retail, and events. From brochure stands to product displays, we offer custom solutions for any presentation need.",
+      "features": [
+        "Custom configurations",
+        "Portable options",
+        "Premium materials",
+        "Modular designs"
+      ],
+      "category": "Signage & Displays"
     },
     {
-      "slug": "wall-clocks",
+      "price": "From KES 2,000",
       "similar": [
         "mouse-pads",
         "lanyards",
         "usb-printing"
       ],
-      "features": [
-        "Full face printing",
-        "Multiple sizes",
-        "Silent movement",
-        "Gift packaging"
-      ],
-      "title": "Wall Clocks",
-      "category": "Promotional Merchandise",
+      "slug": "wall-clocks",
       "tagline": "Time for Your Brand",
-      "description": "Custom branded wall clocks for offices, reception areas, and corporate gifts. A functional item that displays your brand 24/7.",
-      "image": "./assets/previous work & examples/wall clocks-01.jpg",
-      "price": "From KES 2,000",
       "gallery": [
         "./assets/previous work & examples/wall clocks-01.jpg",
         "./assets/previous work & examples/wall clocks-02.jpg",
         "./assets/previous work & examples/wall clocks-03.jpg",
         "./assets/previous work & examples/wall clocks-04.jpg",
         "./assets/previous work & examples/wall clocks-05.jpg"
-      ]
+      ],
+      "title": "Wall Clocks",
+      "image": "./assets/previous work & examples/wall clocks-01.jpg",
+      "description": "Custom branded wall clocks for offices, reception areas, and corporate gifts. A functional item that displays your brand 24/7.",
+      "features": [
+        "Full face printing",
+        "Multiple sizes",
+        "Silent movement",
+        "Gift packaging"
+      ],
+      "category": "Promotional Merchandise"
     },
     {
-      "slug": "notebooks",
+      "price": "Custom Quote",
       "similar": [
         "letterheads",
         "sticker-cutting",
         "flyers",
         "envelopes"
       ],
-      "features": [
-        "Multiple binding styles",
-        "Custom cover printing",
-        "Various page formats",
-        "Bulk pricing available"
-      ],
-      "title": "Notebooks",
-      "category": "Printing Services",
+      "slug": "notebooks",
       "tagline": "Notes Worth Keeping",
-      "description": "Custom branded notebooks perfect for corporate gifts, events, or daily office use. Choose from hardcover, softcover, spiral-bound, and more.",
-      "image": "./assets/previous work & examples/Notebooks examples-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Notebooks examples-01.jpg",
         "./assets/previous work & examples/Notebooks examples-02.jpg",
         "./assets/previous work & examples/Notebooks examples-03.jpg",
         "./assets/previous work & examples/Notebooks examples-04.jpg",
         "./assets/previous work & examples/Notebooks examples-05.jpg"
-      ]
+      ],
+      "title": "Notebooks",
+      "image": "./assets/previous work & examples/Notebooks examples-01.jpg",
+      "description": "Custom branded notebooks perfect for corporate gifts, events, or daily office use. Choose from hardcover, softcover, spiral-bound, and more.",
+      "features": [
+        "Multiple binding styles",
+        "Custom cover printing",
+        "Various page formats",
+        "Bulk pricing available"
+      ],
+      "category": "Printing Services"
     },
     {
-      "slug": "t-shirts",
+      "price": "From KES 250",
       "similar": [
         "coveralls",
         "printed-caps",
         "staff-uniforms"
       ],
-      "features": [
-        "Screen print & DTG",
-        "Multiple fabric options",
-        "Size S to 5XL",
-        "Low minimum orders"
-      ],
-      "title": "T-Shirts",
-      "category": "Apparel Branding",
+      "slug": "t-shirts",
       "tagline": "Wear Your Brand",
-      "description": "Custom printed and embroidered T-shirts for teams, events, and merchandise. We offer screen printing, DTG, heat transfer, and embroidery on premium quality garments.",
-      "image": "./assets/previous work & examples/tshirts-01.jpg",
-      "price": "From KES 250",
       "gallery": [
         "./assets/previous work & examples/tshirts-01.jpg",
         "./assets/previous work & examples/tshirts-02.jpg",
         "./assets/previous work & examples/tshirts-03.jpg",
         "./assets/previous work & examples/tshirts-04.jpg",
         "./assets/previous work & examples/tshirts-05.jpg"
-      ]
+      ],
+      "title": "T-Shirts",
+      "image": "./assets/previous work & examples/tshirts-01.jpg",
+      "description": "Custom printed and embroidered T-shirts for teams, events, and merchandise. We offer screen printing, DTG, heat transfer, and embroidery on premium quality garments.",
+      "features": [
+        "Screen print & DTG",
+        "Multiple fabric options",
+        "Size S to 5XL",
+        "Low minimum orders"
+      ],
+      "category": "Apparel Branding"
     },
     {
-      "slug": "asset-tagging",
+      "price": "From KES 10",
       "similar": [
         "laser-engraving",
         "large-format-printing",
         "vehicle-branding"
       ],
-      "features": [
-        "Barcode & QR codes",
-        "Tamper-evident",
-        "Durable materials",
-        "Sequential numbering"
-      ],
-      "title": "Asset Tagging",
-      "category": "Specialized Services",
+      "slug": "asset-tagging",
       "tagline": "Track Every Asset",
-      "description": "Durable asset tags and labels for equipment tracking and inventory management. Barcode, QR code, and serial number options on tamper-evident materials.",
-      "image": "./assets/previous work & examples/Asset Tagging-01.jpg",
-      "price": "From KES 10",
       "gallery": [
         "./assets/previous work & examples/Asset Tagging-01.jpg",
         "./assets/previous work & examples/Asset Tagging-02.jpg",
         "./assets/previous work & examples/Asset Tagging-03.jpg",
         "./assets/previous work & examples/Asset Tagging-04.jpg",
         "./assets/previous work & examples/Asset Tagging-05.jpg"
-      ]
+      ],
+      "title": "Asset Tagging",
+      "image": "./assets/previous work & examples/Asset Tagging-01.jpg",
+      "description": "Durable asset tags and labels for equipment tracking and inventory management. Barcode, QR code, and serial number options on tamper-evident materials.",
+      "features": [
+        "Barcode & QR codes",
+        "Tamper-evident",
+        "Durable materials",
+        "Sequential numbering"
+      ],
+      "category": "Specialized Services"
     },
     {
-      "slug": "banner---billboard-design",
+      "price": "Custom Quote",
       "similar": [
         "corporate-identity",
         "label-design",
         "logo-designs"
       ],
-      "features": [
-        "High-resolution artwork",
-        "Print-ready files",
-        "Eye-catching layouts",
-        "Optimized for all sizes"
-      ],
-      "title": "Banner / Billboard Design",
-      "category": "Design & Branding",
+      "slug": "banner---billboard-design",
       "tagline": "Big Ideas, Bigger Impact",
-      "description": "Stand out with large-format billboard and banner designs that capture attention from a distance. We create high-resolution artwork optimized for outdoor and indoor display.",
-      "image": "./assets/previous work & examples/Billboard Design example-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Billboard Design example-01.jpg",
         "./assets/previous work & examples/Billboard Design example-02.jpg",
         "./assets/previous work & examples/Billboard Design example-03.jpg",
         "./assets/previous work & examples/Billboard Design example-04.jpg",
         "./assets/previous work & examples/Billboard Design example-05.jpg"
-      ]
+      ],
+      "title": "Banner / Billboard Design",
+      "image": "./assets/previous work & examples/Billboard Design example-01.jpg",
+      "description": "Stand out with large-format billboard and banner designs that capture attention from a distance. We create high-resolution artwork optimized for outdoor and indoor display.",
+      "features": [
+        "High-resolution artwork",
+        "Print-ready files",
+        "Eye-catching layouts",
+        "Optimized for all sizes"
+      ],
+      "category": "Design & Branding"
     },
     {
-      "slug": "reflective-stickers",
+      "price": "Custom Quote",
       "similar": [
         "laser-engraving",
         "large-format-printing",
         "vehicle-branding"
       ],
-      "features": [
-        "Engineering-grade",
-        "Vehicle safe",
-        "Custom die-cut",
-        "Weather-resistant"
-      ],
-      "title": "Reflective Stickers",
-      "category": "Specialized Services",
+      "slug": "reflective-stickers",
       "tagline": "Reflect Your Brand Safely",
-      "description": "High-visibility reflective stickers for vehicles, safety equipment, and signage. Engineered-grade reflective material that meets safety standards.",
-      "image": "./assets/previous work & examples/Reflective Stickers-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Reflective Stickers-01.jpg",
         "./assets/previous work & examples/Reflective Stickers-02.jpg",
         "./assets/previous work & examples/Reflective Stickers-03.jpg",
         "./assets/previous work & examples/Reflective Stickers-04.jpg",
         "./assets/previous work & examples/Reflective Stickers-05.jpg"
-      ]
+      ],
+      "title": "Reflective Stickers",
+      "image": "./assets/previous work & examples/Reflective Stickers-01.jpg",
+      "description": "High-visibility reflective stickers for vehicles, safety equipment, and signage. Engineered-grade reflective material that meets safety standards.",
+      "features": [
+        "Engineering-grade",
+        "Vehicle safe",
+        "Custom die-cut",
+        "Weather-resistant"
+      ],
+      "category": "Specialized Services"
     },
     {
-      "slug": "vehicle-branding",
+      "price": "Custom Quote",
       "similar": [
         "laser-engraving",
         "large-format-printing",
         "asset-tagging"
       ],
-      "features": [
-        "Full & partial wraps",
-        "Premium vinyl",
-        "UV-resistant lamination",
-        "Professional installation"
-      ],
-      "title": "Vehicle Branding",
-      "category": "Specialized Services",
+      "slug": "vehicle-branding",
       "tagline": "Drive Your Brand",
-      "description": "Transform your fleet into mobile billboards with professional vehicle wraps and decals. Full wraps, partial wraps, and magnetic signs for cars, vans, and trucks.",
-      "image": "./assets/previous work & examples/Vehicle Branding-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Vehicle Branding-01.jpg",
         "./assets/previous work & examples/Vehicle Branding-02.jpg",
         "./assets/previous work & examples/Vehicle Branding-03.jpg",
         "./assets/previous work & examples/Vehicle Branding-04.jpg",
         "./assets/previous work & examples/Vehicle Branding-05.jpg"
-      ]
+      ],
+      "title": "Vehicle Branding",
+      "image": "./assets/previous work & examples/Vehicle Branding-01.jpg",
+      "description": "Transform your fleet into mobile billboards with professional vehicle wraps and decals. Full wraps, partial wraps, and magnetic signs for cars, vans, and trucks.",
+      "features": [
+        "Full & partial wraps",
+        "Premium vinyl",
+        "UV-resistant lamination",
+        "Professional installation"
+      ],
+      "category": "Specialized Services"
     },
     {
-      "slug": "branded-stationery",
+      "price": "Custom Quote",
       "similar": [
         "name-badges",
         "id-cards-and-lanyards",
         "folders",
         "company-seals---stamps"
       ],
-      "features": [
-        "Complete stationery set",
-        "Consistent branding",
-        "Premium paper",
-        "Bulk discounts"
-      ],
-      "title": "Branded Stationery",
-      "category": "Corporate Supplies",
+      "slug": "branded-stationery",
       "tagline": "Write with Authority",
-      "description": "Complete branded stationery sets including letterheads, compliment slips, and notepads. Consistent branding across all your office communications.",
-      "image": "./assets/previous work & examples/Branded Stationery-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Branded Stationery-01.jpg",
         "./assets/previous work & examples/Branded Stationery-02.jpg",
         "./assets/previous work & examples/Branded Stationery-03.jpg",
         "./assets/previous work & examples/Branded Stationery-04.jpg",
         "./assets/previous work & examples/Branded Stationery-05.jpg"
-      ]
+      ],
+      "title": "Branded Stationery",
+      "image": "./assets/previous work & examples/Branded Stationery-01.jpg",
+      "description": "Complete branded stationery sets including letterheads, compliment slips, and notepads. Consistent branding across all your office communications.",
+      "features": [
+        "Complete stationery set",
+        "Consistent branding",
+        "Premium paper",
+        "Bulk discounts"
+      ],
+      "category": "Corporate Supplies"
     },
     {
-      "slug": "beach-flags",
+      "price": "Custom Quote",
       "similar": [
         "tabletop-flags",
         "promotional-tents",
         "street-pole-flags",
         "bunting---string-flags"
       ],
-      "features": [
-        "Teardrop & feather styles",
-        "Double-sided printing",
-        "Ground spike included",
-        "Wind-resistant"
-      ],
-      "title": "Beach Flags",
-      "category": "Event Branding",
+      "slug": "beach-flags",
       "tagline": "Fly Your Brand",
-      "description": "Eye-catching teardrop and feather beach flags for outdoor events, promotions, and storefronts. Double-sided printing on durable polyester with ground spikes or cross bases.",
-      "image": "./assets/previous work & examples/BEACH FLAGS-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/BEACH FLAGS-01.jpg",
         "./assets/previous work & examples/BEACH FLAGS-02.jpg",
         "./assets/previous work & examples/BEACH FLAGS-03.jpg",
         "./assets/previous work & examples/BEACH FLAGS-04.jpg",
         "./assets/previous work & examples/BEACH FLAGS-05.jpg"
-      ]
+      ],
+      "title": "Beach Flags",
+      "image": "./assets/previous work & examples/BEACH FLAGS-01.jpg",
+      "description": "Eye-catching teardrop and feather beach flags for outdoor events, promotions, and storefronts. Double-sided printing on durable polyester with ground spikes or cross bases.",
+      "features": [
+        "Teardrop & feather styles",
+        "Double-sided printing",
+        "Ground spike included",
+        "Wind-resistant"
+      ],
+      "category": "Event Branding"
     },
     {
-      "slug": "banners",
+      "price": "From KES 500",
       "similar": [
         "acrylic-safety-signs",
         "acrylic-name-boards",
         "roll-up-stands"
       ],
-      "features": [
-        "Vinyl, mesh & fabric",
-        "Weatherproof printing",
-        "Multiple mounting options",
-        "Custom sizes"
-      ],
-      "title": "Banners",
-      "category": "Signage & Displays",
+      "slug": "banners",
       "tagline": "Banner Moments",
-      "description": "High-quality indoor and outdoor banners printed on durable vinyl, mesh, or fabric. Available with grommets, pole pockets, and hemmed edges for versatile display.",
-      "image": "./assets/previous work & examples/banners-01.jpg",
-      "price": "From KES 500",
       "gallery": [
         "./assets/previous work & examples/banners-01.jpg",
         "./assets/previous work & examples/banners-02.jpg",
         "./assets/previous work & examples/banners-03.jpg",
         "./assets/previous work & examples/banners-04.jpg",
         "./assets/previous work & examples/banners-05.jpg"
-      ]
+      ],
+      "title": "Banners",
+      "image": "./assets/previous work & examples/banners-01.jpg",
+      "description": "High-quality indoor and outdoor banners printed on durable vinyl, mesh, or fabric. Available with grommets, pole pockets, and hemmed edges for versatile display.",
+      "features": [
+        "Vinyl, mesh & fabric",
+        "Weatherproof printing",
+        "Multiple mounting options",
+        "Custom sizes"
+      ],
+      "category": "Signage & Displays"
     },
     {
-      "slug": "brochures",
+      "price": "From KES 50",
       "similar": [
         "letterheads",
         "sticker-cutting",
         "flyers",
         "envelopes"
       ],
+      "slug": "brochures",
+      "tagline": "Your Story, Beautifully Told",
+      "title": "Brochures",
+      "image": "./assets/Product Images/Bronchures.jpg",
+      "description": "Tell your brand story with professionally printed brochures. Available in bi-fold, tri-fold, gate-fold, and custom formats with premium finishing.",
       "features": [
         "Multiple fold options",
         "Premium paper stock",
         "Gloss or matte finish",
         "Bulk order discounts"
       ],
-      "title": "Brochures",
-      "category": "Printing Services",
-      "tagline": "Your Story, Beautifully Told",
-      "description": "Tell your brand story with professionally printed brochures. Available in bi-fold, tri-fold, gate-fold, and custom formats with premium finishing.",
-      "image": "./assets/Product Images/Bronchures.jpg",
-      "price": "From KES 50"
+      "category": "Printing Services"
     },
     {
-      "slug": "pens",
+      "price": "Custom Quote",
       "similar": [
         "mouse-pads",
         "lanyards",
         "wristbands"
       ],
-      "features": [
-        "Multiple pen styles",
-        "Full color printing",
-        "Bulk pricing",
-        "Gift box options"
-      ],
-      "title": "Pens",
-      "category": "Promotional Merchandise",
+      "slug": "pens",
       "tagline": "Write Your Success",
-      "description": "Custom branded pens are the most cost-effective promotional item. Choose from ballpoint, rollerball, and executive styles, all printed with your logo.",
-      "image": "./assets/previous work & examples/pens-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/pens-01.jpg",
         "./assets/previous work & examples/pens-02.jpg",
         "./assets/previous work & examples/pens-03.jpg",
         "./assets/previous work & examples/pens-04.jpg",
         "./assets/previous work & examples/pens-05.jpg"
-      ]
+      ],
+      "title": "Pens",
+      "image": "./assets/previous work & examples/pens-01.jpg",
+      "description": "Custom branded pens are the most cost-effective promotional item. Choose from ballpoint, rollerball, and executive styles, all printed with your logo.",
+      "features": [
+        "Multiple pen styles",
+        "Full color printing",
+        "Bulk pricing",
+        "Gift box options"
+      ],
+      "category": "Promotional Merchandise"
     },
     {
-      "slug": "logo-designs",
+      "price": "Custom Quote",
       "similar": [
         "corporate-identity",
         "label-design",
         "banner---billboard-design"
       ],
-      "features": [
-        "Custom vector logo design",
-        "Unlimited revision rounds",
-        "Multiple concept options",
-        "Brand guideline document"
-      ],
-      "title": "Logo Designs",
-      "category": "Design & Branding",
+      "slug": "logo-designs",
       "tagline": "Your Brand Starts Here",
-      "description": "Create a lasting first impression with a professionally crafted logo that embodies your brand identity. Our designers work closely with you to develop unique, scalable logos for print and digital use.",
-      "image": "./assets/previous work & examples/Logo examples-01.jpg",
-      "price": "Custom Quote",
       "gallery": [
         "./assets/previous work & examples/Logo examples-01.jpg",
         "./assets/previous work & examples/Logo examples-02.jpg",
         "./assets/previous work & examples/Logo examples-03.jpg",
         "./assets/previous work & examples/Logo examples-04.jpg",
         "./assets/previous work & examples/Logo examples-05.jpg"
-      ]
+      ],
+      "title": "Logo Designs",
+      "image": "./assets/previous work & examples/Logo examples-01.jpg",
+      "description": "Create a lasting first impression with a professionally crafted logo that embodies your brand identity. Our designers work closely with you to develop unique, scalable logos for print and digital use.",
+      "features": [
+        "Custom vector logo design",
+        "Unlimited revision rounds",
+        "Multiple concept options",
+        "Brand guideline document"
+      ],
+      "category": "Design & Branding"
     }
   ]
 }
