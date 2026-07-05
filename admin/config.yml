@@ -13,6 +13,8 @@ logo_url: /assets/delphi logo.jpg
 collections:
   - name: "services"
     label: "Services & Products"
+    editor:
+      preview: false
     files:
       - name: "services_list"
         label: "All Services"
@@ -23,6 +25,8 @@ collections:
             name: "services"
             widget: "list"
             summary: "{{fields.title}} — {{fields.category}}"
+            collapsed: true
+            minimize_collapsed: true
             fields:
               - { label: "URL Slug (lowercase, hyphens, no spaces — e.g. business-cards)", name: "slug", widget: "string", pattern: ["^[a-z0-9]+(-+[a-z0-9]+)*$", "Lowercase letters, numbers and hyphens only"] }
               - { label: "Title", name: "title", widget: "string" }
@@ -48,6 +52,8 @@ collections:
 
   - name: "settings"
     label: "Site Settings"
+    editor:
+      preview: false
     files:
       - name: "site"
         label: "Contact Info & Homepage Text"
