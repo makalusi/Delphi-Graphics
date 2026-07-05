@@ -2,6 +2,15 @@
   "services": [
     {
       "price": "Custom Quote",
+      "slug": "cup-printing",
+      "title": "We do print cups",
+      "category": "Printing Services",
+      "tagline": "Very lovely cups",
+      "description": "Very lovely cups",
+      "image": "assets/uploads/cup-printing.jpg"
+    },
+    {
+      "price": "Custom Quote",
       "slug": "teardrops",
       "title": "Banner",
       "image": "assets/uploads/teardrops.jpg",
