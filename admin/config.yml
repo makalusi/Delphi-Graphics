@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: master
+
+# Where uploaded images are stored in the repo, and the path pages use to load them
+media_folder: "assets/uploads"
+public_folder: "./assets/uploads"
+
+site_url: /
+display_url: /
+logo_url: /assets/delphi logo.jpg
+
+collections:
+  - name: "services"
+    label: "Services & Products"
+    files:
+      - name: "services_list"
+        label: "All Services"
+        file: "data/services.json"
+        description: "Add, edit, or remove the services shown on the website"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.category}}"
+            fields:
+              - { label: "URL Slug (lowercase, hyphens, no spaces — e.g. business-cards)", name: "slug", widget: "string", pattern: ["^[a-z0-9]+(-+[a-z0-9]+)*$", "Lowercase letters, numbers and hyphens only"] }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - "Printing Services"
+                  - "Apparel Branding"
+                  - "Signage & Displays"
+                  - "Promotional Merchandise"
+                  - "Event Branding"
+                  - "Design & Branding"
+                  - "Corporate Supplies"
+                  - "Specialized Services"
+              - { label: "Tagline", name: "tagline", widget: "string", required: false }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Price (e.g. 'From KES 500' or 'Custom Quote')", name: "price", widget: "string", default: "Custom Quote" }
+              - { label: "Main Image", name: "image", widget: "image", required: false, allow_multiple: false }
+              - { label: "Gallery Images", name: "gallery", widget: "list", field: { label: "Image", name: "image", widget: "image" }, required: false }
+              - { label: "Key Features", name: "features", widget: "list", field: { label: "Feature", name: "feature", widget: "string" }, required: false }
+              - { label: "Similar Services (slugs of related services)", name: "similar", widget: "list", field: { label: "Slug", name: "slug", widget: "string" }, required: false }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "site"
+        label: "Contact Info & Homepage Text"
+        file: "data/site.json"
+        description: "Business contact details and homepage headline text"
+        fields:
+          - { label: "WhatsApp Number (international format, digits only — e.g. 254720069883)", name: "whatsapp", widget: "string" }
+          - { label: "Phone 1 (link format, e.g. +254720069883)", name: "phone1", widget: "string" }
+          - { label: "Phone 1 (as displayed, e.g. +254 720069883)", name: "phone1_display", widget: "string" }
+          - { label: "Phone 2 (link format)", name: "phone2", widget: "string" }
+          - { label: "Phone 2 (as displayed)", name: "phone2_display", widget: "string" }
+          - { label: "Primary Email", name: "email1", widget: "string" }
+          - { label: "Secondary Email", name: "email2", widget: "string" }
+          - { label: "Physical Address", name: "address", widget: "string" }
+          - { label: "Homepage Headline — Line 1", name: "hero_title_line1", widget: "string" }
+          - { label: "Homepage Headline — Line 2 (highlighted)", name: "hero_title_line2", widget: "string" }
+          - { label: "Homepage Subtitle", name: "hero_subtitle", widget: "text" }

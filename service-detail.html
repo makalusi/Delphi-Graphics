@@ -19,6 +19,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://www.delphigraphics.co.ke/assets/delphi logo.jpg">
     <link rel="stylesheet" href="css/tailwind.css">
+    <script src="js/site-config.js"></script>
     <script src="js/script.js"></script>
     <script src="js/cart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -383,7 +384,12 @@
 
             try {
                 const response = await fetch('./data/services.json');
-                const services = await response.json();
+                const rawServices = await response.json();
+                let services = rawServices;
+                if (rawServices && Array.isArray(rawServices.services)) {
+                    services = {};
+                    rawServices.services.forEach(s => { services[s.slug] = s; });
+                }
                 const product = services[itemId];
 
                 if (!product) {
@@ -413,7 +419,8 @@
                 const quoteBtn = document.getElementById('custom-quote-btn');
                 if (quoteBtn) {
                     const message = `Hi, I would like to get a custom quote for ${product.title}.`;
-                    quoteBtn.href = `https://wa.me/254720069883?text=${encodeURIComponent(message)}`;
+                    const waNumber = ((window.SITE_CONFIG && window.SITE_CONFIG.whatsapp) || '254720069883').replace(/\D/g, '');
+                    quoteBtn.href = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
                 }
 
                 // Features

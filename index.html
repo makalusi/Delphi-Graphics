@@ -25,8 +25,22 @@
     <meta name="twitter:description" content="Nairobi's premier printing and branding studio. Fast turnaround, premium quality.">
     <meta name="twitter:image" content="https://www.delphigraphics.co.ke/assets/delphi logo.jpg">
     <link rel="stylesheet" href="css/tailwind.css">
+    <script src="js/site-config.js"></script>
     <script src="js/script.js"></script>
     <script src="js/cart.js"></script>
+    <!-- Netlify Identity: enables the owner's CMS login at /admin/ -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on('init', function (user) {
+                if (!user) {
+                    window.netlifyIdentity.on('login', function () {
+                        document.location.href = '/admin/';
+                    });
+                }
+            });
+        }
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <!-- Local Business Structured Data -->
@@ -448,10 +462,10 @@
                     <!-- Headline -->
                     <div class="space-y-3">
                         <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight">
-                            Print Sharp.<br>
-                            <span class="text-delphi-cyan">Brand Boldly.</span>
+                            <span data-site="hero_title_line1">Print Sharp.</span><br>
+                            <span class="text-delphi-cyan" data-site="hero_title_line2">Brand Boldly.</span>
                         </h1>
-                        <p class="text-gray-400 text-base md:text-lg max-w-md leading-relaxed">
+                        <p class="text-gray-400 text-base md:text-lg max-w-md leading-relaxed" data-site="hero_subtitle">
                             Business cards, banners, branded uniforms, signage, and more — designed and printed from our studio in Nairobi.
                         </p>
                     </div>
@@ -1594,7 +1608,13 @@
         // Fetch data and boot
         fetch('./data/services.json')
             .then(function (r) { return r.json(); })
-            .then(function (data) {
+            .then(function (raw) {
+                var data = {};
+                if (raw && Array.isArray(raw.services)) {
+                    raw.services.forEach(function (s) { data[s.slug] = s; });
+                } else {
+                    data = raw;
+                }
                 allServices = Object.keys(data).map(function (slug) {
                     return { slug: slug, data: data[slug] };
                 });

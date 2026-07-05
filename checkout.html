@@ -151,6 +151,7 @@
         </div>
     </footer>
 
+    <script src="js/site-config.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const cartItems = JSON.parse(localStorage.getItem('delphi_cart')) || [];
@@ -202,7 +203,8 @@
                 message += `---------------------------\n`;
                 message += `_Generated from delphi-graphics web_`;
 
-                const waLink = `https://wa.me/254720069883?text=${encodeURIComponent(message)}`;
+                const waNumber = (window.SITE_CONFIG && window.SITE_CONFIG.whatsapp) || '254720069883';
+                const waLink = `https://wa.me/${waNumber.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
                 
                 // Clear cart
                 localStorage.removeItem('delphi_cart');

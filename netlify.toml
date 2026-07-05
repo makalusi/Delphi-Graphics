@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build:css"
+  publish = "."
+
+# Long cache for images, short for data files the owner edits
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

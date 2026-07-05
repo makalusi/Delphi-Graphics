@@ -275,11 +275,22 @@ document.addEventListener('DOMContentLoaded', () => {
     let servicesData = null;
     let searchTimeout = null;
 
+    // Supports both the legacy keyed-object format and the CMS array format
+    function normalizeServices(raw) {
+        if (raw && Array.isArray(raw.services)) {
+            const map = {};
+            raw.services.forEach(function (s) { map[s.slug] = s; });
+            return map;
+        }
+        return raw;
+    }
+
     async function fetchServices() {
         if (servicesData) return servicesData;
         try {
             const response = await fetch('./data/services.json');
-            servicesData = await response.json();
+            const raw = await response.json();
+            servicesData = normalizeServices(raw);
             return servicesData;
         } catch (error) {
             console.error('Failed to fetch services:', error);
