@@ -1,6 +1,17 @@
 {
   "services": [
     {
+      "price": "FROM KES 1000",
+      "slug": "laptop-stickers",
+      "category": "Specialized Services",
+      "tagline": "Stand out with the amaizing laptop stickers",
+      "image": "assets/uploads/laptop-3.jpg",
+      "gallery": [
+        "assets/uploads/laptop-4.jpg",
+        "assets/uploads/laptop-sticker.webp"
+      ]
+    },
+    {
       "price": "Custom Quote",
       "similar": [],
       "slug": "cup-printing",
